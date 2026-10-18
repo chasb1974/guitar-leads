@@ -1,5 +1,6 @@
 # Бот поиска заказов: следит за Reddit и шлёт подходящие посты в Telegram.
-import os, json, re, time, urllib.request, urllib.parse, urllib.error, xml.etree.ElementTree as ET
+import os, json, re, time, imaplib, email, urllib.request, urllib.parse, urllib.error, xml.etree.ElementTree as ET
+from email.header import decode_header, make_header
 
 TOKEN = os.environ["TG_TOKEN"]
 CHAT = os.environ["TG_CHAT"]
@@ -58,6 +59,58 @@ def send(text):
     urllib.request.urlopen("https://api.telegram.org/bot%s/sendMessage" % TOKEN,
                            data, timeout=30)
 
+# ---- ПОЧТА: письма от площадок ----
+MAIL_USER = os.environ.get("GMAIL_USER", "")
+MAIL_PASS = os.environ.get("GMAIL_PASS", "").replace(" ", "")
+MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr"}
+
+def hdr(v):
+    try:
+        return str(make_header(decode_header(v or "")))
+    except Exception:
+        return v or ""
+
+def body_text(msg):
+    part = None
+    for p in msg.walk():
+        if p.get_content_type() == "text/plain":
+            part = p
+            break
+    if part is None:
+        for p in msg.walk():
+            if p.get_content_type() == "text/html":
+                part = p
+                break
+    if part is None:
+        return ""
+    raw = part.get_payload(decode=True) or b""
+    txt = raw.decode(part.get_content_charset() or "utf-8", "replace")
+    return clean(txt)
+
+def check_mail(seen, quiet):
+    """Возвращает список (сайт, тема, текст) новых писем от площадок."""
+    out = []
+    if not MAIL_USER or not MAIL_PASS:
+        return out, False
+    m = imaplib.IMAP4_SSL("imap.gmail.com")
+    m.login(MAIL_USER, MAIL_PASS)
+    m.select("INBOX", readonly=True)
+    q = "from:(" + " OR ".join(MAIL_SITES) + ") newer_than:2d"
+    typ, data = m.search(None, "X-GM-RAW", '"%s"' % q)
+    for num in (data[0].split() if data and data[0] else [])[-30:]:
+        typ, d = m.fetch(num, "(BODY.PEEK[])")
+        msg = email.message_from_bytes(d[0][1])
+        mid = "mail:" + (msg.get("Message-ID") or num.decode())
+        if mid in seen:
+            continue
+        seen.add(mid)
+        frm = (msg.get("From") or "").lower()
+        site = next((n for k, n in MAIL_SITES.items() if k in frm), "Площадка")
+        if not quiet:
+            out.append((site, hdr(msg.get("Subject")), body_text(msg)[:300]))
+    m.logout()
+    return out, True
+
 def main():
     try:
         st = json.load(open(SEEN_FILE, encoding="utf-8"))
@@ -89,6 +142,22 @@ def main():
             if not quiet and match(title + " " + body):
                 found.append((name, title, body[:300], link))
         time.sleep(10)
+
+    mails = []
+    try:
+        mquiet = "mail" not in known
+        mails, mail_on = check_mail(seen, mquiet)
+        if mail_on:
+            known.add("mail")
+            if mquiet:
+                send("📬 Почта подключена. Новые письма от AirGigs и Fiverr буду присылать сюда.")
+    except Exception as e:
+        print("Ошибка почты", e)
+        if st.get("mail_err_day") != time.strftime("%Y-%m-%d"):
+            send("⚠️ Не получается проверить почту Gmail. Напиши Claude.")
+            st["mail_err_day"] = time.strftime("%Y-%m-%d")
+    for site, subj, txt in mails[:10]:
+        send(f"📩 {site}: {subj}\n\n{txt}")
 
     if first:
         send(f"✅ Бот запущен. Слежу за {ok} лентами. Новые посты буду присылать сюда.")
