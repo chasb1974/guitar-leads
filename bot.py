@@ -19,13 +19,23 @@ HIRE = ["session guitar", "need a guitarist", "need a guitar player", "looking f
         "real guitarist", "human guitarist", "need guitar", "guitar parts", "guitar tracks",
         "нужен гитарист", "ищу гитариста", "нужна гитара", "живую гитару", "живая гитара"]
 GUITAR = ["guitar", "гитар"]
-MONEY = ["paid", "pay ", "paying", "budget", "$", "usd", "€", "£", "commission", "fee", "rate",
-         "hire", "заплач", "оплат", "бюджет", "за деньги"]
+# Признаки оплаты (целые слова, чтобы "rate" не ловилось в "generated")
+MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\busd\b|€|£|"
+                      r"\bfee\b|\brates?\b|\bcompensat|\bhire\b|\bhiring\b|"
+                      r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b")
 # Мусор: сами предлагают услуги, спрашивают совета, показывают своё
 SKIP = ["for hire", "[for hire]", "available for", "my services", "i offer", "i'm offering",
         "i am a guitarist", "i'm a guitarist", "i'm a session", "feedback", "how do i",
         "how to ", "tutorial", "review", "check out my", "my new song", "my new track",
-        "rate my", "free download", "plugin", "preset"]
+        "rate my", "free download", "plugin", "preset", "unpaid", "no budget",
+        "rev share", "revenue share", "for exposure", "collab", "[offer]",
+        "ищу группу", "ищу коллектив", "преподавател", "педагог", "бесплатно", "без оплаты"]
+
+# ---- TELEGRAM-КАНАЛЫ (публичные, читаем веб-версию t.me/s/...) ----
+TG_CHANNELS = ["musiclance", "musician_msk", "spbmuzpoisk", "bandlinksoundcheck"]
+# В каналах нужна именно запись/сессия, а не "ищем гитариста в группу"
+TG_WORK = ["запис", "сессион", "студи", "трек", "партию", "партии", "удалён", "удален",
+           "онлайн", "дистанц", "аранжиров", "session", "record", "remote"]
 
 SEEN_FILE = "seen.json"
 UA = {"User-Agent": "Mozilla/5.0 (guitar-leads-bot by chasb1974)"}
@@ -58,7 +68,26 @@ def match(text):
         return False
     if not any(p in t for p in HIRE):
         return False
-    return any(m in t for m in MONEY)
+    return bool(MONEY_RE.search(t))
+
+def tg_match(text):
+    t = text.lower()
+    if any(x in t for x in SKIP):
+        return False
+    return (any(g in t for g in GUITAR) and any(w in t for w in TG_WORK)
+            and bool(MONEY_RE.search(t)))
+
+def tg_posts(ch):
+    """Последние посты публичного канала: (id, текст, ссылка)."""
+    html = get("https://t.me/s/" + ch).decode("utf-8", "replace")
+    out = []
+    for part in html.split('data-post="')[1:]:
+        post = part[:part.index('"')]
+        m = re.search(r'tgme_widget_message_text[^>]*>(.*?)</div>', part, re.S)
+        if m:
+            txt = clean(m.group(1).replace("<br/>", " ").replace("<br>", " "))
+            out.append(("tg:" + post, txt, "https://t.me/" + post))
+    return out
 
 def clean(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
@@ -165,6 +194,25 @@ def main():
                 found.append((name, title, body[:300], link))
         time.sleep(10)
 
+    tg_ok = 0
+    for ch in TG_CHANNELS:
+        try:
+            posts = tg_posts(ch)
+            tg_ok += 1
+        except Exception as e:
+            print("Ошибка Telegram", ch, e)
+            continue
+        quiet = ("tg:" + ch) not in known
+        known.add("tg:" + ch)
+        for pid, txt, link in posts:
+            if pid in seen:
+                continue
+            seen.add(pid)
+            if not quiet and tg_match(txt):
+                found.append(("Telegram @" + ch, "", txt[:500], link))
+        print("Канал", ch, "постов:", len(posts))
+        time.sleep(3)
+
     mails = []
     try:
         mquiet = "mail" not in known
@@ -186,8 +234,8 @@ def main():
         send(f"✅ Бот запущен. Слежу за {ok} лентами. Новые посты буду присылать сюда.")
     else:
         for name, title, body, link in found[:15]:
-            tr = ru(f"{title}\n\n{body}")
-            msg = f"🎸 {name}\n{title}\n\n{body}"
+            tr = "" if re.search("[а-яё]", (title + body).lower()) else ru(f"{title}\n\n{body}")
+            msg = f"🎸 {name}\n{title}\n\n{body}".replace("\n\n\n", "\n\n")
             if tr:
                 msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
             send(f"{msg}\n\n{link}"[:4000])
@@ -200,6 +248,6 @@ def main():
     st["feeds"] = sorted(known)
     st["ids"] = list(seen)[-3000:]
     json.dump(st, open(SEEN_FILE, "w", encoding="utf-8"))
-    print(f"Лент: {ok}, ошибок: {fails}, найдено: {len(found)}")
+    print(f"Лент: {ok}, ошибок: {fails}, каналов: {tg_ok}, найдено: {len(found)}")
 
 main()
