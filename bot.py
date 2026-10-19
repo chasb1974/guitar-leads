@@ -12,14 +12,20 @@ SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
 # ---- ЧТО ИСКАТЬ ----
-STRONG = ["session guitar", "need a guitarist", "looking for a guitarist",
-          "hire a guitarist", "real guitarist", "live guitar", "real guitar",
-          "human guitarist", "humanize", "re-record the guitar",
-          "replace the guitar", "guitar player wanted",
-          "нужен гитарист", "ищу гитариста", "живая гитара", "живую гитару"]
+# Берём только посты, где кто-то ИЩЕТ гитариста (за деньги / на заказ)
+HIRE = ["session guitar", "need a guitarist", "need a guitar player", "looking for a guitarist",
+        "looking for a guitar player", "hire a guitarist", "hire a guitar", "guitarist wanted",
+        "guitar player wanted", "re-record the guitar", "replace the guitar", "replace my guitar",
+        "real guitarist", "human guitarist", "need guitar", "guitar parts", "guitar tracks",
+        "нужен гитарист", "ищу гитариста", "нужна гитара", "живую гитару", "живая гитара"]
 GUITAR = ["guitar", "гитар"]
-INTENT = ["hire", "looking for", "need", "paid", "replace", "re-record",
-          "rerecord", "human", "real", "live", "collab", "нужн", "ищу", "заплачу"]
+MONEY = ["paid", "pay ", "paying", "budget", "$", "usd", "€", "£", "commission", "fee", "rate",
+         "hire", "заплач", "оплат", "бюджет", "за деньги"]
+# Мусор: сами предлагают услуги, спрашивают совета, показывают своё
+SKIP = ["for hire", "[for hire]", "available for", "my services", "i offer", "i'm offering",
+        "i am a guitarist", "i'm a guitarist", "i'm a session", "feedback", "how do i",
+        "how to ", "tutorial", "review", "check out my", "my new song", "my new track",
+        "rate my", "free download", "plugin", "preset"]
 
 SEEN_FILE = "seen.json"
 UA = {"User-Agent": "Mozilla/5.0 (guitar-leads-bot by chasb1974)"}
@@ -46,12 +52,28 @@ def get(url):
 
 def match(text):
     t = text.lower()
-    if any(p in t for p in STRONG):
-        return True
-    return any(g in t for g in GUITAR) and any(i in t for i in INTENT)
+    if any(x in t for x in SKIP):
+        return False
+    if not any(g in t for g in GUITAR):
+        return False
+    if not any(p in t for p in HIRE):
+        return False
+    return any(m in t for m in MONEY)
 
 def clean(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
+
+def ru(text):
+    """Перевод на русский через бесплатный Google Translate; при сбое возвращает пусто."""
+    try:
+        text = text[:1500]
+        url = ("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ru&dt=t&q="
+               + urllib.parse.quote(text))
+        r = json.loads(urllib.request.urlopen(url, timeout=20).read().decode("utf-8"))
+        return "".join(p[0] for p in r[0] if p[0]).strip()
+    except Exception as e:
+        print("Ошибка перевода", e)
+        return ""
 
 def send(text):
     data = urllib.parse.urlencode({"chat_id": CHAT, "text": text,
@@ -157,13 +179,18 @@ def main():
             send("⚠️ Не получается проверить почту Gmail. Напиши Claude.")
             st["mail_err_day"] = time.strftime("%Y-%m-%d")
     for site, subj, txt in mails[:10]:
-        send(f"📩 {site}: {subj}\n\n{txt}")
+        tr = ru(f"{subj}\n\n{txt}")
+        send((f"📩 {site}: {subj}\n\n{txt}" + (f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}" if tr else ""))[:4000])
 
     if first:
         send(f"✅ Бот запущен. Слежу за {ok} лентами. Новые посты буду присылать сюда.")
     else:
         for name, title, body, link in found[:15]:
-            send(f"🎸 {name}\n{title}\n\n{body}\n\n{link}")
+            tr = ru(f"{title}\n\n{body}")
+            msg = f"🎸 {name}\n{title}\n\n{body}"
+            if tr:
+                msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
+            send(f"{msg}\n\n{link}"[:4000])
 
     today = time.strftime("%Y-%m-%d")
     if ok == 0 and st.get("err_day") != today:
