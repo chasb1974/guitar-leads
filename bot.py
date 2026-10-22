@@ -12,42 +12,45 @@ SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
 # ---- ЧТО ИСКАТЬ ----
-# Нужны люди, которые хотят ЗАПИСАТЬ гитару в свой трек (не уроки, не "в группу").
+# Нужны люди, которые хотят ЗАПИСАТЬ гитару в свой трек (не уроки, не "в группу", не концерт).
 GUITAR = ["guitar", "гитар"]
-# Прямые просьбы найти гитариста
-HIRE = ["session guitar", "need a guitarist", "need a guitar player", "looking for a guitarist",
-        "looking for guitarist", "looking for a guitar player", "hire a guitarist", "hire a guitar",
-        "guitarist wanted", "guitar player wanted", "guitarist needed", "guitar player needed",
-        "need someone to play guitar", "someone to play guitar", "need guitar", "need a guitar",
-        "need guitars", "real guitarist", "human guitarist",
-        "нужен гитарист", "ищу гитариста", "нужна гитара", "требуется гитарист"]
-# Признаки именно записи в трек
-RECORD = ["record", "re-record", "rerecord", "replace the guitar", "replace my guitar",
-          "real guitar", "live guitar", "human guitar", "my song", "my track", "my demo",
-          "my album", "my ep", "on a song", "on a track", "guitar parts", "guitar part",
-          "guitar tracks", "guitar track", "remote", "suno", "udio", "ai song", "ai track",
-          "stems", "session", "запис", "трек", "партию", "партии", "живую гитару",
-          "живая гитара", "удалённ", "удаленн"]
-# Просьба (кто-то ищет, а не предлагает)
-ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeds\b|\bneeded\b|\bwanted\b|\bhire\b|"
-                    r"\bhiring\b|\banyone (?:who|here|that|able|willing|can|could|want)|"
-                    r"\bwho can\b|\bcan someone\b|\bwould someone\b|"
-                    r"ищу|ищем|нужен|нужна|нужно|требуется|кто может|кто сможет")
+# Ищут именно гитариста / гитарную партию
+SEEK_RE = re.compile(r"guitarists?\b|guitar players?\b|someone to play guitar|play (?:the |some )?guitars? on|"
+                     r"guitar parts?\b|guitar tracks?\b|real guitars?\b|live guitars?\b|human guitar|"
+                     r"гитарист|живую гитару|живая гитара|партию гитары|гитарную партию")
+# Признаки записи в трек (а не выступления)
+REC_RE = re.compile(r"\brecord(?:ing|ed)?\b|re-?record|\btracks?\b|my song|my demo|my album|\bep\b|"
+                    r"\bsuno\b|\budio\b|\bai[- ](?:song|track|music|generated)|\bstems?\b|\bremote(?:ly)?\b|"
+                    r"\bonline\b|\bsolo on\b|\breplace\b|"
+                    r"запис|трек|удал[её]нн|онлайн")
+# Кто-то ИЩЕТ (а не предлагает и не рассказывает)
+ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeded\b|\bwanted\b|\bhire\b|\bhiring\b|"
+                    r"\banyone (?:who|here|that|able|willing|can|could|want)|"
+                    r"\bwho can\b|\bcan someone\b|\bwould someone\b|\bsearching for\b|"
+                    r"ищу|ищем|нужен|нужна|требуется|кто может|кто сможет")
+# Признаки живых выступлений / набора в группу
+LIVE_RE = re.compile(r"\bband\b|bandmates|band members|\bgigs?\b|private event|tonight|"
+                     r"live opportunit|cover band|wedding|audition|в группу|кавер|концерт|выступлен")
 # Признаки оплаты (целые слова, чтобы "rate" не ловилось в "generated")
 MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\busd\b|€|£|"
                       r"\bfee\b|\brates?\b|\bcompensat|\bhire\b|\bhiring\b|"
                       r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b")
-# Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё
+# Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё, реклама
 SKIP_TITLE = ["for hire", "[offer]", "feedback", "review", "rate my", "check out",
               "my new song", "my new track", "tutorial", "how do i", "how to ",
-              "plugin", "preset", "free download", "giveaway"]
-# Мусор в ЛЮБОМ месте: уроки, в группу, без денег, предложение своих услуг
+              "plugin", "preset", "free download", "giveaway", "kontakt", "sale",
+              "looking for gigs", "who needs a", "what amp", "pedal", " vs ", "tone"]
+# Мусор в ЛЮБОМ месте: уроки, без денег, предложение своих услуг
 SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offering",
         "i am a session", "i'm a session", "guitar lessons", "guitar teacher", "teach guitar",
+        "[for hire]", "my name is", "i'm a producer", "i am a producer", "i'm an independent",
+        "hmu if you need", "if you need a guitarist", "i'm a guitarist", "i am a guitarist",
+        "years of experience", "my portfolio",
         "unpaid", "no budget", "for exposure", "rev share", "revenue share",
-        "join our band", "join my band", "for our band", "for my band", "band members",
-        "ищу группу", "ищу коллектив", "в группу", "в кавер", "преподавател", "педагог",
+        "ищу группу", "ищу коллектив", "преподавател", "педагог",
         "уроки", "бесплатно", "без оплаты"]
+# Для старой проверки Telegram-каналов
+HIRE = []
 
 def why_not(title, body):
     """Пусто, если пост подходит; иначе причина, почему отброшен."""
@@ -61,20 +64,20 @@ def why_not(title, body):
     for x in SKIP:
         if x in t:
             return "мусор: " + x
-    if "[hiring]" in tl or "[paid]" in tl:
+    seek = bool(SEEK_RE.search(t))
+    rec = bool(REC_RE.search(t))
+    if ("[hiring]" in tl or "[paid]" in tl) and seek:
         return ""
-    hire = any(p in t for p in HIRE)
-    rec = any(p in t for p in RECORD)
-    ask = bool(ASK_RE.search(t))
-    money = bool(MONEY_RE.search(t))
-    if hire and (rec or money):
-        return ""
-    if ask and rec and ("guitarist" in t or "guitar player" in t or "play guitar" in t
-                        or "real guitar" in t or "live guitar" in t or "гитарист" in t
-                        or "живую гитару" in t):
-        return ""
-    if not ask and not hire:
+    if not ASK_RE.search(t):
         return "никто не ищет"
+    if not seek:
+        return "ищут не гитариста"
+    if LIVE_RE.search(tl):
+        return "группа / концерт"
+    if LIVE_RE.search(t) and not rec:
+        return "группа / концерт"
+    if rec or MONEY_RE.search(t):
+        return ""
     return "не про запись"
 
 def match(text, body=""):
