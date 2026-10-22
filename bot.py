@@ -231,10 +231,9 @@ def check_mail(seen, quiet):
     m.logout()
     return out, True
 
-# ---- AIRGIGS: доска проектов «Artists Wanted» (открыта без входа) ----
+# ---- AIRGIGS: доска проектов «Artists Wanted», категория Guitar (открыта без входа) ----
 AG_BASE = "https://www.airgigs.com"
-AG_PAGES = 3          # сколько страниц доски смотреть (по 28 проектов, свежие сверху)
-AG_GUITAR_RE = re.compile(r"guitar|гитар|fingerstyle|ukulele|укулеле")
+AG_PAGES = 3          # сколько страниц категории Guitar смотреть (пока там всего 5 проектов)
 # Не наше: уроки, расшифровка нот, набор в группу, работа без оплаты
 AG_SKIP_TITLE_RE = re.compile(r"transcri|sheet music|\btabs?\b|tablature|lead sheet|\blessons?\b")
 AG_SKIP_RE = re.compile(r"\blessons?\b|\bteach|\btutor|"
@@ -253,11 +252,17 @@ def ag_allowed():
         print("AirGigs robots.txt не прочитан, продолжаю:", e)
         return True
 
+AG_GUITAR_CAT = "44"   # категория «Guitar» (галочка слева на доске проектов)
+
 def ag_list(page):
-    """Список проектов страницы: [(id, заголовок)]."""
-    html = get(f"{AG_BASE}/job_board?page={page}").decode("utf-8", "replace")
+    """Проекты категории Guitar, как при нажатии галочки на сайте: [(id, заголовок)]."""
+    data = urllib.parse.urlencode({"catIds[]": AG_GUITAR_CAT, "page": page}).encode()
+    req = urllib.request.Request(AG_BASE + "/filter_jobs.php", data=data, headers={
+        **UA, "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest"})
+    html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
     return [(i, clean(t)) for i, t in re.findall(
-        r'<h4 class="post-title job-title"><a href="https://www\.airgigs\.com/job/(\d+)">(.*?)</a></h4>', html, re.S)]
+        r"job/(\d+)'>([^<]*)</a></h4>", html)]
 
 def ag_job(jid):
     """Полный проект: (заголовок, жанры, описание)."""
@@ -279,8 +284,6 @@ def ag_job(jid):
 
 def ag_why_not(title, body):
     t = (title + " " + body).lower()
-    if not AG_GUITAR_RE.search(t):
-        return "нет гитары"
     m = AG_SKIP_TITLE_RE.search(title.lower()) or AG_SKIP_RE.search(t)
     if m:
         return "мусор: " + m.group(0)
@@ -294,7 +297,10 @@ def ag_check(seen, quiet):
         return out, False
     items = []
     for p in range(1, AG_PAGES + 1):
-        items += ag_list(p)
+        got = ag_list(p)
+        if not got:
+            break
+        items += got
         time.sleep(2)
     fresh = [(i, t) for i, t in items if "ag:" + i not in seen]
     for i, t in fresh:
