@@ -12,24 +12,73 @@ SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
 # ---- ЧТО ИСКАТЬ ----
-# Берём только посты, где кто-то ИЩЕТ гитариста (за деньги / на заказ)
-HIRE = ["session guitar", "need a guitarist", "need a guitar player", "looking for a guitarist",
-        "looking for a guitar player", "hire a guitarist", "hire a guitar", "guitarist wanted",
-        "guitar player wanted", "re-record the guitar", "replace the guitar", "replace my guitar",
-        "real guitarist", "human guitarist", "need guitar", "guitar parts", "guitar tracks",
-        "нужен гитарист", "ищу гитариста", "нужна гитара", "живую гитару", "живая гитара"]
+# Нужны люди, которые хотят ЗАПИСАТЬ гитару в свой трек (не уроки, не "в группу").
 GUITAR = ["guitar", "гитар"]
+# Прямые просьбы найти гитариста
+HIRE = ["session guitar", "need a guitarist", "need a guitar player", "looking for a guitarist",
+        "looking for guitarist", "looking for a guitar player", "hire a guitarist", "hire a guitar",
+        "guitarist wanted", "guitar player wanted", "guitarist needed", "guitar player needed",
+        "need someone to play guitar", "someone to play guitar", "need guitar", "need a guitar",
+        "need guitars", "real guitarist", "human guitarist",
+        "нужен гитарист", "ищу гитариста", "нужна гитара", "требуется гитарист"]
+# Признаки именно записи в трек
+RECORD = ["record", "re-record", "rerecord", "replace the guitar", "replace my guitar",
+          "real guitar", "live guitar", "human guitar", "my song", "my track", "my demo",
+          "my album", "my ep", "on a song", "on a track", "guitar parts", "guitar part",
+          "guitar tracks", "guitar track", "remote", "suno", "udio", "ai song", "ai track",
+          "stems", "session", "запис", "трек", "партию", "партии", "живую гитару",
+          "живая гитара", "удалённ", "удаленн"]
+# Просьба (кто-то ищет, а не предлагает)
+ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeds\b|\bneeded\b|\bwanted\b|\bhire\b|"
+                    r"\bhiring\b|\banyone (?:who|here|that|able|willing|can|could|want)|"
+                    r"\bwho can\b|\bcan someone\b|\bwould someone\b|"
+                    r"ищу|ищем|нужен|нужна|нужно|требуется|кто может|кто сможет")
 # Признаки оплаты (целые слова, чтобы "rate" не ловилось в "generated")
 MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\busd\b|€|£|"
                       r"\bfee\b|\brates?\b|\bcompensat|\bhire\b|\bhiring\b|"
                       r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b")
-# Мусор: сами предлагают услуги, спрашивают совета, показывают своё
-SKIP = ["for hire", "[for hire]", "available for", "my services", "i offer", "i'm offering",
-        "i am a guitarist", "i'm a guitarist", "i'm a session", "feedback", "how do i",
-        "how to ", "tutorial", "review", "check out my", "my new song", "my new track",
-        "rate my", "free download", "plugin", "preset", "unpaid", "no budget",
-        "rev share", "revenue share", "for exposure", "collab", "[offer]",
-        "ищу группу", "ищу коллектив", "преподавател", "педагог", "бесплатно", "без оплаты"]
+# Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё
+SKIP_TITLE = ["for hire", "[offer]", "feedback", "review", "rate my", "check out",
+              "my new song", "my new track", "tutorial", "how do i", "how to ",
+              "plugin", "preset", "free download", "giveaway"]
+# Мусор в ЛЮБОМ месте: уроки, в группу, без денег, предложение своих услуг
+SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offering",
+        "i am a session", "i'm a session", "guitar lessons", "guitar teacher", "teach guitar",
+        "unpaid", "no budget", "for exposure", "rev share", "revenue share",
+        "join our band", "join my band", "for our band", "for my band", "band members",
+        "ищу группу", "ищу коллектив", "в группу", "в кавер", "преподавател", "педагог",
+        "уроки", "бесплатно", "без оплаты"]
+
+def why_not(title, body):
+    """Пусто, если пост подходит; иначе причина, почему отброшен."""
+    tl = title.lower()
+    t = (title + " " + body).lower()
+    if not any(g in t for g in GUITAR):
+        return "нет гитары"
+    for x in SKIP_TITLE:
+        if x in tl:
+            return "заголовок: " + x
+    for x in SKIP:
+        if x in t:
+            return "мусор: " + x
+    if "[hiring]" in tl or "[paid]" in tl:
+        return ""
+    hire = any(p in t for p in HIRE)
+    rec = any(p in t for p in RECORD)
+    ask = bool(ASK_RE.search(t))
+    money = bool(MONEY_RE.search(t))
+    if hire and (rec or money):
+        return ""
+    if ask and rec and ("guitarist" in t or "guitar player" in t or "play guitar" in t
+                        or "real guitar" in t or "live guitar" in t or "гитарист" in t
+                        or "живую гитару" in t):
+        return ""
+    if not ask and not hire:
+        return "никто не ищет"
+    return "не про запись"
+
+def match(text, body=""):
+    return why_not(text, body) == ""
 
 # ---- TELEGRAM-КАНАЛЫ (публичные, читаем веб-версию t.me/s/...) ----
 TG_CHANNELS = ["musiclance", "musician_msk", "spbmuzpoisk", "bandlinksoundcheck"]
@@ -38,6 +87,7 @@ TG_WORK = ["запис", "сессион", "студи", "трек", "парти
            "онлайн", "дистанц", "аранжиров", "session", "record", "remote"]
 
 SEEN_FILE = "seen.json"
+REPORT_FILE = "report.json"
 UA = {"User-Agent": "Mozilla/5.0 (guitar-leads-bot by chasb1974)"}
 A = "{http://www.w3.org/2005/Atom}"
 
@@ -59,16 +109,6 @@ def get(url):
             if e.code != 429 or attempt == 2:
                 raise
             time.sleep(30)
-
-def match(text):
-    t = text.lower()
-    if any(x in t for x in SKIP):
-        return False
-    if not any(g in t for g in GUITAR):
-        return False
-    if not any(p in t for p in HIRE):
-        return False
-    return bool(MONEY_RE.search(t))
 
 def tg_match(text):
     t = text.lower()
@@ -171,6 +211,7 @@ def main():
     known = set(st.get("feeds", []))
     seen = set(st["ids"])
     found, ok, fails = [], 0, 0
+    report = []
 
     for key, name, url in feeds():
         try:
@@ -184,13 +225,20 @@ def main():
         known.add(key)
         for en in root.findall(A + "entry"):
             pid = en.findtext(A + "id")
-            if not pid or pid in seen:
+            if not pid:
                 continue
-            seen.add(pid)
             title = en.findtext(A + "title") or ""
             body = clean(en.findtext(A + "content"))
             link = en.find(A + "link").get("href")
-            if not quiet and match(title + " " + body):
+            reason = why_not(title, body)
+            if reason != "нет гитары":
+                report.append({"id": pid, "src": name, "title": title[:200],
+                               "text": body[:400], "link": link,
+                               "ok": reason == "", "why": reason})
+            if pid in seen:
+                continue
+            seen.add(pid)
+            if not quiet and reason == "":
                 found.append((name, title, body[:300], link))
         time.sleep(10)
 
@@ -244,6 +292,15 @@ def main():
     if ok == 0 and st.get("err_day") != today:
         send("⚠️ Reddit не отвечает боту (возможна блокировка). Напиши Claude.")
         st["err_day"] = today
+
+    # Отчёт для Claude: все посты про гитару из последних лент и решение бота
+    try:
+        old = json.load(open(REPORT_FILE, encoding="utf-8"))
+    except Exception:
+        old = []
+    ids = {r["id"] for r in report}
+    report = (report + [r for r in old if r["id"] not in ids])[:300]
+    json.dump(report, open(REPORT_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     st["feeds"] = sorted(known)
     st["ids"] = list(seen)[-3000:]
