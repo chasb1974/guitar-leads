@@ -1,5 +1,5 @@
 # Бот поиска заказов: следит за Reddit и шлёт подходящие посты в Telegram.
-import os, json, re, time, imaplib, email, urllib.request, urllib.parse, urllib.error, xml.etree.ElementTree as ET
+import html as html_mod, os, json, re, time, imaplib, email, urllib.request, urllib.parse, urllib.error, xml.etree.ElementTree as ET
 from email.header import decode_header, make_header
 
 TOKEN = os.environ["TG_TOKEN"]
@@ -231,6 +231,89 @@ def check_mail(seen, quiet):
     m.logout()
     return out, True
 
+# ---- AIRGIGS: доска проектов «Artists Wanted» (открыта без входа) ----
+AG_BASE = "https://www.airgigs.com"
+AG_PAGES = 3          # сколько страниц доски смотреть (по 28 проектов, свежие сверху)
+AG_GUITAR_RE = re.compile(r"guitar|гитар|fingerstyle|ukulele|укулеле")
+# Не наше: уроки, расшифровка нот, набор в группу, работа без оплаты
+AG_SKIP_TITLE_RE = re.compile(r"transcri|sheet music|\btabs?\b|tablature|lead sheet|\blessons?\b")
+AG_SKIP_RE = re.compile(r"\blessons?\b|\bteach|\btutor|"
+                        r"join (?:my|our|a) band|band member|cover band|wedding|audition|"
+                        r"\bunpaid\b|no budget|for exposure|rev(?:enue)?[- ]share|royalt(?:y|ies) only|"
+                        r"\bfree\b.{0,20}\b(?:collab|project)")
+
+def ag_allowed():
+    """Уважаем robots.txt: если сайт запретил роботам доску, не читаем."""
+    try:
+        import urllib.robotparser
+        rp = urllib.robotparser.RobotFileParser()
+        rp.parse(get(AG_BASE + "/robots.txt").decode("utf-8", "replace").splitlines())
+        return rp.can_fetch("*", AG_BASE + "/job_board?page=1")
+    except Exception as e:
+        print("AirGigs robots.txt не прочитан, продолжаю:", e)
+        return True
+
+def ag_list(page):
+    """Список проектов страницы: [(id, заголовок)]."""
+    html = get(f"{AG_BASE}/job_board?page={page}").decode("utf-8", "replace")
+    return [(i, clean(t)) for i, t in re.findall(
+        r'<h4 class="post-title job-title"><a href="https://www\.airgigs\.com/job/(\d+)">(.*?)</a></h4>', html, re.S)]
+
+def ag_job(jid):
+    """Полный проект: (заголовок, жанры, описание)."""
+    html = get(f"{AG_BASE}/job/{jid}").decode("utf-8", "replace")
+    m = re.search(r'<h2 style="word-wrap: break-word;">(.*?)</h2>', html, re.S)
+    title = clean(m.group(1)) if m else ""
+    m = re.search(r'<p class="item_label">(.*?)</p>', html, re.S)
+    genres = ", ".join(clean(x) for x in re.findall(r"<small[^>]*>(.*?)</small>", m.group(1), re.S)) if m else ""
+    m = re.search(r'id="description"[^>]*>(.*?)id="audio_play"', html, re.S)
+    body = m.group(1).replace("<br>", " ").replace("<br/>", " ") if m else ""
+    body = re.sub(r"</div>\s*<div class=\"tab-block\".*$", " ", body, flags=re.S)
+    body = html_mod.unescape(clean(body))
+    body = re.sub(r"https?://\S+", "", body)                       # ссылки на YouTube и диски не нужны в тексте
+    body = re.sub(r"Read (?:More|Less)|prop-read-(?:more|less)|<div class=\"tab-block\"", " ", body)
+    body = re.sub(r"\s+", " ", body).strip()
+    if title and body.startswith(title):
+        body = body[len(title):].strip()
+    return title, genres, body
+
+def ag_why_not(title, body):
+    t = (title + " " + body).lower()
+    if not AG_GUITAR_RE.search(t):
+        return "нет гитары"
+    m = AG_SKIP_TITLE_RE.search(title.lower()) or AG_SKIP_RE.search(t)
+    if m:
+        return "мусор: " + m.group(0)
+    return ""
+
+def ag_check(seen, quiet):
+    """Новые проекты AirGigs про гитару: [(заголовок, жанры, текст, ссылка)]."""
+    out = []
+    if not ag_allowed():
+        print("AirGigs: robots.txt запрещает, пропускаю")
+        return out, False
+    items = []
+    for p in range(1, AG_PAGES + 1):
+        items += ag_list(p)
+        time.sleep(2)
+    fresh = [(i, t) for i, t in items if "ag:" + i not in seen]
+    for i, t in fresh:
+        seen.add("ag:" + i)
+    if quiet:
+        return out, True
+    for i, t in fresh[:40]:
+        try:
+            title, genres, body = ag_job(i)
+        except Exception as e:
+            print("AirGigs проект", i, e)
+            continue
+        time.sleep(2)
+        why = ag_why_not(title or t, body)
+        print("AirGigs", i, (title or t)[:50], "->", why or "ОК")
+        if not why:
+            out.append((title or t, genres, body[:700], f"{AG_BASE}/job/{i}"))
+    return out, True
+
 def main():
     try:
         st = json.load(open(SEEN_FILE, encoding="utf-8"))
@@ -289,6 +372,25 @@ def main():
                 found.append(("Telegram @" + ch, "", txt[:500], link))
         print("Канал", ch, "постов:", len(posts))
         time.sleep(3)
+
+    try:
+        aquiet = "airgigs" not in known
+        ag_jobs, ag_on = ag_check(seen, aquiet)
+        if ag_on:
+            known.add("airgigs")
+            if aquiet:
+                send("🎯 Подключил доску проектов AirGigs. Буду присылать новые заказы про гитару.")
+        for title, genres, body, link in ag_jobs[:10]:
+            tr = ru(f"{title}\n\n{body}")
+            msg = f"🎯 AirGigs: {title}" + (f"\nЖанры: {genres}" if genres else "") + f"\n\n{body}"
+            if tr:
+                msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
+            send(f"{msg}\n\n{link}"[:4000])
+    except Exception as e:
+        print("Ошибка AirGigs", e)
+        if st.get("ag_err_day") != time.strftime("%Y-%m-%d"):
+            send("⚠️ Не получается прочитать доску AirGigs. Напиши Claude.")
+            st["ag_err_day"] = time.strftime("%Y-%m-%d")
 
     mails = []
     try:
