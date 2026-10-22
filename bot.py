@@ -113,12 +113,38 @@ def get(url):
                 raise
             time.sleep(30)
 
-def tg_match(text):
+# Посты-анкеты «ищу группу» / «группа ищет музыканта» — это набор в коллектив, не запись
+TG_BAND_RE = re.compile(r"ищет группу|ищу группу|ищу коллектив|ищет коллектив|группа ищет|"
+                        r"коллектив ищет|ищем в (?:группу|состав|коллектив)|в состав|"
+                        r"название группы|кавер|концерт|выступлен|репетиц|репбаз|"
+                        r"корпоратив|свадьб|кабак|ресторан|по выходным")
+# Нужна именно запись партии (одно из этих слов обязательно)
+TG_REC_RE = re.compile(r"запис|сессион|удал[её]нн|дистанц|онлайн|в трек|для трека|"
+                       r"на трек|в песню|для песни|session|record|remote")
+# Кого ищут: строка «Кого ищете: ...» должна упоминать гитару
+TG_WHO_RE = re.compile(r"кого ищ[её]те\s*:?\s*([^0-9\n]{0,80})")
+
+def tg_why_not(text):
+    """Пусто, если пост из канала подходит; иначе причина."""
     t = text.lower()
-    if any(x in t for x in SKIP):
-        return False
-    return (any(g in t for g in GUITAR) and any(w in t for w in TG_WORK)
-            and bool(MONEY_RE.search(t)))
+    if not any(g in t for g in GUITAR):
+        return "нет гитары"
+    for x in SKIP:
+        if x in t:
+            return "мусор: " + x
+    if TG_BAND_RE.search(t):
+        return "группа / концерт"
+    who = TG_WHO_RE.search(t)
+    if who and "гитар" not in who.group(1):
+        return "ищут не гитариста"
+    if not SEEK_RE.search(t):
+        return "ищут не гитариста"
+    if not TG_REC_RE.search(t):
+        return "не про запись"
+    return ""
+
+def tg_match(text):
+    return tg_why_not(text) == ""
 
 def tg_posts(ch):
     """Последние посты публичного канала: (id, текст, ссылка)."""
