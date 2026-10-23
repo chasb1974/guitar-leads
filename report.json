@@ -1,5 +1,59 @@
 [
  {
+  "id": "t3_1xdqzhw",
+  "src": "Reddit",
+  "title": "Advice needed for high gain",
+  "text": "I have been putting together an album of original music that mainly consists of hard rock metal high gain type of stuff. For most of the tracks, the Suno provided guitar tones are OK but not great. There are some parts where it clearly sounds like a keyboard providing high gain guitar, and it can be kind of cringe. I am probably going to retract a lot of of the Guitar bits myself, but when I separ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzhw/advice_needed_for_high_gain/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xdqzfa",
+  "src": "Reddit",
+  "title": "[Dub Reggae] Live Aloha by Kaimana Roots",
+  "text": "Just finished writing and mixing this dub reggae track using Suno Studio! 🤙 Spent a few weeks fine-tuning the stems, dialing in the EQ, adding reverb and harmonies to the backing vocals, and giving the drums and bass a little extra punch. Also layered in some percussion to bring those chorus transitions to life. Really happy with how it all came together! My 4-year-old daughter loves singing along",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzfa/dub_reggae_live_aloha_by_kaimana_roots/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xdpw42",
+  "src": "Reddit",
+  "title": "[Los Angeles] Rock band looking for a lead guitarist",
+  "text": "Hello! My band is looking for a new lead guitarist. Hoping I&#39;m not breaking any rules by posting this, but if I am, please let me know! About us: -We are two guys (vocalist/rhythm guitarist; drummer) and one gal (bassist) -We&#39;re looking for a lead guitarist that can play old material on a subset of existing songs, and write new stuff for new songs -We like to practice a couple of times a w",
+  "link": "https://www.reddit.com/r/musicians/comments/1xdpw42/los_angeles_rock_band_looking_for_a_lead_guitarist/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xdpnrz",
+  "src": "Reddit",
+  "title": "Is there any way to mix \"non-AI\" music in Suno?",
+  "text": "I just finished recording a new song where I played all the guitars, bass, and tracked the vocals myself. I love the creation process, but honestly, mixing everything myself is taking way too long. Finding a good sound engineer is tough because they are either too expensive or don&#39;t really get the vibe I am going for. I have noticed that platforms like Suno balance their AI generated tracks in",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdpnrz/is_there_any_way_to_mix_nonai_music_in_suno/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xdmwey",
+  "src": "Reddit",
+  "title": "First time writing drums for a hard rock/post grunge/chugging Drop D album",
+  "text": "So ive already come up with the guitar parts for an album but havent had to do drums before. Im generally doing the 2 bar call and response to keep it interesting. Ive been adding very basic kick/snare on each track then adding the hi hat stuff, then redoing the kick and snare to make it sound better with the hi hats and finally adding fills/cymbals. Idk if that makes sense as a work flow but how ",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xdmwey/first_time_writing_drums_for_a_hard_rockpost/",
+  "ok": true,
+  "why": ""
+ },
+ {
+  "id": "t3_1xdms1b",
+  "src": "Reddit",
+  "title": "Past a certain point, gear is just a distraction.",
+  "text": "I picked up the guitar when I was 15 and pretty soon after that got really into the associated &quot;gear&quot;- primarily pedals, as they were the cheapest, relatively speaking. By 16/17, I was a full-blown &quot;gearhead&quot;... much too early to be any such thing, but I somehow had stumbled on these gear forums and got so damn intrigued by all this interesting stuff. From then on, any money I ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xdms1b/past_a_certain_point_gear_is_just_a_distraction/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xdj41l",
   "src": "Reddit",
   "title": "starting a band",
@@ -61,15 +115,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xdgkx1/celtic_indie_rock_lugh_ériu_the_spear_the_land/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xdbrb3",
-  "src": "Reddit",
-  "title": "[Acoustic Guitar Song] Tomorrow's A Holiday｜明日は休日 Nothing to Rush, Just a Quiet Night 🌙🎸｜Original AI Music MV",
-  "text": "🌙 **Tomorrow&#39;s A Holiday** 明日は休日。 だから今夜は、急ぐ必要なんてない。 冷めたコーヒーを眺めながら、 静かな街と夜空をぼんやり眺める。 予定も、アラームも、追いかけるものもない。 Just me, my guitar, and the midnight sky. 🎸🌙 ゆっくり流れるアコースティックギターと、 静かな夜の空気を感じながら、 何も考えずに過ごすひとときを音楽にしました。 AI動画で娘が出演 演奏は雰囲気です。 **Tomorrow&#39;s a holiday. That&#39;s all I need to know.** 🎵 **Original AI Music MV** 🎵 オリジナル楽曲：自作曲 🎧 音源加工・編集：Suno AIの機能 ＋ CapCut Visuals: AI-generated &amp; edited",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xdbrb3/acoustic_guitar_song_tomorrows_a_holiday明日は休日/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xc3l6g",
@@ -925,6 +970,15 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xdbrb3",
+  "src": "Reddit",
+  "title": "[Acoustic Guitar Song] Tomorrow's A Holiday｜明日は休日 Nothing to Rush, Just a Quiet Night 🌙🎸｜Original AI Music MV",
+  "text": "🌙 **Tomorrow&#39;s A Holiday** 明日は休日。 だから今夜は、急ぐ必要なんてない。 冷めたコーヒーを眺めながら、 静かな街と夜空をぼんやり眺める。 予定も、アラームも、追いかけるものもない。 Just me, my guitar, and the midnight sky. 🎸🌙 ゆっくり流れるアコースティックギターと、 静かな夜の空気を感じながら、 何も考えずに過ごすひとときを音楽にしました。 AI動画で娘が出演 演奏は雰囲気です。 **Tomorrow&#39;s a holiday. That&#39;s all I need to know.** 🎵 **Original AI Music MV** 🎵 オリジナル楽曲：自作曲 🎧 音源加工・編集：Suno AIの機能 ＋ CapCut Visuals: AI-generated &amp; edited",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdbrb3/acoustic_guitar_song_tomorrows_a_holiday明日は休日/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xd1v8m",
