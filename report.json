@@ -1,5 +1,32 @@
 [
  {
+  "id": "t3_1xd1v8m",
+  "src": "Reddit",
+  "title": "what was the greatest thing you ever did for your musicality, creativity, and songwriting?",
+  "text": "i&#39;ve been a musician for nearly 22 years now and am pretty solid at my primary instrument (guitar) but feel i messed around too much, getting too caught up in jamming and looping rather than actively songwriting and furthering my technical abilities. i&#39;m wondering what the single greatest thing you ever did for your musicality, creativity, and songwriting was. i know theory is massive and ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xd1v8m/what_was_the_greatest_thing_you_ever_did_for_your/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xczkz2",
+  "src": "Reddit",
+  "title": "Question from an autistic adult wannabe musician",
+  "text": "I am a 55 year old autistic woman. I’ve been playing the piano for over 40 years, and doing karaoke for about 20 years. I thought it would be fun to push myself a little so I joined School of Rock’s adult program. Everyone there is great. I do private singing lessons one day, and the band rehearsals on another day. We’re guaranteed to get to perform in 3 songs, so I have chosen two songs to sing, ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xczkz2/question_from_an_autistic_adult_wannabe_musician/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xcz70y",
+  "src": "Reddit",
+  "title": "How do you handle a massive gap in drive and work ethic with your bandmates?",
+  "text": "I feel like one of the hardest parts of building a serious project is finding people who share your exact level of intensity. I’m fully locked in and treat the music like a second job. When I&#39;m not working my regular shifts, I’m purely focused on writing, practicing, and trying to make this succeed. But it feels like a lot of musicians have a way more casual, hobbyist mindset. For example, my ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xcz70y/how_do_you_handle_a_massive_gap_in_drive_and_work/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xcwtoe",
   "src": "Reddit",
   "title": "First real song, any suggestions/changes?",
@@ -25,33 +52,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xcqfez/italodisco_eagle_heart_by_caballero/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xco51n",
-  "src": "Reddit",
-  "title": "Anyone tried to do a cover of an old song?",
-  "text": "I must say that i’m impressed even if i used Suno V6 to make a cover from one of my bands single records from 1983, i had to rewrite the lyrics since i was 20 years old when i wrote it. Then I recorded my voice and my guitar in my DAW, uploaded to Suno, in my ears, it sounds quite good. Lyrics in Swedish, will make english versions later on. ”Jag vill ha dig” remix 2026 &#32; submitted by &#32; /u",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xco51n/anyone_tried_to_do_a_cover_of_an_old_song/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xcm2qe",
-  "src": "Reddit",
-  "title": "Trying to decide if I should stay",
-  "text": "I&#39;ve been struggling to make a decision regarding the band I&#39;ve been in for 3 years. My good friend has always wanted to start a band. He&#39;s more into stuff like Foo Fighters and Queens of the stone age, I&#39;m more into heavier stuff and more intense music. We always enjoyed jamming so I said yes. Progress was slow. We established early that he was gonna be the main song writer since ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xcm2qe/trying_to_decide_if_i_should_stay/",
-  "ok": true,
-  "why": ""
- },
- {
-  "id": "t3_1xclvm8",
-  "src": "Reddit",
-  "title": "London indie post punk alternative band looking for a drummer",
-  "text": "Hey everyone, My band are looking for a drummer. We are influenced by bands such as The Smiths, Durutti Column, early New Order, The Drums, early The Strokes, PJ Harvey, early Morrissey, The La&#39;s, The Fall, Iceage, The Cure and other bands. The project consists of myself (vocalist), guitarist and a bassist at the moment. We&#39;ve recorded some rough scratch demos of songs that we can send you",
-  "link": "https://www.reddit.com/r/musicians/comments/1xclvm8/london_indie_post_punk_alternative_band_looking/",
-  "ok": false,
-  "why": "группа / концерт"
  },
  {
   "id": "t3_1xc3l6g",
@@ -907,6 +907,33 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xco51n",
+  "src": "Reddit",
+  "title": "Anyone tried to do a cover of an old song?",
+  "text": "I must say that i’m impressed even if i used Suno V6 to make a cover from one of my bands single records from 1983, i had to rewrite the lyrics since i was 20 years old when i wrote it. Then I recorded my voice and my guitar in my DAW, uploaded to Suno, in my ears, it sounds quite good. Lyrics in Swedish, will make english versions later on. ”Jag vill ha dig” remix 2026 &#32; submitted by &#32; /u",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xco51n/anyone_tried_to_do_a_cover_of_an_old_song/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xcm2qe",
+  "src": "Reddit",
+  "title": "Trying to decide if I should stay",
+  "text": "I&#39;ve been struggling to make a decision regarding the band I&#39;ve been in for 3 years. My good friend has always wanted to start a band. He&#39;s more into stuff like Foo Fighters and Queens of the stone age, I&#39;m more into heavier stuff and more intense music. We always enjoyed jamming so I said yes. Progress was slow. We established early that he was gonna be the main song writer since ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xcm2qe/trying_to_decide_if_i_should_stay/",
+  "ok": true,
+  "why": ""
+ },
+ {
+  "id": "t3_1xclvm8",
+  "src": "Reddit",
+  "title": "London indie post punk alternative band looking for a drummer",
+  "text": "Hey everyone, My band are looking for a drummer. We are influenced by bands such as The Smiths, Durutti Column, early New Order, The Drums, early The Strokes, PJ Harvey, early Morrissey, The La&#39;s, The Fall, Iceage, The Cure and other bands. The project consists of myself (vocalist), guitarist and a bassist at the moment. We&#39;ve recorded some rough scratch demos of songs that we can send you",
+  "link": "https://www.reddit.com/r/musicians/comments/1xclvm8/london_indie_post_punk_alternative_band_looking/",
+  "ok": false,
+  "why": "группа / концерт"
  },
  {
   "id": "t3_1xcfngk",
