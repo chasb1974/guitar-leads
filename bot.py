@@ -444,4 +444,72 @@ def main():
     json.dump(st, open(SEEN_FILE, "w", encoding="utf-8"))
     print(f"Лент: {ok}, ошибок: {fails}, каналов: {tg_ok}, найдено: {len(found)}")
 
+# ---- ПОСТЫ ДЛЯ КОММЕНТАРИЕВ (для кармы на Reddit) ----
+# Бот ничего не пишет на Reddit. Он только собирает свежие посты в файл,
+# а Claude по просьбе Сергея выбирает подходящие и пишет черновики ответов.
+COMMENT_SUBS = ["Guitar", "acousticguitar", "classicalguitar"]
+COMMENTS_FILE = "comments.json"
+
+def collect_comment_posts():
+    posts = {}
+    for sort in ("rising", "hot"):
+        url = ("https://www.reddit.com/r/" + "+".join(COMMENT_SUBS)
+               + "/" + sort + ".json?limit=60&raw_json=1")
+        try:
+            data = json.loads(get(url))
+        except Exception as e:
+            print("Ошибка сбора постов", sort, e)
+            continue
+        for ch in data.get("data", {}).get("children", []):
+            d = ch.get("data", {})
+            if d.get("stickied") or d.get("over_18") or d.get("locked"):
+                continue
+            pid = d.get("name")
+            posts[pid] = {
+                "id": pid,
+                "sub": d.get("subreddit"),
+                "title": d.get("title", "")[:300],
+                "flair": d.get("link_flair_text") or "",
+                "text": (d.get("selftext") or "")[:1500],
+                "author": d.get("author"),
+                "created_utc": d.get("created_utc"),
+                "score": d.get("score"),
+                "comments": d.get("num_comments"),
+                "is_image": bool(d.get("post_hint") == "image" or d.get("is_gallery")),
+                "link": "https://www.reddit.com" + d.get("permalink", ""),
+                "from": sort,
+            }
+        time.sleep(5)
+    if not posts:
+        # запасной путь: RSS (без числа лайков и комментариев)
+        for sort in ("rising", "hot"):
+            try:
+                root = ET.fromstring(get("https://www.reddit.com/r/" + "+".join(COMMENT_SUBS)
+                                         + "/" + sort + "/.rss?limit=60"))
+            except Exception as e:
+                print("Ошибка RSS для комментариев", sort, e)
+                continue
+            for en in root.findall(A + "entry"):
+                pid = en.findtext(A + "id")
+                cat = en.find(A + "category")
+                posts[pid] = {"id": pid, "sub": cat.get("term") if cat is not None else "",
+                              "title": (en.findtext(A + "title") or "")[:300], "flair": "",
+                              "text": clean(en.findtext(A + "content"))[:1500],
+                              "author": en.findtext(A + "author/" + A + "name"),
+                              "created": en.findtext(A + "published"),
+                              "created_utc": None, "score": None, "comments": None,
+                              "is_image": False, "link": en.find(A + "link").get("href"),
+                              "from": sort + "-rss"}
+            time.sleep(5)
+    if not posts:
+        return
+    out = sorted(posts.values(), key=lambda x: -(x["created_utc"] or 0))
+    json.dump({"updated_utc": int(time.time()), "posts": out},
+              open(COMMENTS_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("Постов для комментариев:", len(out))
+
 main()
+try:
+    collect_comment_posts()
+except Exception as e:
+    print("Ошибка сбора постов", e)
