@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xekbhh",
+  "src": "Reddit",
+  "title": "Do I even need a band anymore?",
+  "text": "For background, I started my current band over 10 years ago. I was in another band with a longtime friend (I did guitar, he did bass) and we got fed up with the slow progress and the other guys missing practices. So we struck out on our own. No singer so I had to learn that. No drummer, so I learned how to provide beats in various ways. Jumping ahead a lot, I’ve written two EPs entirely by myself ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xekbhh/do_i_even_need_a_band_anymore/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xegj8i",
   "src": "Reddit",
   "title": "[Liquid Jungle] Never Go Back - DrEDGE ARCADiA",
@@ -52,33 +61,6 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xe8ccd/london_indie_alternative_band_looking_for_a/",
   "ok": false,
   "why": "группа / концерт"
- },
- {
-  "id": "t3_1xe7oek",
-  "src": "Reddit",
-  "title": "[Frankfurt am Main, Germany] Looking for a drummer for an RHCP-inspired band playing original music",
-  "text": "Hey everyone! I&#39;m based near Frankfurt am Main, Germany, and I&#39;m currently looking for a drummer to join our band project, inspired by the Red Hot Chili Peppers and focused on writing original music. That&#39;s a favorite band Nr. 1 to me! We already have a guitarist and a bassist, and we&#39;re hoping to find the right drummer to complete the lineup. The idea is to work on original music,",
-  "link": "https://www.reddit.com/r/musicians/comments/1xe7oek/frankfurt_am_main_germany_looking_for_a_drummer/",
-  "ok": false,
-  "why": "группа / концерт"
- },
- {
-  "id": "t3_1xe5ru1",
-  "src": "Reddit",
-  "title": "[Indie-Disco] Leave It Open by Cyborgized",
-  "text": "[Intro - 8 bars; instrumental, deep buoyant bass groove, crisp laid-back drums, small glassy synth motif] [Opening Refrain - 8 bars; airy, intimate melodic vocal] Leave it open Let the edges move Leave it open Something&#39;s coming through Leave it open I can hear it now Not yet, not yet Don&#39;t pin it down [Verse 1 - 12 bars; conversational, gently syncopated] I saw a line across the water Tho",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xe5ru1/indiedisco_leave_it_open_by_cyborgized/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xe2nbz",
-  "src": "Reddit",
-  "title": "What’s your workflow?",
-  "text": "I’m curious how everyone approaches making AI music. Where does the idea start, and what’s your process? Mine is: Logic Pro: Chords and synthesised vocals (or real, but bad) Suno: Cover with acoustic guitar and vocals. Logic: Download and remix. Suno: Cover using a production style. Repeat 3–4 until happy. Logic: Final mastering. What’s your workflow? Do you start with an idea, lyrics, a melody or",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xe2nbz/whats_your_workflow/",
-  "ok": false,
-  "why": "никто не ищет"
  },
  {
   "id": "t3_1xc3l6g",
@@ -932,6 +914,33 @@
   "title": "Rock Museum",
   "text": "At the museum, adventures are just waiting to happen — like a full‑on jam session with a statue of a guitarist.She didn’t move, of course… but honestly, she still had better rhythm than half my friends. #MuseumAdventures #ArtAndMusic #StatueJamSession #GuitaristStatue #CulturalExperience #RhythmAndArt #CreativeMuseums #ArtisticEncounters #MusicInTheMuseum #ArtisticExpressions #MuseumVibes #Inspiri",
   "link": "https://www.reddit.com/r/u_viennacc/comments/1u158k4/rock_museum/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xe7oek",
+  "src": "Reddit",
+  "title": "[Frankfurt am Main, Germany] Looking for a drummer for an RHCP-inspired band playing original music",
+  "text": "Hey everyone! I&#39;m based near Frankfurt am Main, Germany, and I&#39;m currently looking for a drummer to join our band project, inspired by the Red Hot Chili Peppers and focused on writing original music. That&#39;s a favorite band Nr. 1 to me! We already have a guitarist and a bassist, and we&#39;re hoping to find the right drummer to complete the lineup. The idea is to work on original music,",
+  "link": "https://www.reddit.com/r/musicians/comments/1xe7oek/frankfurt_am_main_germany_looking_for_a_drummer/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xe5ru1",
+  "src": "Reddit",
+  "title": "[Indie-Disco] Leave It Open by Cyborgized",
+  "text": "[Intro - 8 bars; instrumental, deep buoyant bass groove, crisp laid-back drums, small glassy synth motif] [Opening Refrain - 8 bars; airy, intimate melodic vocal] Leave it open Let the edges move Leave it open Something&#39;s coming through Leave it open I can hear it now Not yet, not yet Don&#39;t pin it down [Verse 1 - 12 bars; conversational, gently syncopated] I saw a line across the water Tho",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xe5ru1/indiedisco_leave_it_open_by_cyborgized/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xe2nbz",
+  "src": "Reddit",
+  "title": "What’s your workflow?",
+  "text": "I’m curious how everyone approaches making AI music. Where does the idea start, and what’s your process? Mine is: Logic Pro: Chords and synthesised vocals (or real, but bad) Suno: Cover with acoustic guitar and vocals. Logic: Download and remix. Suno: Cover using a production style. Repeat 3–4 until happy. Logic: Final mastering. What’s your workflow? Do you start with an idea, lyrics, a melody or",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xe2nbz/whats_your_workflow/",
   "ok": false,
   "why": "никто не ищет"
  },
