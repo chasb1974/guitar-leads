@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xe2nbz",
+  "src": "Reddit",
+  "title": "What’s your workflow?",
+  "text": "I’m curious how everyone approaches making AI music. Where does the idea start, and what’s your process? Mine is: Logic Pro: Chords and synthesised vocals (or real, but bad) Suno: Cover with acoustic guitar and vocals. Logic: Download and remix. Suno: Cover using a production style. Repeat 3–4 until happy. Logic: Final mastering. What’s your workflow? Do you start with an idea, lyrics, a melody or",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xe2nbz/whats_your_workflow/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xdzfrf",
   "src": "Reddit",
   "title": "Suno v6 Guide: Models, Credits, Max Mode, Song Length & Prompt Tips",
@@ -70,24 +79,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xdpnrz/is_there_any_way_to_mix_nonai_music_in_suno/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xdmwey",
-  "src": "Reddit",
-  "title": "First time writing drums for a hard rock/post grunge/chugging Drop D album",
-  "text": "So ive already come up with the guitar parts for an album but havent had to do drums before. Im generally doing the 2 bar call and response to keep it interesting. Ive been adding very basic kick/snare on each track then adding the hi hat stuff, then redoing the kick and snare to make it sound better with the hi hats and finally adding fills/cymbals. Idk if that makes sense as a work flow but how ",
-  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xdmwey/first_time_writing_drums_for_a_hard_rockpost/",
-  "ok": true,
-  "why": ""
- },
- {
-  "id": "t3_1xdms1b",
-  "src": "Reddit",
-  "title": "Past a certain point, gear is just a distraction.",
-  "text": "I picked up the guitar when I was 15 and pretty soon after that got really into the associated &quot;gear&quot;- primarily pedals, as they were the cheapest, relatively speaking. By 16/17, I was a full-blown &quot;gearhead&quot;... much too early to be any such thing, but I somehow had stumbled on these gear forums and got so damn intrigued by all this interesting stuff. From then on, any money I ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xdms1b/past_a_certain_point_gear_is_just_a_distraction/",
-  "ok": false,
-  "why": "никто не ищет"
  },
  {
   "id": "t3_1xc3l6g",
@@ -864,15 +855,6 @@
   "why": "заголовок: who needs a"
  },
  {
-  "id": "t3_1u9g7jn",
-  "src": "поиск Reddit",
-  "title": "West Mids Band UK | 14-17",
-  "text": "heya! I’m Felix and I’m a guitarist of Jesterface! Our inspiration is mainly Slipknot, SOAD and Korn We need: Guitarist (Rhythm or lead) Drummer Bassist Vocalist/Screamer Anything extra you think we might need We already have support from an upcoming band finder website: bandscope.net &#32; submitted by &#32; /u/Waste_Ad_799 &#32; to &#32; r/FindABand [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/FindABand/comments/1u9g7jn/west_mids_band_uk_1417/",
-  "ok": false,
-  "why": "группа / концерт"
- },
- {
   "id": "t3_1u8ramk",
   "src": "поиск Reddit",
   "title": "Looking to start a slam or hardcore band in WI/MN area",
@@ -943,6 +925,42 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1u158k4",
+  "src": "поиск Reddit",
+  "title": "Rock Museum",
+  "text": "At the museum, adventures are just waiting to happen — like a full‑on jam session with a statue of a guitarist.She didn’t move, of course… but honestly, she still had better rhythm than half my friends. #MuseumAdventures #ArtAndMusic #StatueJamSession #GuitaristStatue #CulturalExperience #RhythmAndArt #CreativeMuseums #ArtisticEncounters #MusicInTheMuseum #ArtisticExpressions #MuseumVibes #Inspiri",
+  "link": "https://www.reddit.com/r/u_viennacc/comments/1u158k4/rock_museum/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xdmwey",
+  "src": "Reddit",
+  "title": "First time writing drums for a hard rock/post grunge/chugging Drop D album",
+  "text": "So ive already come up with the guitar parts for an album but havent had to do drums before. Im generally doing the 2 bar call and response to keep it interesting. Ive been adding very basic kick/snare on each track then adding the hi hat stuff, then redoing the kick and snare to make it sound better with the hi hats and finally adding fills/cymbals. Idk if that makes sense as a work flow but how ",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xdmwey/first_time_writing_drums_for_a_hard_rockpost/",
+  "ok": true,
+  "why": ""
+ },
+ {
+  "id": "t3_1xdms1b",
+  "src": "Reddit",
+  "title": "Past a certain point, gear is just a distraction.",
+  "text": "I picked up the guitar when I was 15 and pretty soon after that got really into the associated &quot;gear&quot;- primarily pedals, as they were the cheapest, relatively speaking. By 16/17, I was a full-blown &quot;gearhead&quot;... much too early to be any such thing, but I somehow had stumbled on these gear forums and got so damn intrigued by all this interesting stuff. From then on, any money I ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xdms1b/past_a_certain_point_gear_is_just_a_distraction/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1u9g7jn",
+  "src": "поиск Reddit",
+  "title": "West Mids Band UK | 14-17",
+  "text": "heya! I’m Felix and I’m a guitarist of Jesterface! Our inspiration is mainly Slipknot, SOAD and Korn We need: Guitarist (Rhythm or lead) Drummer Bassist Vocalist/Screamer Anything extra you think we might need We already have support from an upcoming band finder website: bandscope.net &#32; submitted by &#32; /u/Waste_Ad_799 &#32; to &#32; r/FindABand [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/FindABand/comments/1u9g7jn/west_mids_band_uk_1417/",
+  "ok": false,
+  "why": "группа / концерт"
  },
  {
   "id": "t3_1xdj0dl",
