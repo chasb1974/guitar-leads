@@ -1,5 +1,41 @@
 [
  {
+  "id": "t3_1xe8ccd",
+  "src": "Reddit",
+  "title": "London indie alternative band looking for a drummer",
+  "text": "Hey everyone, My band are looking for a drummer. We are influenced by bands such as The Smiths, Durutti Column, early New Order, The Drums, early The Strokes, PJ Harvey, early Morrissey, The La&#39;s, The Fall, Iceage, The Cure and other bands. The project consists of myself (vocalist), guitarist and a bassist at the moment. We&#39;ve recorded some rough scratch demos of songs that we can send you",
+  "link": "https://www.reddit.com/r/musicians/comments/1xe8ccd/london_indie_alternative_band_looking_for_a/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xe80px",
+  "src": "Reddit",
+  "title": "Last thing you need guitar tone. What is that shimmer in the intro?",
+  "text": "The opening guitar riff on this track has this shimmering, almost octave-y quality under a clean chime that I can&#39;t place. Credits list Tom Bukovac on electric, and I know he&#39;s used an EHX POG2 on other sessions, but I&#39;m not sure that&#39;s it here. Has anybody broken down this specific intro, or have any tips for recreating that glassy Nashville clean with octave lift? I&#39;d love to",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xe80px/last_thing_you_need_guitar_tone_what_is_that/",
+  "ok": false,
+  "why": "заголовок: tone"
+ },
+ {
+  "id": "t3_1xe7oek",
+  "src": "Reddit",
+  "title": "[Frankfurt am Main, Germany] Looking for a drummer for an RHCP-inspired band playing original music",
+  "text": "Hey everyone! I&#39;m based near Frankfurt am Main, Germany, and I&#39;m currently looking for a drummer to join our band project, inspired by the Red Hot Chili Peppers and focused on writing original music. That&#39;s a favorite band Nr. 1 to me! We already have a guitarist and a bassist, and we&#39;re hoping to find the right drummer to complete the lineup. The idea is to work on original music,",
+  "link": "https://www.reddit.com/r/musicians/comments/1xe7oek/frankfurt_am_main_germany_looking_for_a_drummer/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xe5ru1",
+  "src": "Reddit",
+  "title": "[Indie-Disco] Leave It Open by Cyborgized",
+  "text": "[Intro - 8 bars; instrumental, deep buoyant bass groove, crisp laid-back drums, small glassy synth motif] [Opening Refrain - 8 bars; airy, intimate melodic vocal] Leave it open Let the edges move Leave it open Something&#39;s coming through Leave it open I can hear it now Not yet, not yet Don&#39;t pin it down [Verse 1 - 12 bars; conversational, gently syncopated] I saw a line across the water Tho",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xe5ru1/indiedisco_leave_it_open_by_cyborgized/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xe2nbz",
   "src": "Reddit",
   "title": "What’s your workflow?",
@@ -52,33 +88,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xdtaid/downtempo_triphop_watchmaker_a_love_song_told/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xdqzhw",
-  "src": "Reddit",
-  "title": "Advice needed for high gain",
-  "text": "I have been putting together an album of original music that mainly consists of hard rock metal high gain type of stuff. For most of the tracks, the Suno provided guitar tones are OK but not great. There are some parts where it clearly sounds like a keyboard providing high gain guitar, and it can be kind of cringe. I am probably going to retract a lot of of the Guitar bits myself, but when I separ",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzhw/advice_needed_for_high_gain/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xdqzfa",
-  "src": "Reddit",
-  "title": "[Dub Reggae] Live Aloha by Kaimana Roots",
-  "text": "Just finished writing and mixing this dub reggae track using Suno Studio! 🤙 Spent a few weeks fine-tuning the stems, dialing in the EQ, adding reverb and harmonies to the backing vocals, and giving the drums and bass a little extra punch. Also layered in some percussion to bring those chorus transitions to life. Really happy with how it all came together! My 4-year-old daughter loves singing along",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzfa/dub_reggae_live_aloha_by_kaimana_roots/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xdpnrz",
-  "src": "Reddit",
-  "title": "Is there any way to mix \"non-AI\" music in Suno?",
-  "text": "I just finished recording a new song where I played all the guitars, bass, and tracked the vocals myself. I love the creation process, but honestly, mixing everything myself is taking way too long. Finding a good sound engineer is tough because they are either too expensive or don&#39;t really get the vibe I am going for. I have noticed that platforms like Suno balance their AI generated tracks in",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xdpnrz/is_there_any_way_to_mix_nonai_music_in_suno/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xc3l6g",
@@ -934,6 +943,33 @@
   "link": "https://www.reddit.com/r/u_viennacc/comments/1u158k4/rock_museum/",
   "ok": false,
   "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xdqzhw",
+  "src": "Reddit",
+  "title": "Advice needed for high gain",
+  "text": "I have been putting together an album of original music that mainly consists of hard rock metal high gain type of stuff. For most of the tracks, the Suno provided guitar tones are OK but not great. There are some parts where it clearly sounds like a keyboard providing high gain guitar, and it can be kind of cringe. I am probably going to retract a lot of of the Guitar bits myself, but when I separ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzhw/advice_needed_for_high_gain/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xdqzfa",
+  "src": "Reddit",
+  "title": "[Dub Reggae] Live Aloha by Kaimana Roots",
+  "text": "Just finished writing and mixing this dub reggae track using Suno Studio! 🤙 Spent a few weeks fine-tuning the stems, dialing in the EQ, adding reverb and harmonies to the backing vocals, and giving the drums and bass a little extra punch. Also layered in some percussion to bring those chorus transitions to life. Really happy with how it all came together! My 4-year-old daughter loves singing along",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdqzfa/dub_reggae_live_aloha_by_kaimana_roots/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xdpnrz",
+  "src": "Reddit",
+  "title": "Is there any way to mix \"non-AI\" music in Suno?",
+  "text": "I just finished recording a new song where I played all the guitars, bass, and tracked the vocals myself. I love the creation process, but honestly, mixing everything myself is taking way too long. Finding a good sound engineer is tough because they are either too expensive or don&#39;t really get the vibe I am going for. I have noticed that platforms like Suno balance their AI generated tracks in",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xdpnrz/is_there_any_way_to_mix_nonai_music_in_suno/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xdmwey",
