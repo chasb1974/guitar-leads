@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["bot.py", ".github/workflows/leads.yml"]
 permissions:
   contents: write
 jobs:
