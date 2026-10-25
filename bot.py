@@ -508,7 +508,100 @@ def collect_comment_posts():
               open(COMMENTS_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("Постов для комментариев:", len(out))
 
+# ---- МОЯ АКТИВНОСТЬ НА REDDIT: ответы на мои комментарии и новое в ветках ----
+# Читает только публичные RSS-ленты. Ничего не пишет на Reddit.
+WATCH_USER = "chasb1974"          # ник Сергея на Reddit (если другой, поменять здесь)
+WATCH_POSTS = ["1xeh5a7"]          # посты, под которыми Сергей ответил: Martin D-28
+ACTIVITY_FILE = "activity.json"
+ACTIVITY_SEEN = "activity_seen.json"
+
+def feed_entries(url):
+    root = ET.fromstring(get(url))
+    out = []
+    for en in root.findall(A + "entry"):
+        lk = en.find(A + "link")
+        out.append({"id": en.findtext(A + "id") or "",
+                    "title": (en.findtext(A + "title") or "")[:200],
+                    "author": (en.findtext(A + "author/" + A + "name") or "").replace("/u/", ""),
+                    "text": clean(en.findtext(A + "content"))[:800],
+                    "updated": en.findtext(A + "updated") or en.findtext(A + "published") or "",
+                    "link": lk.get("href") if lk is not None else ""})
+    return out
+
+def watch_activity():
+    try:
+        seen = json.load(open(ACTIVITY_SEEN, encoding="utf-8"))
+    except Exception:
+        seen = None
+    first = seen is None
+    seen = set(seen or [])
+    act = {"updated_utc": int(time.time()), "user": WATCH_USER, "user_feed_ok": False,
+           "my_comments": [], "replies": [], "threads": {}}
+    me = WATCH_USER.lower()
+    new_msgs = []
+
+    try:
+        mine = feed_entries("https://www.reddit.com/user/" + WATCH_USER + "/comments/.rss?limit=25")
+        act["user_feed_ok"] = True
+    except Exception as e:
+        print("Ошибка ленты пользователя", e)
+        mine = []
+    act["my_comments"] = mine
+    time.sleep(5)
+
+    for c in mine[:6]:
+        if not c["link"]:
+            continue
+        try:
+            ents = feed_entries(c["link"].rstrip("/") + "/.rss?limit=50")
+        except Exception as e:
+            print("Ошибка ветки комментария", e)
+            continue
+        for r in ents:
+            if r["id"] == c["id"] or r["author"].lower() == me:
+                continue
+            r["reply_to"] = c["id"]
+            r["in_post"] = c["title"]
+            act["replies"].append(r)
+            if r["id"] not in seen:
+                seen.add(r["id"])
+                new_msgs.append(("Ответ вам", r))
+        time.sleep(4)
+
+    for pid in WATCH_POSTS:
+        try:
+            ents = feed_entries("https://www.reddit.com/comments/" + pid + "/.rss?limit=100&sort=new")
+        except Exception as e:
+            print("Ошибка ветки поста", pid, e)
+            continue
+        act["threads"][pid] = ents
+        for r in ents[1:]:
+            if r["id"] not in seen:
+                seen.add(r["id"])
+                if r["author"].lower() != me:
+                    new_msgs.append(("Новый комментарий в ветке", r))
+        time.sleep(4)
+
+    json.dump(act, open(ACTIVITY_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(sorted(seen)[-2000:], open(ACTIVITY_SEEN, "w", encoding="utf-8"))
+    if first:
+        print("Активность: первый запуск, уведомления пропущены")
+        return
+    shown = set()
+    for kind, r in new_msgs[:8]:
+        if r["id"] in shown:
+            continue
+        shown.add(r["id"])
+        tr = ru(r["text"])
+        send((f"💬 {kind}\n{r['in_post'] or r['title']}\nu/{r['author']}: {r['text']}"
+              + (f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}" if tr else "") + f"\n\n{r['link']}")[:4000])
+    print("Активность: новых ответов", len(new_msgs))
+
 main()
+try:
+    watch_activity()
+except Exception as e:
+    print("Ошибка активности", e)
 try:
     collect_comment_posts()
 except Exception as e:
