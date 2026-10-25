@@ -510,7 +510,7 @@ def collect_comment_posts():
 
 # ---- МОЯ АКТИВНОСТЬ НА REDDIT: ответы на мои комментарии и новое в ветках ----
 # Читает только публичные RSS-ленты. Ничего не пишет на Reddit.
-WATCH_USER = "chasb1974"          # ник Сергея на Reddit (если другой, поменять здесь)
+WATCH_USER = "SergeyCha"         # ник Сергея на Reddit
 WATCH_POSTS = ["1xeh5a7"]          # посты, под которыми Сергей ответил: Martin D-28
 ACTIVITY_FILE = "activity.json"
 ACTIVITY_SEEN = "activity_seen.json"
