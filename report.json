@@ -36,11 +36,11 @@
   "why": "группа / концерт"
  },
  {
-  "id": "t3_1xf68e8",
-  "src": "Reddit",
-  "title": "Los Angeles rock band looking for lead guitarist",
-  "text": "Hope this is allowed here - please let me know if it is not! About us: -Our band name is Super OK - We are two guys (vocalist/rhythm guitarist; drummer) and one gal (bassist) -We&#39;re looking for a lead guitarist that can play old material on a subset of existing songs, and write new stuff for new songs -We like to practice a couple of times a week, renting an hourly jam space (currently in the ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xf68e8/los_angeles_rock_band_looking_for_lead_guitarist/",
+  "id": "t3_1xfhn1s",
+  "src": "поиск Reddit",
+  "title": "Pretenders - Don't Get Me Wrong (1986)",
+  "text": "Born on this day in 1957, Robbie McIntosh is an English guitarist. McIntosh is best known as a session guitarist and member of the Pretenders from 1982 until 1987. In 1988 he began doing session guitar work for Paul McCartney, joining his band full-time until early 1994. He continues to play sessions and has performed both with his own band and as a sideman with John Mayer. McIntosh performed sess",
+  "link": "https://www.reddit.com/r/SongsOfThe20thCentury/comments/1xfhn1s/pretenders_dont_get_me_wrong_1986/",
   "ok": false,
   "why": "группа / концерт"
  },
@@ -889,6 +889,15 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xf68e8",
+  "src": "Reddit",
+  "title": "Los Angeles rock band looking for lead guitarist",
+  "text": "Hope this is allowed here - please let me know if it is not! About us: -Our band name is Super OK - We are two guys (vocalist/rhythm guitarist; drummer) and one gal (bassist) -We&#39;re looking for a lead guitarist that can play old material on a subset of existing songs, and write new stuff for new songs -We like to practice a couple of times a week, renting an hourly jam space (currently in the ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xf68e8/los_angeles_rock_band_looking_for_lead_guitarist/",
+  "ok": false,
+  "why": "группа / концерт"
  },
  {
   "id": "t3_1u158k4",
