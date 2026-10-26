@@ -1,5 +1,50 @@
 [
  {
+  "id": "t3_1xg44i2",
+  "src": "Reddit",
+  "title": "Lola Guitar question?",
+  "text": "I&#39;m guessing the opening is an acoustic guitar, but it almost sounds like a banjo or at least playing it like a banjo. Any idea about what&#39;s going on? &#32; submitted by &#32; /u/Pure_Salamander2681 &#32; to &#32; r/musicians [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/musicians/comments/1xg44i2/lola_guitar_question/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xg41yp",
+  "src": "Reddit",
+  "title": "bottom number on time signatures",
+  "text": "i’m a guitarist and singer in a band, i’m in show choir, i’ve been studying music for four years, and I still have no clue what the bottom number of a time signature means. I’ve tried to figure it out many a time, please, for the love of god, explain it to me like i’m two years old. I feel unbelievably stupid for not knowing this, but it makes no sense to me. please please please help, I beg of yo",
+  "link": "https://www.reddit.com/r/musicians/comments/1xg41yp/bottom_number_on_time_signatures/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xg2k91",
+  "src": "Reddit",
+  "title": "[Pop-Rock] Greenwich bells by the The Melodic Wasps",
+  "text": "A hypnotic progressive pop-rock reflection on time slipping by, built on ticking clock chimes, warm guitars, and harmonies that swell like the bells themselves. A song for anyone who&#39;s ever caught their own reflection and wondered where the years went. &#32; submitted by &#32; /u/GreatEars &#32; to &#32; r/SunoAI [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xg2k91/poprock_greenwich_bells_by_the_the_melodic_wasps/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xfzfyc",
+  "src": "Reddit",
+  "title": "Heavy Metal creation process on V6",
+  "text": "As many around here have said, Suno V6 has some difficulty creating Heavy Metal songs—I agree partially with this assessment. Let me explain: I&#39;m not a musician, I just play guitar as a hobby and know a tiny bit about music theory, but I love using Suno to make music I enjoy and share it with family and friends. Since I love a good challenge, I tried my hand at Heavy Metal. After working on it",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfzfyc/heavy_metal_creation_process_on_v6/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xfz9cy",
+  "src": "Reddit",
+  "title": "Musicians and ghosting. Your worst experiences",
+  "text": "I was invited into a new band at the beginning of the year. Everyone got on great and we collaborated online on a handful of songs. After about 6 months we have our first practice and audition a 2 nd guitarist who was a friend of the band leader. All goes well, everyone is happy with the band, the guitarist joins, so we have a full line up, a setlist and are good to go. A week and half later the l",
+  "link": "https://www.reddit.com/r/musicians/comments/1xfz9cy/musicians_and_ghosting_your_worst_experiences/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xfufi0",
   "src": "Reddit",
   "title": "[metal] Dead Man Walking - used a personal voice note sample upload guide to Suno",
@@ -14,15 +59,6 @@
   "title": "[Dark-Synth] What Steered Me Here by Cyborgized",
   "text": "[Intro - 8 bars; deep mono synth-bass motif, cold 16th-note sequencer, dry drum machine, distant chorused guitar] [Verse 1 - 12 bars; intimate melodic vocal, restrained groove, low synth pressure] You said I gave you nothing But a fiction dressed as fact You asked me where I found it Then demanded I take it back I know the street was never there I know the damage done But every time I tried to spe",
   "link": "https://www.reddit.com/r/SunoAI/comments/1xfsuu0/darksynth_what_steered_me_here_by_cyborgized/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xfnmdy",
-  "src": "Reddit",
-  "title": "Suno v6 Prompts: Complete Guide With Copy-and-Paste Examples",
-  "text": "v6 responds differently than older versions. It’s way more literal about style, structure, and mood — vague prompts give generic results. Specific, clear instructions get you pro-level tracks. Also, it handles longer descriptions and genre details much better now. Basic Prompt Template (Copy This) Start here, then tweak it: Genre: [your genre] Style/Vibe: [e.g. warm, gritty, dreamy, high-energy] I",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnmdy/suno_v6_prompts_complete_guide_with_copyandpaste/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -880,6 +916,15 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xfnmdy",
+  "src": "Reddit",
+  "title": "Suno v6 Prompts: Complete Guide With Copy-and-Paste Examples",
+  "text": "v6 responds differently than older versions. It’s way more literal about style, structure, and mood — vague prompts give generic results. Specific, clear instructions get you pro-level tracks. Also, it handles longer descriptions and genre details much better now. Basic Prompt Template (Copy This) Start here, then tweak it: Genre: [your genre] Style/Vibe: [e.g. warm, gritty, dreamy, high-energy] I",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnmdy/suno_v6_prompts_complete_guide_with_copyandpaste/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1xfnp47",
