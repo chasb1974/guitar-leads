@@ -1,10 +1,19 @@
 [
  {
-  "id": "t3_1xfnp47",
+  "id": "t3_1xfufi0",
   "src": "Reddit",
-  "title": "[Midwest Emo] \"Gave You Away\" by Old Colony. My voice, my recorded guitar, my lyrics",
-  "text": "&#32; submitted by &#32; /u/spazzachussetts &#32; to &#32; r/SunoAI [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnp47/midwest_emo_gave_you_away_by_old_colony_my_voice/",
+  "title": "[metal] Dead Man Walking - used a personal voice note sample upload guide to Suno",
+  "text": "I had a riff idea that I recorded on the iPhone. Uploaded to Suno. Used chatGPT to help write the prompts, and experimented with weirdness, style and Wild vs Pro. Yes the guitar sound is far from perfect. I can’t imagine how amazing this would have sounded in 4.5/5/5.5 - oh well. Here it is anyway. https://www.youtube.com/watch?v=9CqKMhGq4kE &#32; submitted by &#32; /u/silkysmoozz &#32; to &#32; r",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfufi0/metal_dead_man_walking_used_a_personal_voice_note/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xfsuu0",
+  "src": "Reddit",
+  "title": "[Dark-Synth] What Steered Me Here by Cyborgized",
+  "text": "[Intro - 8 bars; deep mono synth-bass motif, cold 16th-note sequencer, dry drum machine, distant chorused guitar] [Verse 1 - 12 bars; intimate melodic vocal, restrained groove, low synth pressure] You said I gave you nothing But a fiction dressed as fact You asked me where I found it Then demanded I take it back I know the street was never there I know the damage done But every time I tried to spe",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfsuu0/darksynth_what_steered_me_here_by_cyborgized/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -16,24 +25,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xfnmdy/suno_v6_prompts_complete_guide_with_copyandpaste/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xfeqsz",
-  "src": "Reddit",
-  "title": "[FOR HIRE] Mixing and mastering engineer. | Audio editing, vocal clean up, over-all mixdown.",
-  "text": "I’ve been mixing, mastering, and producing for 8 years, mainly rock and heavy metal, but also funk, hip-hop, R&amp;B, and more. My job is to take your track from demo-quality to rock solid. What I can help with: Mixing: balancing vocals, drums, bass, and instruments so your song sounds full and clear. Vocal production: tuning, timing edits, comping, de-essing, and effects that make vocals sit prop",
-  "link": "https://www.reddit.com/r/forhire/comments/1xfeqsz/for_hire_mixing_and_mastering_engineer_audio/",
-  "ok": false,
-  "why": "заголовок: for hire"
- },
- {
-  "id": "t3_1xfbbn8",
-  "src": "Reddit",
-  "title": "[METAL] STREET OF RAGE 2 - Metal Tribute: I had to bleed through countless edits to fix all the mistakes made by Suno V6 just to bring this tribute to life. 🤘🔥",
-  "text": "I went through hell to get Suno V6 to deliver a decent cover of this classic. 🤘 I spent hours trying to fix its flaws through editing and mastering in REAPER. In the end, I decided to release it as a demo for now. Hopefully, Suno will improve over time, allowing me to create an even better version with heavier guitars. Suno V6 just can&#39;t deliver the heavy guitar tone I&#39;m looking for... yet",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfbbn8/metal_street_of_rage_2_metal_tribute_i_had_to/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xfhn1s",
@@ -889,6 +880,33 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xfnp47",
+  "src": "Reddit",
+  "title": "[Midwest Emo] \"Gave You Away\" by Old Colony. My voice, my recorded guitar, my lyrics",
+  "text": "&#32; submitted by &#32; /u/spazzachussetts &#32; to &#32; r/SunoAI [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnp47/midwest_emo_gave_you_away_by_old_colony_my_voice/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xfeqsz",
+  "src": "Reddit",
+  "title": "[FOR HIRE] Mixing and mastering engineer. | Audio editing, vocal clean up, over-all mixdown.",
+  "text": "I’ve been mixing, mastering, and producing for 8 years, mainly rock and heavy metal, but also funk, hip-hop, R&amp;B, and more. My job is to take your track from demo-quality to rock solid. What I can help with: Mixing: balancing vocals, drums, bass, and instruments so your song sounds full and clear. Vocal production: tuning, timing edits, comping, de-essing, and effects that make vocals sit prop",
+  "link": "https://www.reddit.com/r/forhire/comments/1xfeqsz/for_hire_mixing_and_mastering_engineer_audio/",
+  "ok": false,
+  "why": "заголовок: for hire"
+ },
+ {
+  "id": "t3_1xfbbn8",
+  "src": "Reddit",
+  "title": "[METAL] STREET OF RAGE 2 - Metal Tribute: I had to bleed through countless edits to fix all the mistakes made by Suno V6 just to bring this tribute to life. 🤘🔥",
+  "text": "I went through hell to get Suno V6 to deliver a decent cover of this classic. 🤘 I spent hours trying to fix its flaws through editing and mastering in REAPER. In the end, I decided to release it as a demo for now. Hopefully, Suno will improve over time, allowing me to create an even better version with heavier guitars. Suno V6 just can&#39;t deliver the heavy guitar tone I&#39;m looking for... yet",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfbbn8/metal_street_of_rage_2_metal_tribute_i_had_to/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xf84r8",
