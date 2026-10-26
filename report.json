@@ -1,5 +1,23 @@
 [
  {
+  "id": "t3_1xfnp47",
+  "src": "Reddit",
+  "title": "[Midwest Emo] \"Gave You Away\" by Old Colony. My voice, my recorded guitar, my lyrics",
+  "text": "&#32; submitted by &#32; /u/spazzachussetts &#32; to &#32; r/SunoAI [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnp47/midwest_emo_gave_you_away_by_old_colony_my_voice/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xfnmdy",
+  "src": "Reddit",
+  "title": "Suno v6 Prompts: Complete Guide With Copy-and-Paste Examples",
+  "text": "v6 responds differently than older versions. It’s way more literal about style, structure, and mood — vague prompts give generic results. Specific, clear instructions get you pro-level tracks. Also, it handles longer descriptions and genre details much better now. Basic Prompt Template (Copy This) Start here, then tweak it: Genre: [your genre] Style/Vibe: [e.g. warm, gritty, dreamy, high-energy] I",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfnmdy/suno_v6_prompts_complete_guide_with_copyandpaste/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xfeqsz",
   "src": "Reddit",
   "title": "[FOR HIRE] Mixing and mastering engineer. | Audio editing, vocal clean up, over-all mixdown.",
@@ -16,24 +34,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xfbbn8/metal_street_of_rage_2_metal_tribute_i_had_to/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xf84r8",
-  "src": "Reddit",
-  "title": "Beginner bassist looking for an experienced bassist or drummer to practice with and get honest feedback",
-  "text": "Hey everyone! I’m a complete beginner on bass guitar and I’m hoping to connect with an experienced bassist, drummer, or musician who wouldn’t mind helping a motivated beginner improve. A little about me: I’m an adult learner with a full-time job and family, and I’ve finally started pursuing something I’ve wanted to do for a long time! My ultimate goal is to become a competent, band-ready bassist w",
-  "link": "https://www.reddit.com/r/musicians/comments/1xf84r8/beginner_bassist_looking_for_an_experienced/",
-  "ok": false,
-  "why": "заголовок: feedback"
- },
- {
-  "id": "t3_1xf7pej",
-  "src": "Reddit",
-  "title": "Looking for band mates in the central Florida area",
-  "text": "I’m looking for people interested in playing in a psychedelic/blues/jazz rock band (Similar style to Jimi Hendrix, Cream, the door, etc). I’m looking for players that are intermediate to advanced level. I’m looking for any type of players that have a jazz background (high school or college). We need a guitarist, drummer and keys if possible. I play bass guitar and also sing. Im slowly establishing",
-  "link": "https://www.reddit.com/r/musicians/comments/1xf7pej/looking_for_band_mates_in_the_central_florida_area/",
-  "ok": false,
-  "why": "группа / концерт"
  },
  {
   "id": "t3_1xfhn1s",
@@ -889,6 +889,24 @@
   "link": "https://www.reddit.com/r/NativeInstruments/comments/1u1menj/session_guitarist_picked_acoustic_kontakt/",
   "ok": false,
   "why": "заголовок: kontakt"
+ },
+ {
+  "id": "t3_1xf84r8",
+  "src": "Reddit",
+  "title": "Beginner bassist looking for an experienced bassist or drummer to practice with and get honest feedback",
+  "text": "Hey everyone! I’m a complete beginner on bass guitar and I’m hoping to connect with an experienced bassist, drummer, or musician who wouldn’t mind helping a motivated beginner improve. A little about me: I’m an adult learner with a full-time job and family, and I’ve finally started pursuing something I’ve wanted to do for a long time! My ultimate goal is to become a competent, band-ready bassist w",
+  "link": "https://www.reddit.com/r/musicians/comments/1xf84r8/beginner_bassist_looking_for_an_experienced/",
+  "ok": false,
+  "why": "заголовок: feedback"
+ },
+ {
+  "id": "t3_1xf7pej",
+  "src": "Reddit",
+  "title": "Looking for band mates in the central Florida area",
+  "text": "I’m looking for people interested in playing in a psychedelic/blues/jazz rock band (Similar style to Jimi Hendrix, Cream, the door, etc). I’m looking for players that are intermediate to advanced level. I’m looking for any type of players that have a jazz background (high school or college). We need a guitarist, drummer and keys if possible. I play bass guitar and also sing. Im slowly establishing",
+  "link": "https://www.reddit.com/r/musicians/comments/1xf7pej/looking_for_band_mates_in_the_central_florida_area/",
+  "ok": false,
+  "why": "группа / концерт"
  },
  {
   "id": "t3_1xf68e8",
