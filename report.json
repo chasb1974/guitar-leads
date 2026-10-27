@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xgf4bi",
+  "src": "Reddit",
+  "title": "[Synth-Rock] Living in My World Tonight",
+  "text": "Hey everyone! I just published this track today. I wanted to break away from the usual linear pop song formulas and create something deeply theatrical. It&#39;s a blend of Synth-Rock, Gothic Opera, and Neo-Classical Power Metal. What to listen for: The biggest challenge was the mid-song transition. I guided the AI to build up massive energy with a hyper-fast Herman Li-style guitar shredding on a C",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xgf4bi/synthrock_living_in_my_world_tonight/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xg9oc3",
   "src": "Reddit",
   "title": "[Alternative Grunge] Night of Halloween by Echoes of Justice",
@@ -34,24 +43,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xg2k91/poprock_greenwich_bells_by_the_the_melodic_wasps/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xfzfyc",
-  "src": "Reddit",
-  "title": "Heavy Metal creation process on V6",
-  "text": "As many around here have said, Suno V6 has some difficulty creating Heavy Metal songs—I agree partially with this assessment. Let me explain: I&#39;m not a musician, I just play guitar as a hobby and know a tiny bit about music theory, but I love using Suno to make music I enjoy and share it with family and friends. Since I love a good challenge, I tried my hand at Heavy Metal. After working on it",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfzfyc/heavy_metal_creation_process_on_v6/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xfz9cy",
-  "src": "Reddit",
-  "title": "Musicians and ghosting. Your worst experiences",
-  "text": "I was invited into a new band at the beginning of the year. Everyone got on great and we collaborated online on a handful of songs. After about 6 months we have our first practice and audition a 2 nd guitarist who was a friend of the band leader. All goes well, everyone is happy with the band, the guitarist joins, so we have a full line up, a setlist and are good to go. A week and half later the l",
-  "link": "https://www.reddit.com/r/musicians/comments/1xfz9cy/musicians_and_ghosting_your_worst_experiences/",
-  "ok": false,
-  "why": "никто не ищет"
  },
  {
   "id": "t3_1xgat10",
@@ -898,6 +889,24 @@
   "link": "https://www.reddit.com/r/Music/comments/1u2zol3/need_guitaristpianist_chennai/",
   "ok": false,
   "why": "не про запись"
+ },
+ {
+  "id": "t3_1xfzfyc",
+  "src": "Reddit",
+  "title": "Heavy Metal creation process on V6",
+  "text": "As many around here have said, Suno V6 has some difficulty creating Heavy Metal songs—I agree partially with this assessment. Let me explain: I&#39;m not a musician, I just play guitar as a hobby and know a tiny bit about music theory, but I love using Suno to make music I enjoy and share it with family and friends. Since I love a good challenge, I tried my hand at Heavy Metal. After working on it",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfzfyc/heavy_metal_creation_process_on_v6/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xfz9cy",
+  "src": "Reddit",
+  "title": "Musicians and ghosting. Your worst experiences",
+  "text": "I was invited into a new band at the beginning of the year. Everyone got on great and we collaborated online on a handful of songs. After about 6 months we have our first practice and audition a 2 nd guitarist who was a friend of the band leader. All goes well, everyone is happy with the band, the guitarist joins, so we have a full line up, a setlist and are good to go. A week and half later the l",
+  "link": "https://www.reddit.com/r/musicians/comments/1xfz9cy/musicians_and_ghosting_your_worst_experiences/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1u25em7",
