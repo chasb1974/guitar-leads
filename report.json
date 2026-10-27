@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xg9oc3",
+  "src": "Reddit",
+  "title": "[Alternative Grunge] Night of Halloween by Echoes of Justice",
+  "text": "Halloween is almost here, so I wanted to share a spooky song with a slightly ridiculous twist. 🎃🦇 “Night of Halloween” blends a creepy, slightly off-key music-box melody with driving punk rhythms, heavy distorted guitars, and raspy vocals. The lyrics follow a neighborhood full of monsters who steal snacks, rearrange furniture, and generally cause chaos without actually being all that scary. 😂 What",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xg9oc3/alternative_grunge_night_of_halloween_by_echoes/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xg44i2",
   "src": "Reddit",
   "title": "Lola Guitar question?",
@@ -45,22 +54,13 @@
   "why": "никто не ищет"
  },
  {
-  "id": "t3_1xfufi0",
-  "src": "Reddit",
-  "title": "[metal] Dead Man Walking - used a personal voice note sample upload guide to Suno",
-  "text": "I had a riff idea that I recorded on the iPhone. Uploaded to Suno. Used chatGPT to help write the prompts, and experimented with weirdness, style and Wild vs Pro. Yes the guitar sound is far from perfect. I can’t imagine how amazing this would have sounded in 4.5/5/5.5 - oh well. Here it is anyway. https://www.youtube.com/watch?v=9CqKMhGq4kE &#32; submitted by &#32; /u/silkysmoozz &#32; to &#32; r",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfufi0/metal_dead_man_walking_used_a_personal_voice_note/",
+  "id": "t3_1xgat10",
+  "src": "поиск Reddit",
+  "title": "I know ya’ll be making music",
+  "text": "I’m a session guitarist. Been playing for 12 years. Hmu if you need one. &#32; submitted by &#32; /u/Rabidmusician &#32; to &#32; r/Hinjewadi [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/Hinjewadi/comments/1xgat10/i_know_yall_be_making_music/",
   "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xfsuu0",
-  "src": "Reddit",
-  "title": "[Dark-Synth] What Steered Me Here by Cyborgized",
-  "text": "[Intro - 8 bars; deep mono synth-bass motif, cold 16th-note sequencer, dry drum machine, distant chorused guitar] [Verse 1 - 12 bars; intimate melodic vocal, restrained groove, low synth pressure] You said I gave you nothing But a fiction dressed as fact You asked me where I found it Then demanded I take it back I know the street was never there I know the damage done But every time I tried to spe",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xfsuu0/darksynth_what_steered_me_here_by_cyborgized/",
-  "ok": false,
-  "why": "никто не ищет"
+  "why": "мусор: hmu if you need"
  },
  {
   "id": "t3_1xfhn1s",
@@ -907,6 +907,24 @@
   "link": "https://www.reddit.com/r/dayton/comments/1u25em7/rock_band_group_at_hauer_music_in_centerville/",
   "ok": false,
   "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xfufi0",
+  "src": "Reddit",
+  "title": "[metal] Dead Man Walking - used a personal voice note sample upload guide to Suno",
+  "text": "I had a riff idea that I recorded on the iPhone. Uploaded to Suno. Used chatGPT to help write the prompts, and experimented with weirdness, style and Wild vs Pro. Yes the guitar sound is far from perfect. I can’t imagine how amazing this would have sounded in 4.5/5/5.5 - oh well. Here it is anyway. https://www.youtube.com/watch?v=9CqKMhGq4kE &#32; submitted by &#32; /u/silkysmoozz &#32; to &#32; r",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfufi0/metal_dead_man_walking_used_a_personal_voice_note/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xfsuu0",
+  "src": "Reddit",
+  "title": "[Dark-Synth] What Steered Me Here by Cyborgized",
+  "text": "[Intro - 8 bars; deep mono synth-bass motif, cold 16th-note sequencer, dry drum machine, distant chorused guitar] [Verse 1 - 12 bars; intimate melodic vocal, restrained groove, low synth pressure] You said I gave you nothing But a fiction dressed as fact You asked me where I found it Then demanded I take it back I know the street was never there I know the damage done But every time I tried to spe",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xfsuu0/darksynth_what_steered_me_here_by_cyborgized/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1u1menj",
