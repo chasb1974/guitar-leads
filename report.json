@@ -1,5 +1,41 @@
 [
  {
+  "id": "t3_1xgwlok",
+  "src": "Reddit",
+  "title": "Seeking a teen producer",
+  "text": "I’ll start out with telling you about myself! My name is Ariana and I’m currently 16! I’ve been making music for about 2ish years, and while I enjoy it I find myself stuck in the beat side of things, mixing, mastering, ect. Although I find myself great with organization, motivation, guitar playing, ect. I do need to work on singing more but that comes with practice. My inspirations and more about ",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xgwlok/seeking_a_teen_producer/",
+  "ok": false,
+  "why": "мусор: my name is"
+ },
+ {
+  "id": "t3_1xgwijp",
+  "src": "Reddit",
+  "title": "Seeking a teen producer",
+  "text": "I’ll start out with telling you about myself! My name is Ariana and I’m currently 16! I’ve been making music for about 2ish years, and while I enjoy it I find myself stuck in the beat side of things, mixing, mastering, ect. Although I find myself great with organization, motivation, guitar playing, ect. I do need to work on singing more but that comes with practice. My inspirations and more about ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgwijp/seeking_a_teen_producer/",
+  "ok": false,
+  "why": "мусор: my name is"
+ },
+ {
+  "id": "t3_1xgvqcq",
+  "src": "Reddit",
+  "title": "Anyone ever leave a band to be a freelance fill in and never get called for anything?",
+  "text": "-Was in a cover band -Had a residency gig with them, but we were playing the same songs to the same 12-15 regulars at the same bar -Left to branch out, play with different people, different music, etc. -Done a total of 8 gigs this year (last year did 48, 56 the year before that) I’ll admit, I gotta get out more and network come next year…but it’s still…kind of disheartening. Anyone else experience",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgvqcq/anyone_ever_leave_a_band_to_be_a_freelance_fill/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xgvl2y",
+  "src": "Reddit",
+  "title": "Performing Songs Live & Orchestra VST’s",
+  "text": "I’ve been producing for awhile, and I think I’ve got some truly standout songs that would be fun to perform live, I know I need to walk a line between backing tracks and some live instruments, guitar and drums are no biggie, I can play them or I could find someone who could. My concern is several of my songs have orchestral parts. Modeled or sampled (like Spitfire) violas, violins, horns, cello, g",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgvl2y/performing_songs_live_orchestra_vsts/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xgnobh",
   "src": "Reddit",
   "title": "[Indie-Disco] Mirror Mind by Cyborgized",
@@ -16,24 +52,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xgkq8s/krock_symphonic_rock_my_melody_tribute_to_crom/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xgf4bi",
-  "src": "Reddit",
-  "title": "[Synth-Rock] Living in My World Tonight",
-  "text": "Hey everyone! I just published this track today. I wanted to break away from the usual linear pop song formulas and create something deeply theatrical. It&#39;s a blend of Synth-Rock, Gothic Opera, and Neo-Classical Power Metal. What to listen for: The biggest challenge was the mid-song transition. I guided the AI to build up massive energy with a hyper-fast Herman Li-style guitar shredding on a C",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xgf4bi/synthrock_living_in_my_world_tonight/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xg9oc3",
-  "src": "Reddit",
-  "title": "[Alternative Grunge] Night of Halloween by Echoes of Justice",
-  "text": "Halloween is almost here, so I wanted to share a spooky song with a slightly ridiculous twist. 🎃🦇 “Night of Halloween” blends a creepy, slightly off-key music-box melody with driving punk rhythms, heavy distorted guitars, and raspy vocals. The lyrics follow a neighborhood full of monsters who steal snacks, rearrange furniture, and generally cause chaos without actually being all that scary. 😂 What",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xg9oc3/alternative_grunge_night_of_halloween_by_echoes/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xgotib",
@@ -880,6 +898,24 @@
   "link": "https://www.reddit.com/r/nagpur/comments/1u3r5wl/looking_for_music_band_members/",
   "ok": false,
   "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xgf4bi",
+  "src": "Reddit",
+  "title": "[Synth-Rock] Living in My World Tonight",
+  "text": "Hey everyone! I just published this track today. I wanted to break away from the usual linear pop song formulas and create something deeply theatrical. It&#39;s a blend of Synth-Rock, Gothic Opera, and Neo-Classical Power Metal. What to listen for: The biggest challenge was the mid-song transition. I guided the AI to build up massive energy with a hyper-fast Herman Li-style guitar shredding on a C",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xgf4bi/synthrock_living_in_my_world_tonight/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xg9oc3",
+  "src": "Reddit",
+  "title": "[Alternative Grunge] Night of Halloween by Echoes of Justice",
+  "text": "Halloween is almost here, so I wanted to share a spooky song with a slightly ridiculous twist. 🎃🦇 “Night of Halloween” blends a creepy, slightly off-key music-box melody with driving punk rhythms, heavy distorted guitars, and raspy vocals. The lyrics follow a neighborhood full of monsters who steal snacks, rearrange furniture, and generally cause chaos without actually being all that scary. 😂 What",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xg9oc3/alternative_grunge_night_of_halloween_by_echoes/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xg44i2",
