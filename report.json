@@ -1,5 +1,23 @@
 [
  {
+  "id": "t3_1xhejv7",
+  "src": "Reddit",
+  "title": "Can you override SUNO's standard song structure?",
+  "text": "For example, I have written and uploaded (guitar+singing) a song that follows a basic Verse-Verse-Chorus-Verse-Verse-Chorus-Verse-Verse-Chorus format. The problem is, I can&#39;t correctly prompt the style or the lyric boxes to have the song played without the 4th and 5th verse, and the final chorus, being slowed down without full instrumentation. So basically, the last 1/3 of the song is played s",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xhejv7/can_you_override_sunos_standard_song_structure/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xhbxab",
+  "src": "Reddit",
+  "title": "20F, the education route. I don’t know if I can do it, but I’m going to try anyway. Advice?",
+  "text": "I went to school for music for about 5 months. Had to drop out because my living conditions became un-livable. I’ve been out of school a while now. I’m almost 21, and I haven’t returned to college since I dropped out. I really wanted to get a BA so I could be a music teacher, at least for k-12. But I’m so awful with school that I didn’t think I could do it. Not that I find work hard, the understan",
+  "link": "https://www.reddit.com/r/musicians/comments/1xhbxab/20f_the_education_route_i_dont_know_if_i_can_do/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xh7muk",
   "src": "Reddit",
   "title": "Super serious guitar question",
@@ -43,33 +61,6 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xh0jw4/tell_me_your_sick_before_a_gig_story_because_i/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xgwijp",
-  "src": "Reddit",
-  "title": "Seeking a teen producer",
-  "text": "I’ll start out with telling you about myself! My name is Ariana and I’m currently 16! I’ve been making music for about 2ish years, and while I enjoy it I find myself stuck in the beat side of things, mixing, mastering, ect. Although I find myself great with organization, motivation, guitar playing, ect. I do need to work on singing more but that comes with practice. My inspirations and more about ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xgwijp/seeking_a_teen_producer/",
-  "ok": false,
-  "why": "мусор: my name is"
- },
- {
-  "id": "t3_1xgvqcq",
-  "src": "Reddit",
-  "title": "Anyone ever leave a band to be a freelance fill in and never get called for anything?",
-  "text": "-Was in a cover band -Had a residency gig with them, but we were playing the same songs to the same 12-15 regulars at the same bar -Left to branch out, play with different people, different music, etc. -Done a total of 8 gigs this year (last year did 48, 56 the year before that) I’ll admit, I gotta get out more and network come next year…but it’s still…kind of disheartening. Anyone else experience",
-  "link": "https://www.reddit.com/r/musicians/comments/1xgvqcq/anyone_ever_leave_a_band_to_be_a_freelance_fill/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xgvl2y",
-  "src": "Reddit",
-  "title": "Performing Songs Live & Orchestra VST’s",
-  "text": "I’ve been producing for awhile, and I think I’ve got some truly standout songs that would be fun to perform live, I know I need to walk a line between backing tracks and some live instruments, guitar and drums are no biggie, I can play them or I could find someone who could. My concern is several of my songs have orchestral parts. Modeled or sampled (like Spitfire) violas, violins, horns, cello, g",
-  "link": "https://www.reddit.com/r/musicians/comments/1xgvl2y/performing_songs_live_orchestra_vsts/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xgotib",
@@ -916,6 +907,33 @@
   "link": "https://www.reddit.com/r/nagpur/comments/1u3r5wl/looking_for_music_band_members/",
   "ok": false,
   "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xgwijp",
+  "src": "Reddit",
+  "title": "Seeking a teen producer",
+  "text": "I’ll start out with telling you about myself! My name is Ariana and I’m currently 16! I’ve been making music for about 2ish years, and while I enjoy it I find myself stuck in the beat side of things, mixing, mastering, ect. Although I find myself great with organization, motivation, guitar playing, ect. I do need to work on singing more but that comes with practice. My inspirations and more about ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgwijp/seeking_a_teen_producer/",
+  "ok": false,
+  "why": "мусор: my name is"
+ },
+ {
+  "id": "t3_1xgvqcq",
+  "src": "Reddit",
+  "title": "Anyone ever leave a band to be a freelance fill in and never get called for anything?",
+  "text": "-Was in a cover band -Had a residency gig with them, but we were playing the same songs to the same 12-15 regulars at the same bar -Left to branch out, play with different people, different music, etc. -Done a total of 8 gigs this year (last year did 48, 56 the year before that) I’ll admit, I gotta get out more and network come next year…but it’s still…kind of disheartening. Anyone else experience",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgvqcq/anyone_ever_leave_a_band_to_be_a_freelance_fill/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xgvl2y",
+  "src": "Reddit",
+  "title": "Performing Songs Live & Orchestra VST’s",
+  "text": "I’ve been producing for awhile, and I think I’ve got some truly standout songs that would be fun to perform live, I know I need to walk a line between backing tracks and some live instruments, guitar and drums are no biggie, I can play them or I could find someone who could. My concern is several of my songs have orchestral parts. Modeled or sampled (like Spitfire) violas, violins, horns, cello, g",
+  "link": "https://www.reddit.com/r/musicians/comments/1xgvl2y/performing_songs_live_orchestra_vsts/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xgwlok",
