@@ -1,10 +1,10 @@
 [
  {
-  "id": "t3_1xhnuve",
+  "id": "t3_1xhsblu",
   "src": "Reddit",
-  "title": "It really sucks getting kicked out of a band because one person hates your guts and everyone sides with them",
-  "text": "So I’ve had this best friend for probably five years now and I joined his band last year. I struggle with substance abuse and mental illness but not to the extent where I would deserve being kicked out and marooned from my entire social life. This guy is also an alcoholic and potentially a narcissist given the way he belittled me, using the band to make me feel small and unworthy. He said it himse",
-  "link": "https://www.reddit.com/r/musicians/comments/1xhnuve/it_really_sucks_getting_kicked_out_of_a_band/",
+  "title": "Should I try many instruments or stick to only one? Should I learn flute from scratch?",
+  "text": "I&#39;m 18, and I have been playing guitar for almost 3 years now, as the first instrument I really put in effort. I love it so much, I don&#39;t spend a day without playing, trying to write songs, or practice a solo. I&#39;m not particularly good tho, i can learn most song&#39;s chords, but I can strugle sometimes, expecially with bossa nova, samba or jazz songs. However, I have been feeling very",
+  "link": "https://www.reddit.com/r/musicians/comments/1xhsblu/should_i_try_many_instruments_or_stick_to_only/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -34,42 +34,6 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xhgv0u/wireless_pedalboard_help/",
   "ok": false,
   "why": "заголовок: pedal"
- },
- {
-  "id": "t3_1xhejv7",
-  "src": "Reddit",
-  "title": "Can you override SUNO's standard song structure?",
-  "text": "For example, I have written and uploaded (guitar+singing) a song that follows a basic Verse-Verse-Chorus-Verse-Verse-Chorus-Verse-Verse-Chorus format. The problem is, I can&#39;t correctly prompt the style or the lyric boxes to have the song played without the 4th and 5th verse, and the final chorus, being slowed down without full instrumentation. So basically, the last 1/3 of the song is played s",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xhejv7/can_you_override_sunos_standard_song_structure/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xhbxab",
-  "src": "Reddit",
-  "title": "20F, the education route. I don’t know if I can do it, but I’m going to try anyway. Advice?",
-  "text": "I went to school for music for about 5 months. Had to drop out because my living conditions became un-livable. I’ve been out of school a while now. I’m almost 21, and I haven’t returned to college since I dropped out. I really wanted to get a BA so I could be a music teacher, at least for k-12. But I’m so awful with school that I didn’t think I could do it. Not that I find work hard, the understan",
-  "link": "https://www.reddit.com/r/musicians/comments/1xhbxab/20f_the_education_route_i_dont_know_if_i_can_do/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xh7muk",
-  "src": "Reddit",
-  "title": "Super serious guitar question",
-  "text": "Am i even allowed to call myself a guitar player if I&#39;ve never had any interest in owning a second guitar or any pedals whatsoever? &#32; submitted by &#32; /u/magicfishhandz &#32; to &#32; r/musicians [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/musicians/comments/1xh7muk/super_serious_guitar_question/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xh6k4f",
-  "src": "Reddit",
-  "title": "Advice for how to not get nervous performing?",
-  "text": "I am gonna perform at an open mic next week! I set a date so I can prepare but it should be pretty chill. I’ve been practicing three songs and felt pretty confident abt them but when I brought them to my guitar teacher, who I’ve been going to for two years, I froze up! I’m a dancer so I perform often but for some reason I’m so nervous. Any advice? &#32; submitted by &#32; /u/hhikj20 &#32; to &#32;",
-  "link": "https://www.reddit.com/r/musicians/comments/1xh6k4f/advice_for_how_to_not_get_nervous_performing/",
-  "ok": false,
-  "why": "заголовок: how to "
  },
  {
   "id": "t3_1xgotib",
@@ -916,6 +880,51 @@
   "link": "https://www.reddit.com/r/nagpur/comments/1u3r5wl/looking_for_music_band_members/",
   "ok": false,
   "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xhnuve",
+  "src": "Reddit",
+  "title": "It really sucks getting kicked out of a band because one person hates your guts and everyone sides with them",
+  "text": "So I’ve had this best friend for probably five years now and I joined his band last year. I struggle with substance abuse and mental illness but not to the extent where I would deserve being kicked out and marooned from my entire social life. This guy is also an alcoholic and potentially a narcissist given the way he belittled me, using the band to make me feel small and unworthy. He said it himse",
+  "link": "https://www.reddit.com/r/musicians/comments/1xhnuve/it_really_sucks_getting_kicked_out_of_a_band/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xhejv7",
+  "src": "Reddit",
+  "title": "Can you override SUNO's standard song structure?",
+  "text": "For example, I have written and uploaded (guitar+singing) a song that follows a basic Verse-Verse-Chorus-Verse-Verse-Chorus-Verse-Verse-Chorus format. The problem is, I can&#39;t correctly prompt the style or the lyric boxes to have the song played without the 4th and 5th verse, and the final chorus, being slowed down without full instrumentation. So basically, the last 1/3 of the song is played s",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xhejv7/can_you_override_sunos_standard_song_structure/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xhbxab",
+  "src": "Reddit",
+  "title": "20F, the education route. I don’t know if I can do it, but I’m going to try anyway. Advice?",
+  "text": "I went to school for music for about 5 months. Had to drop out because my living conditions became un-livable. I’ve been out of school a while now. I’m almost 21, and I haven’t returned to college since I dropped out. I really wanted to get a BA so I could be a music teacher, at least for k-12. But I’m so awful with school that I didn’t think I could do it. Not that I find work hard, the understan",
+  "link": "https://www.reddit.com/r/musicians/comments/1xhbxab/20f_the_education_route_i_dont_know_if_i_can_do/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xh7muk",
+  "src": "Reddit",
+  "title": "Super serious guitar question",
+  "text": "Am i even allowed to call myself a guitar player if I&#39;ve never had any interest in owning a second guitar or any pedals whatsoever? &#32; submitted by &#32; /u/magicfishhandz &#32; to &#32; r/musicians [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/musicians/comments/1xh7muk/super_serious_guitar_question/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xh6k4f",
+  "src": "Reddit",
+  "title": "Advice for how to not get nervous performing?",
+  "text": "I am gonna perform at an open mic next week! I set a date so I can prepare but it should be pretty chill. I’ve been practicing three songs and felt pretty confident abt them but when I brought them to my guitar teacher, who I’ve been going to for two years, I froze up! I’m a dancer so I perform often but for some reason I’m so nervous. Any advice? &#32; submitted by &#32; /u/hhikj20 &#32; to &#32;",
+  "link": "https://www.reddit.com/r/musicians/comments/1xh6k4f/advice_for_how_to_not_get_nervous_performing/",
+  "ok": false,
+  "why": "заголовок: how to "
  },
  {
   "id": "t3_1xh3yu6",
