@@ -233,6 +233,7 @@ def check_mail(seen, quiet):
 
 # ---- AIRGIGS: доска проектов «Artists Wanted», категория Guitar (открыта без входа) ----
 AG_BASE = "https://www.airgigs.com"
+AG_MAX_DAYS = 3        # проекты старше стольки дней не присылаем: отклик на AirGigs стоит кредитов, на старые заказы он почти не окупается
 AG_PAGES = 3          # сколько страниц категории Guitar смотреть (пока там всего 5 проектов)
 # Не наше: уроки, расшифровка нот, набор в группу, работа без оплаты
 AG_SKIP_TITLE_RE = re.compile(r"transcri|sheet music|\btabs?\b|tablature|lead sheet|\blessons?\b")
@@ -267,6 +268,8 @@ def ag_list(page):
 def ag_job(jid):
     """Полный проект: (заголовок, жанры, описание)."""
     html = get(f"{AG_BASE}/job/{jid}").decode("utf-8", "replace")
+    m = re.search(r"Posted On\s*<span>([^<]+)</span>", html)
+    posted = m.group(1).strip() if m else ""
     m = re.search(r'<h2 style="word-wrap: break-word;">(.*?)</h2>', html, re.S)
     title = clean(m.group(1)) if m else ""
     m = re.search(r'<p class="item_label">(.*?)</p>', html, re.S)
@@ -280,7 +283,15 @@ def ag_job(jid):
     body = re.sub(r"\s+", " ", body).strip()
     if title and body.startswith(title):
         body = body[len(title):].strip()
-    return title, genres, body
+    return title, genres, body, posted
+
+def ag_age_days(posted):
+    """Сколько дней назад опубликован проект (None, если дату не удалось прочитать)."""
+    try:
+        d = time.strptime(posted, "%b %d, %Y")
+        return int((time.time() - time.mktime(d)) // 86400)
+    except Exception:
+        return None
 
 def ag_why_not(title, body):
     t = (title + " " + body).lower()
@@ -309,15 +320,18 @@ def ag_check(seen, quiet):
         return out, True
     for i, t in fresh[:40]:
         try:
-            title, genres, body = ag_job(i)
+            title, genres, body, posted = ag_job(i)
         except Exception as e:
             print("AirGigs проект", i, e)
             continue
         time.sleep(2)
         why = ag_why_not(title or t, body)
+        age = ag_age_days(posted)
+        if not why and age is not None and age > AG_MAX_DAYS:
+            why = f"старый: {age} дн."
         print("AirGigs", i, (title or t)[:50], "->", why or "ОК")
         if not why:
-            out.append((title or t, genres, body[:700], f"{AG_BASE}/job/{i}"))
+            out.append((title or t, genres, body[:700], f"{AG_BASE}/job/{i}", posted))
     return out, True
 
 def main():
@@ -386,9 +400,9 @@ def main():
             known.add("airgigs")
             if aquiet:
                 send("🎯 Подключил доску проектов AirGigs. Буду присылать новые заказы про гитару.")
-        for title, genres, body, link in ag_jobs[:10]:
+        for title, genres, body, link, posted in ag_jobs[:10]:
             tr = ru(f"{title}\n\n{body}")
-            msg = f"🎯 AirGigs: {title}" + (f"\nЖанры: {genres}" if genres else "") + f"\n\n{body}"
+            msg = f"🎯 AirGigs: {title}" + (f"\nОпубликовано: {posted}" if posted else "") + (f"\nЖанры: {genres}" if genres else "") + f"\n\n{body}"
             if tr:
                 msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
             send(f"{msg}\n\n{link}"[:4000])
