@@ -300,6 +300,18 @@ def ag_why_not(title, body):
         return "мусор: " + m.group(0)
     return ""
 
+LEADS_FILE = "leads.json"
+
+def save_leads(items):
+    """Добавляет новые заказы в leads.json (последние 150). Письма сюда НЕ пишем: репозиторий публичный."""
+    try:
+        old = json.load(open(LEADS_FILE, encoding="utf-8"))
+    except Exception:
+        old = []
+    have = {x.get("link") for x in old}
+    new = [x for x in items if x["link"] not in have]
+    json.dump((new + old)[:150], open(LEADS_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+
 def ag_check(seen, quiet):
     """Новые проекты AirGigs про гитару: [(заголовок, жанры, текст, ссылка)]."""
     out = []
@@ -344,6 +356,8 @@ def main():
     seen = set(st["ids"])
     found, ok, fails = [], 0, 0
     report = []
+    leads = []
+    nowz = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
     for key, name, url in feeds():
         try:
@@ -406,6 +420,7 @@ def main():
             if tr:
                 msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
             send(f"{msg}\n\n{link}"[:4000])
+            leads.append({"src": "AirGigs", "title": title, "body": body[:500], "tr": tr, "link": link, "at": nowz})
     except Exception as e:
         print("Ошибка AirGigs", e)
         if st.get("ag_err_day") != time.strftime("%Y-%m-%d"):
@@ -438,7 +453,11 @@ def main():
             if tr:
                 msg += f"\n\n🇷🇺 ПЕРЕВОД:\n{tr}"
             send(f"{msg}\n\n{link}"[:4000])
+            leads.append({"src": name, "title": title, "body": body, "tr": tr, "link": link, "at": nowz})
+        for name, title, body, link in found[15:40]:
+            leads.append({"src": name, "title": title, "body": body, "tr": "", "link": link, "at": nowz})
 
+    save_leads(leads)
     today = time.strftime("%Y-%m-%d")
     if ok == 0 and st.get("err_day") != today:
         send("⚠️ Reddit не отвечает боту (возможна блокировка). Напиши Claude.")
