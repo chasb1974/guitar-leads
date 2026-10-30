@@ -1,19 +1,46 @@
 [
  {
+  "id": "t3_1xjhplu",
+  "src": "Reddit",
+  "title": "Band too talented?",
+  "text": "I joined a band a few months ago and they’re quite far from me travel wise but I wanted to make it work because it took me ages to join a band. Basically I joined as a rhythm guitarist and I met up with the singer once and we agreed that I’m not really the greatest (I learnt more acoustic fingerpicking style but I want to be in a metal band) so a week ago I started learning the bass since we were ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xjhplu/band_too_talented/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xjhc38",
+  "src": "Reddit",
+  "title": "tips for starting out??",
+  "text": "i really wanna learn instrumenta and music in general, but learning chords and notes are like incredibly hard for me, i&#39;m not really the type of person to read something and go &quot; oh it goes like this &quot; , I&#39;m more usually like relying on my senses and instincts?? Like, if someone sings different pitches, it rises and goes down like a graph? &quot; you probably learn by ear if you ",
+  "link": "https://www.reddit.com/r/musicians/comments/1xjhc38/tips_for_starting_out/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xjf2v1",
+  "src": "Reddit",
+  "title": "I don't understand what people mean when they say they have melodies in their head",
+  "text": "I&#39;ve been practicing guitar for about a year now and have recently gotten into the idea of writing my own music, but it has been a major struggle. The commonly repeated advice of &quot;hear the melody in your head and then just write it&quot; is something I see everyday but I just don&#39;t get it. I don&#39;t randomly hear melodies in my head. If I do, it&#39;s because it&#39;s from a song I ",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xjf2v1/i_dont_understand_what_people_mean_when_they_say/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xjcsor",
+  "src": "Reddit",
+  "title": "[Alternative rock] La fine",
+  "text": "Hi everyone! I wanted to share a song I made with Suno. It&#39;s an Italian alternative rock ballad, written and sung by me, then built out in Suno. The song is about how divided and violent the world feels, and about how easily we judge others without looking at ourselves first. It starts sad and fragile, turns into anger, and ends with a small glimpse of hope. https://suno.com/s/LwopfBFF9wZS3bqB",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xjcsor/alternative_rock_la_fine/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xj9ms8",
   "src": "Reddit",
   "title": "[Melodic Gothic Metal] Let Me Remember You by Teutarya",
   "text": "I like this song very much and like to share it - and also would like to know if others also like it OR if NOT - please say why not. I am very interested in your meanings. Let Me Remember You — symphonic gothic metal about love, hunger, and letting go. Serenya could bind him to the night. Instead, she opens the door to morning. “One more breath, I let you go.” A smoky female voice, mournful cello ",
   "link": "https://www.reddit.com/r/SunoAI/comments/1xj9ms8/melodic_gothic_metal_let_me_remember_you_by/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xj7p65",
-  "src": "Reddit",
-  "title": "stuck in a limbo of sorts. Any advice or input?",
-  "text": "Hello! im a small music producer and maker. Ive been producing for about 2 and a half years now, been playing instruments for almost 8. For the better part of the past year and a half, I have been stuck in this creative limbo with producing and making songs. Im allgood when it comes to the writing and the story, but when it comes to arranging the songs on my daw (flstudio) i get into this loop of ",
-  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xj7p65/stuck_in_a_limbo_of_sorts_any_advice_or_input/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -34,15 +61,6 @@
   "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xj23r2/going_insane_any_tips_for_home_recording/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xiwur5",
-  "src": "Reddit",
-  "title": "[Electronic Funk] The Painting Game by Tedd Stone – A Dark Story with a Funky Groove",
-  "text": "My latest Tedd Stone song, The Painting Game , is part of an ongoing music project exploring the darker dynamics of human relationships, both during a relationship and after it ends. I&#39;m particularly interested in how certain personality traits and dysfunctional patterns can remain hidden for years, only to surface when life becomes difficult, relationships break down, or people feel they are ",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xiwur5/electronic_funk_the_painting_game_by_tedd_stone_a/",
-  "ok": false,
-  "why": "заголовок: tone"
  },
  {
   "id": "t3_1xgotib",
@@ -889,6 +907,24 @@
   "link": "https://www.reddit.com/r/nagpur/comments/1u3r5wl/looking_for_music_band_members/",
   "ok": false,
   "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xj7p65",
+  "src": "Reddit",
+  "title": "stuck in a limbo of sorts. Any advice or input?",
+  "text": "Hello! im a small music producer and maker. Ive been producing for about 2 and a half years now, been playing instruments for almost 8. For the better part of the past year and a half, I have been stuck in this creative limbo with producing and making songs. Im allgood when it comes to the writing and the story, but when it comes to arranging the songs on my daw (flstudio) i get into this loop of ",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xj7p65/stuck_in_a_limbo_of_sorts_any_advice_or_input/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xiwur5",
+  "src": "Reddit",
+  "title": "[Electronic Funk] The Painting Game by Tedd Stone – A Dark Story with a Funky Groove",
+  "text": "My latest Tedd Stone song, The Painting Game , is part of an ongoing music project exploring the darker dynamics of human relationships, both during a relationship and after it ends. I&#39;m particularly interested in how certain personality traits and dysfunctional patterns can remain hidden for years, only to surface when life becomes difficult, relationships break down, or people feel they are ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xiwur5/electronic_funk_the_painting_game_by_tedd_stone_a/",
+  "ok": false,
+  "why": "заголовок: tone"
  },
  {
   "id": "t3_1xj12ui",
