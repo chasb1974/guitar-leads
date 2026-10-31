@@ -10,38 +10,52 @@ SUBS = ["SunoAI", "udiomusic", "WeAreTheMusicMakers", "musicians",
         "songwriters", "makingmusic", "HireAMusician", "forhire"]
 # Вторая лента: отдельным запросом, чтобы не вытеснять посты из основной (лимит 100 записей на ленту)
 SUBS2 = ["Songwriting", "singersongwriter", "indieheads_music", "recordingstudio"]
+# Поиск на других языках (es, pt, de, fr, tr, it)
+SEARCH2 = ["busco guitarrista", "necesito guitarrista", "guitarrista para grabar",
+           "procuro guitarrista", "preciso de guitarrista", "guitarrista para gravar",
+           "suche Gitarristen", "Gitarrist gesucht", "Gitarrist für Aufnahme",
+           "cherche guitariste", "guitariste pour enregistrer", "gitarist aranıyor",
+           "cerco chitarrista"]
 SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
 # ---- ЧТО ИСКАТЬ ----
 # Нужны люди, которые хотят ЗАПИСАТЬ гитару в свой трек (не уроки, не "в группу", не концерт).
-GUITAR = ["guitar", "гитар"]
+GUITAR = ["guitar", "гитар", "gitar", "chitar"]   # en/es/pt/fr, de/tr, it
 # Ищут именно гитариста / гитарную партию
 SEEK_RE = re.compile(r"guitarists?\b|guitar players?\b|someone to play guitar|play (?:the |some )?guitars? on|"
                      r"guitar parts?\b|guitar tracks?\b|real guitars?\b|live guitars?\b|human guitar|"
-                     r"гитарист|живую гитару|живая гитара|партию гитары|гитарную партию")
+                     r"гитарист|живую гитару|живая гитара|партию гитары|гитарную партию|"
+                     r"guitarrista|guitariste|gitarrist|gitarist|chitarrista|guitarra real|guitarra en vivo")
 # Признаки записи в трек (а не выступления)
 REC_RE = re.compile(r"\brecord(?:ing|ed)?\b|re-?record|\btracks?\b|my song|my demo|my album|\bep\b|"
                     r"\bsuno\b|\budio\b|\bai[- ](?:song|track|music|generated)|\bstems?\b|\bremote(?:ly)?\b|"
                     r"\bonline\b|\bsolo on\b|\breplace\b|"
-                    r"запис|трек|удал[её]нн|онлайн")
+                    r"запис|трек|удал[её]нн|онлайн|"
+                    r"grabar|grabaci[oó]n|gravar|grava[cç][aã]o|aufnehm|aufnahme|enregistr|"
+                    r"kay[ıi]t|registrare|registrazione|pista|faixa|spur")
 # Кто-то ИЩЕТ (а не предлагает и не рассказывает)
 ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeded\b|\bwanted\b|\bhire\b|\bhiring\b|"
                     r"\banyone (?:who|here|that|able|willing|can|could|want)|"
                     r"\bwho can\b|\bcan someone\b|\bwould someone\b|\bsearching for\b|"
-                    r"ищу|ищем|нужен|нужна|требуется|кто может|кто сможет")
+                    r"ищу|ищем|нужен|нужна|требуется|кто может|кто сможет|"
+                    r"\bbusco\b|\bbuscamos\b|\bnecesito\b|\bprocuro\b|\bpreciso\b|\bprocuramos\b|"
+                    r"\bsuche\b|\bsuchen\b|\bgesucht\b|\bbrauche\b|\bcherche\b|\bcherchons\b|"
+                    r"\bcerco\b|\bcerchiamo\b|aran[ıi]yor|\barıyorum\b|\bnecesitamos\b")
 # Признаки живых выступлений / набора в группу
-LIVE_RE = re.compile(r"\bband\b|bandmates|band members|\bgigs?\b|private event|tonight|"
+LIVE_RE = re.compile(r"\bband\b|\bbanda\b|\bgruppe\b|\bgroupe\b|\bgruppo\b|bandmates|band members|\bgigs?\b|private event|tonight|"
                      r"live opportunit|cover band|wedding|audition|в группу|кавер|концерт|выступлен")
 # Признаки оплаты (целые слова, чтобы "rate" не ловилось в "generated")
 MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\busd\b|€|£|"
                       r"\bfee\b|\brates?\b|\bcompensat|\bhire\b|\bhiring\b|"
-                      r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b")
+                      r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b|"
+                      r"\bpago\b|\bpagar\b|\bpagamos\b|remunerad|bezahl|\bpay[eé]\b|r[eé]mun[eé]r|"
+                      r"\bücret|\bpagato\b|\bcompenso\b")
 # Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё, реклама
 SKIP_TITLE = ["for hire", "[offer]", "feedback", "review", "rate my", "check out",
               "my new song", "my new track", "tutorial", "how do i", "how to ",
               "plugin", "preset", "free download", "giveaway", "kontakt", "sale",
-              "looking for gigs", "who needs a", "what amp", "pedal", " vs ", "tone"]
+              "looking for gigs", "who needs a", "izotope", "de-noiser", "denoiser", "alternatives", "what amp", "pedal", " vs ", "tone"]
 # Мусор в ЛЮБОМ месте: уроки, без денег, предложение своих услуг
 SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offering",
         "i am a session", "i'm a session", "guitar lessons", "guitar teacher", "teach guitar",
@@ -107,6 +121,9 @@ def feeds():
                              + "/new/.rss?limit=100")
     yield "subs2", "Reddit 2", ("https://www.reddit.com/r/" + "+".join(SUBS2)
                                 + "/new/.rss?limit=100")
+    q2 = " OR ".join(f'"{x}"' for x in SEARCH2)
+    yield "search2", "поиск Reddit (языки)", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
+                                              + urllib.parse.quote(q2))
     q = " OR ".join(f'"{x}"' for x in SEARCH)
     yield "search", "поиск Reddit", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
                                      + urllib.parse.quote(q))
