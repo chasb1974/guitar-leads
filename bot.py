@@ -16,24 +16,31 @@ SEARCH2 = ["busco guitarrista", "necesito guitarrista", "guitarrista para grabar
            "suche Gitarristen", "Gitarrist gesucht", "Gitarrist für Aufnahme",
            "cherche guitariste", "guitariste pour enregistrer", "gitarist aranıyor",
            "cerco chitarrista"]
+# Поиск на китайском, корейском и японском
+SEARCH3 = ["找吉他手", "招募吉他手", "需要吉他手", "吉他手录音",
+           "기타리스트 구함", "기타리스트 구합니다", "기타 녹음", "기타리스트 찾습니다",
+           "ギタリスト募集", "ギタリストを探して", "ギター録音", "ギター 弾いてくれる"]
 SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
 # ---- ЧТО ИСКАТЬ ----
 # Нужны люди, которые хотят ЗАПИСАТЬ гитару в свой трек (не уроки, не "в группу", не концерт).
-GUITAR = ["guitar", "гитар", "gitar", "chitar"]   # en/es/pt/fr, de/tr, it
+GUITAR = ["guitar", "гитар", "gitar", "chitar",   # en/es/pt/fr, de/tr, it
+          "吉他", "기타리스트", "기타 녹음", "기타 연주", "기타 파트", "ギター", "ギタリスト"]   # zh, ko, ja
 # Ищут именно гитариста / гитарную партию
 SEEK_RE = re.compile(r"guitarists?\b|guitar players?\b|someone to play guitar|play (?:the |some )?guitars? on|"
                      r"guitar parts?\b|guitar tracks?\b|real guitars?\b|live guitars?\b|human guitar|"
                      r"гитарист|живую гитару|живая гитара|партию гитары|гитарную партию|"
-                     r"guitarrista|guitariste|gitarrist|gitarist|chitarrista|guitarra real|guitarra en vivo")
+                     r"guitarrista|guitariste|gitarrist|gitarist|chitarrista|guitarra real|guitarra en vivo|"
+                     r"吉他手|吉他演奏|吉他录音|吉他錄音|录吉他|錄吉他|기타리스트|기타 연주자|ギタリスト|ギター録音|ギター演奏")
 # Признаки записи в трек (а не выступления)
 REC_RE = re.compile(r"\brecord(?:ing|ed)?\b|re-?record|\btracks?\b|my song|my demo|my album|\bep\b|"
                     r"\bsuno\b|\budio\b|\bai[- ](?:song|track|music|generated)|\bstems?\b|\bremote(?:ly)?\b|"
                     r"\bonline\b|\bsolo on\b|\breplace\b|"
                     r"запис|трек|удал[её]нн|онлайн|"
                     r"grabar|grabaci[oó]n|gravar|grava[cç][aã]o|aufnehm|aufnahme|enregistr|"
-                    r"kay[ıi]t|registrare|registrazione|pista|faixa|spur")
+                    r"kay[ıi]t|registrare|registrazione|pista|faixa|spur|"
+                    r"录音|錄音|录制|歌曲|编曲|녹음|곡 |録音|レコーディング|楽曲")
 # Кто-то ИЩЕТ (а не предлагает и не рассказывает)
 ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeded\b|\bwanted\b|\bhire\b|\bhiring\b|"
                     r"\banyone (?:who|here|that|able|willing|can|could|want)|"
@@ -41,16 +48,19 @@ ASK_RE = re.compile(r"\blooking for\b|\bneed\b|\bneeded\b|\bwanted\b|\bhire\b|\b
                     r"ищу|ищем|нужен|нужна|требуется|кто может|кто сможет|"
                     r"\bbusco\b|\bbuscamos\b|\bnecesito\b|\bprocuro\b|\bpreciso\b|\bprocuramos\b|"
                     r"\bsuche\b|\bsuchen\b|\bgesucht\b|\bbrauche\b|\bcherche\b|\bcherchons\b|"
-                    r"\bcerco\b|\bcerchiamo\b|aran[ıi]yor|\barıyorum\b|\bnecesitamos\b")
+                    r"\bcerco\b|\bcerchiamo\b|aran[ıi]yor|\barıyorum\b|\bnecesitamos\b|"
+                    r"找|招募|需要|寻找|尋找|征|求|구함|구합니다|구해요|찾습니다|찾아요|필요|"
+                    r"募集|探して|探しています|求む|必要")
 # Признаки живых выступлений / набора в группу
-LIVE_RE = re.compile(r"\bband\b|\bbanda\b|\bgruppe\b|\bgroupe\b|\bgruppo\b|bandmates|band members|\bgigs?\b|private event|tonight|"
+LIVE_RE = re.compile(r"乐队|樂隊|演出|婚礼|밴드|공연|합주|バンド|ライブ|\bband\b|\bbanda\b|\bgruppe\b|\bgroupe\b|\bgruppo\b|bandmates|band members|\bgigs?\b|private event|tonight|"
                      r"live opportunit|cover band|wedding|audition|в группу|кавер|концерт|выступлен")
 # Признаки оплаты (целые слова, чтобы "rate" не ловилось в "generated")
 MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\busd\b|€|£|"
                       r"\bfee\b|\brates?\b|\bcompensat|\bhire\b|\bhiring\b|"
                       r"оплат|заплач|бюджет|гонорар|за деньги|платн|₽|\bруб|тенге|\bтг\b|"
                       r"\bpago\b|\bpagar\b|\bpagamos\b|remunerad|bezahl|\bpay[eé]\b|r[eé]mun[eé]r|"
-                      r"\bücret|\bpagato\b|\bcompenso\b")
+                      r"\bücret|\bpagato\b|\bcompenso\b|"
+                      r"报酬|有偿|付费|预算|费用|¥|\d元|보수|유료|예산|사례비|\d원|페이|報酬|有償|有料|予算|謝礼|\d円")
 # Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё, реклама
 SKIP_TITLE = ["for hire", "[offer]", "feedback", "review", "rate my", "check out",
               "my new song", "my new track", "tutorial", "how do i", "how to ",
@@ -65,6 +75,7 @@ SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offerin
         "unpaid", "no budget", "for exposure", "rev share", "revenue share",
         "teach the new", "teach him", "teach them", "replacing me", "replace me",
         "leaving a band", "leaving the band", "leaving my band", "joining a band", "my bandmates",
+        "教学", "课程", "培训", "레슨", "강습", "レッスン", "講師",
         "ищу группу", "ищу коллектив", "преподавател", "педагог",
         "уроки", "бесплатно", "без оплаты"]
 # Для старой проверки Telegram-каналов
@@ -124,6 +135,9 @@ def feeds():
     q2 = " OR ".join(f'"{x}"' for x in SEARCH2)
     yield "search2", "поиск Reddit (языки)", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
                                               + urllib.parse.quote(q2))
+    q3 = " OR ".join(f'"{x}"' for x in SEARCH3)
+    yield "search3", "поиск Reddit (азия)", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
+                                             + urllib.parse.quote(q3))
     q = " OR ".join(f'"{x}"' for x in SEARCH)
     yield "search", "поиск Reddit", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
                                      + urllib.parse.quote(q))
