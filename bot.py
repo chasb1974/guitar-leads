@@ -8,6 +8,8 @@ CHAT = os.environ["TG_CHAT"]
 # ---- ГДЕ ИСКАТЬ (можно дописывать свои строки) ----
 SUBS = ["SunoAI", "udiomusic", "WeAreTheMusicMakers", "musicians",
         "songwriters", "makingmusic", "HireAMusician", "forhire"]
+# Вторая лента: отдельным запросом, чтобы не вытеснять посты из основной (лимит 100 записей на ленту)
+SUBS2 = ["Songwriting", "singersongwriter", "indieheads_music", "recordingstudio"]
 SEARCH = ["need guitarist", "session guitarist", "real guitar suno",
           "live guitar ai song", "hire guitar player"]
 
@@ -100,9 +102,11 @@ UA = {"User-Agent": "Mozilla/5.0 (guitar-leads-bot by chasb1974)"}
 A = "{http://www.w3.org/2005/Atom}"
 
 def feeds():
-    # Всё в 2 запроса, иначе Reddit отвечает 429 (слишком много запросов)
+    # Мало запросов с паузой между ними, иначе Reddit отвечает 429 (слишком много запросов)
     yield "subs", "Reddit", ("https://www.reddit.com/r/" + "+".join(SUBS)
                              + "/new/.rss?limit=100")
+    yield "subs2", "Reddit 2", ("https://www.reddit.com/r/" + "+".join(SUBS2)
+                                + "/new/.rss?limit=100")
     q = " OR ".join(f'"{x}"' for x in SEARCH)
     yield "search", "поиск Reddit", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
                                      + urllib.parse.quote(q))
