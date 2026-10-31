@@ -47,6 +47,8 @@ SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offerin
         "hmu if you need", "if you need a guitarist", "i'm a guitarist", "i am a guitarist",
         "years of experience", "my portfolio",
         "unpaid", "no budget", "for exposure", "rev share", "revenue share",
+        "teach the new", "teach him", "teach them", "replacing me", "replace me",
+        "leaving a band", "leaving the band", "leaving my band", "joining a band", "my bandmates",
         "ищу группу", "ищу коллектив", "преподавател", "педагог",
         "уроки", "бесплатно", "без оплаты"]
 # Для старой проверки Telegram-каналов
@@ -66,6 +68,9 @@ def why_not(title, body):
             return "мусор: " + x
     seek = bool(SEEK_RE.search(t))
     rec = bool(REC_RE.search(t))
+    # Заголовок-вопрос без денег и без «ищу/нужен» в самом заголовке: это обсуждение, а не заказ
+    if tl.rstrip().endswith("?") and not MONEY_RE.search(t) and not ASK_RE.search(tl):
+        return "вопрос / обсуждение"
     if ("[hiring]" in tl or "[paid]" in tl) and seek:
         return ""
     if not ASK_RE.search(t):
