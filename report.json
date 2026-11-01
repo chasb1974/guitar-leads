@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xl45p4",
+  "src": "Reddit",
+  "title": "Advice needed- first timer",
+  "text": "Hi guys, I need your advice. I&#39;m a guitar player but a musician foremost i.e. the guitar is a means to make songs/music (for me at least). Mostly blues, rock and pop. I&#39;m turning 38 soon and have never performed live in my life ( bedroom player). What would be your advice on how to begin? Ideally would like to mingle with musicians and form a network. I don&#39;t want to have any regrets i",
+  "link": "https://www.reddit.com/r/musicians/comments/1xl45p4/advice_needed_first_timer/",
+  "ok": false,
+  "why": "не про запись"
+ },
+ {
   "id": "t3_1xl0o9k",
   "src": "Reddit",
   "title": "[Blues Rock] Yokluğun Hissedilmiyor Başkalarınca (Turkish) || Turkish Blues Rock song with strong solos and raspy vocals",
@@ -23,33 +32,6 @@
   "title": "[Alternative Grunge] Night of Halloween | Echoes of Justice",
   "text": "Happy Halloween! 🎃👻 The monsters are out tonight, but we&#39;re not scary, we&#39;re just strange! Here&#39;s the chorus from Night of Halloween , an original Halloween song by Echoes of Justice. A fun mix of alternative grunge, driving punk energy, creepy music-box melodies, and heavy guitars. Hope everyone has a spooky Halloween! 🦇 https://linktr.ee/echoes_justice &#32; submitted by &#32; /u/Rog",
   "link": "https://www.reddit.com/r/SunoAI/comments/1xkqja3/alternative_grunge_night_of_halloween_echoes_of/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xkovix",
-  "src": "Reddit",
-  "title": "What do you guys think about musicians who are more concerned with having a career than making actually interesting creative music even though they have more than enough talent to do so?",
-  "text": "I have this quasi friend who has been doing the music thing since he&#39;s been in high school (but has played guitar since 12/13) and I remember him saying even at like 19 that &quot;bands are a business&quot;, which basically says to me that integrity and creativity isn&#39;t his goal; making a career with music is the goal. I get it, but I personally find this to be pretty disgusting and sad, a",
-  "link": "https://www.reddit.com/r/musicians/comments/1xkovix/what_do_you_guys_think_about_musicians_who_are/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xkncan",
-  "src": "Reddit",
-  "title": "La Llorona (Ukulele Tutorial)",
-  "text": "&#32; submitted by &#32; /u/robertoalvarezguitar &#32; to &#32; r/musicians [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/musicians/comments/1xkncan/la_llorona_ukulele_tutorial/",
-  "ok": false,
-  "why": "заголовок: tutorial"
- },
- {
-  "id": "t3_1xkldty",
-  "src": "Reddit",
-  "title": "[Gothic Symphonic Metal] CARMERID – Thought I Knew You",
-  "text": "[Gothic Symphonic Metal] CARMERID – Thought I Knew You I&#39;d like to share the first released song from my project, CARMERID. The music combines powerful male and female vocals, emotional melodies, heavy guitars and dramatic metal breakdowns. I&#39;m still developing the band&#39;s sound and would genuinely appreciate some feedback! Thanks for listening! https://suno.com/@carmerid &#32; submitte",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xkldty/gothic_symphonic_metal_carmerid_thought_i_knew_you/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -1665,6 +1647,33 @@
   "why": "группа / концерт"
  },
  {
+  "id": "t3_1xkovix",
+  "src": "Reddit",
+  "title": "What do you guys think about musicians who are more concerned with having a career than making actually interesting creative music even though they have more than enough talent to do so?",
+  "text": "I have this quasi friend who has been doing the music thing since he&#39;s been in high school (but has played guitar since 12/13) and I remember him saying even at like 19 that &quot;bands are a business&quot;, which basically says to me that integrity and creativity isn&#39;t his goal; making a career with music is the goal. I get it, but I personally find this to be pretty disgusting and sad, a",
+  "link": "https://www.reddit.com/r/musicians/comments/1xkovix/what_do_you_guys_think_about_musicians_who_are/",
+  "ok": false,
+  "why": "вопрос / обсуждение"
+ },
+ {
+  "id": "t3_1xkncan",
+  "src": "Reddit",
+  "title": "La Llorona (Ukulele Tutorial)",
+  "text": "&#32; submitted by &#32; /u/robertoalvarezguitar &#32; to &#32; r/musicians [link] &#32; [comments]",
+  "link": "https://www.reddit.com/r/musicians/comments/1xkncan/la_llorona_ukulele_tutorial/",
+  "ok": false,
+  "why": "заголовок: tutorial"
+ },
+ {
+  "id": "t3_1xkldty",
+  "src": "Reddit",
+  "title": "[Gothic Symphonic Metal] CARMERID – Thought I Knew You",
+  "text": "[Gothic Symphonic Metal] CARMERID – Thought I Knew You I&#39;d like to share the first released song from my project, CARMERID. The music combines powerful male and female vocals, emotional melodies, heavy guitars and dramatic metal breakdowns. I&#39;m still developing the band&#39;s sound and would genuinely appreciate some feedback! Thanks for listening! https://suno.com/@carmerid &#32; submitte",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xkldty/gothic_symphonic_metal_carmerid_thought_i_knew_you/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xkb3cv",
   "src": "Reddit",
   "title": "[Roots reggae] Babylon on the Boulevard — keeping the singer and band fixed in a new Suno prompt",
@@ -2689,14 +2698,5 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xdbrb3/acoustic_guitar_song_tomorrows_a_holiday明日は休日/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xd1v8m",
-  "src": "Reddit",
-  "title": "what was the greatest thing you ever did for your musicality, creativity, and songwriting?",
-  "text": "i&#39;ve been a musician for nearly 22 years now and am pretty solid at my primary instrument (guitar) but feel i messed around too much, getting too caught up in jamming and looping rather than actively songwriting and furthering my technical abilities. i&#39;m wondering what the single greatest thing you ever did for your musicality, creativity, and songwriting was. i know theory is massive and ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xd1v8m/what_was_the_greatest_thing_you_ever_did_for_your/",
-  "ok": false,
-  "why": "никто не ищет"
  }
 ]
