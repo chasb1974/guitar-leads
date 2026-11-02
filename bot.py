@@ -81,12 +81,47 @@ SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offerin
 # Для старой проверки Telegram-каналов
 HIRE = []
 
-def why_not(title, body):
-    """Пусто, если пост подходит; иначе причина, почему отброшен."""
+# Посты старше стольки дней не присылаем: на старые отклик почти никогда не окупается
+REDDIT_MAX_DAYS = 7
+# Заказчик уже нашёл гитариста / набор закрыт
+CLOSED_RE = re.compile(r"update\s*:\s*(?:i |we |found|got|filled|solved|done|no longer|thanks)|"
+                       r"\bi now have (?:a |the )?(?:solo|guitarist|player)|\bi(?:'ve| have) found\b|\bwe(?:'ve| have) found\b|"
+                       r"\bfound (?:a|my|the) guitarist|\bgot (?:a|my) guitarist|\bno longer (?:looking|need|searching)|"
+                       r"\bposition (?:is )?filled|\bfilled\b.{0,15}\bthanks|\bi'?m good for now|\bim good for now|"
+                       r"\[(?:closed|filled|found|solved)\]|\bthread closed|\bproblem solved|уже нашёл|уже нашел|нашли гитариста|"
+                       r"закрыт[оа]?\b|ничего не нужно")
+# Рубрики Reddit, где нет заказчиков: уроки, поиск группы «вживую», обсуждения
+SKIP_SUBS = {"guitarlessons", "learnguitar", "guitar", "acousticguitar", "classicalguitar",
+             "findaband", "thatswhatihear", "jeffbuckley", "guitarpedals", "guitarcirclejerk"}
+# Для поисковых лент: нужен намёк на УДАЛЁННУЮ работу / ИИ-трек, иначе это чаще всего местная группа
+REMOTE_RE = re.compile(r"\bremote(?:ly)?\b|\bonline\b|\bsuno\b|\budio\b|\bai\b|\bstems?\b|\bwav\b|\bmp3\b|"
+                       r"\bsend (?:me|you|us)\b|\bfiverr\b|\bairgigs\b|\bdaw\b|\bsession (?:player|musician|guitar)|"
+                       r"\bsolo on\b|\bguitar (?:part|track|solo)s?\b|удал[её]нн|онлайн|дистанц|"
+                       r"remotamente|a distancia|à distance|aus der ferne|uzaktan|a distanza|远程|遠距|원격|リモート")
+
+def sub_of(link):
+    m = re.search(r"/r/([^/]+)/", link or "")
+    return m.group(1).lower() if m else ""
+
+def why_not(title, body, link="", feed="subs", age=None):
+    """Пусто, если пост подходит; иначе причина, почему отброшен.
+    link/feed/age: только для Reddit-лент (ссылка поста, ключ ленты, возраст в днях)."""
     tl = title.lower()
     t = (title + " " + body).lower()
     if not any(g in t for g in GUITAR):
         return "нет гитары"
+    if age is not None and age > REDDIT_MAX_DAYS:
+        return "старый: %d дн." % age
+    if CLOSED_RE.search(t):
+        return "уже закрыт / нашли гитариста"
+    sub = sub_of(link)
+    if sub in SKIP_SUBS:
+        return "рубрика не про заказы: r/" + sub
+    if re.search(r"\bcollab|\bcolab|collaborat|\bcolabora", t) and not MONEY_RE.search(t):
+        return "коллаборация без оплаты"
+    search_feed = feed in ("search", "search2", "search3")
+    if search_feed and not REMOTE_RE.search(t):
+        return "нет намёка на удалённую запись (скорее местная группа)"
     for x in SKIP_TITLE:
         if x in tl:
             return "заголовок: " + x
@@ -107,6 +142,8 @@ def why_not(title, body):
     if LIVE_RE.search(tl):
         return "группа / концерт"
     if LIVE_RE.search(t) and not rec:
+        return "группа / концерт"
+    if feed in ("search2", "search3") and LIVE_RE.search(t):
         return "группа / концерт"
     if rec or MONEY_RE.search(t):
         return ""
@@ -152,6 +189,15 @@ def get(url):
             if e.code != 429 or attempt == 2:
                 raise
             time.sleep(30)
+
+def entry_age_days(en):
+    """Возраст записи Atom-ленты в днях (None, если дату не удалось прочитать)."""
+    ds = en.findtext(A + "published") or en.findtext(A + "updated") or ""
+    try:
+        t = time.mktime(time.strptime(ds[:19], "%Y-%m-%dT%H:%M:%S")) - time.timezone
+        return max(0, int((time.time() - t) // 86400))
+    except Exception:
+        return None
 
 # Посты-анкеты «ищу группу» / «группа ищет музыканта» — это набор в коллектив, не запись
 TG_BAND_RE = re.compile(r"ищет группу|ищу группу|ищу коллектив|ищет коллектив|группа ищет|"
@@ -416,7 +462,7 @@ def main():
             title = en.findtext(A + "title") or ""
             body = clean(en.findtext(A + "content"))
             link = en.find(A + "link").get("href")
-            reason = why_not(title, body)
+            reason = why_not(title, body, link, key, entry_age_days(en))
             if reason != "нет гитары":
                 report.append({"id": pid, "src": name, "title": title[:200],
                                "text": body[:400], "link": link,
