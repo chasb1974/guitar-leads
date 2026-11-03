@@ -75,6 +75,8 @@ SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offerin
         "unpaid", "no budget", "for exposure", "rev share", "revenue share",
         "teach the new", "teach him", "teach them", "replacing me", "replace me",
         "leaving a band", "leaving the band", "leaving my band", "joining a band", "my bandmates",
+        "finally finished", "wanted to post", "wanted to share", "lyrics below", "lyrics:", "sorry for the rough",
+        "rough recording", "just finished my", "here's my new", "here is my new", "my first song", "i wrote this",
         "教学", "课程", "培训", "레슨", "강습", "レッスン", "講師",
         "ищу группу", "ищу коллектив", "преподавател", "педагог",
         "уроки", "бесплатно", "без оплаты"]
@@ -137,6 +139,8 @@ def why_not(title, body, link="", feed="subs", age=None):
         return ""
     if not ASK_RE.search(t):
         return "никто не ищет"
+    if feed == "subs2" and not ASK_RE.search(tl + " " + body.lower()[:300]):
+        return "никто не ищет (слово «ищу» только в тексте песни)"
     if not seek:
         return "ищут не гитариста"
     if LIVE_RE.search(tl):
@@ -203,7 +207,10 @@ def entry_age_days(en):
 TG_BAND_RE = re.compile(r"ищет группу|ищу группу|ищу коллектив|ищет коллектив|группа ищет|"
                         r"коллектив ищет|ищем в (?:группу|состав|коллектив)|в состав|"
                         r"название группы|кавер|концерт|выступлен|репетиц|репбаз|"
-                        r"корпоратив|свадьб|кабак|ресторан|по выходным")
+                        r"корпоратив|свадьб|кабак|ресторан|по выходным|"
+                        r"собираю (?:новую |свою )?(?:группу|проект|команду|коллектив)|нов(?:ую|ый) (?:группу|проект)|"
+                        r"барабанщик|баранщик|клавишник|вокалист|басист|"
+                        r"имя\s*:|возраст\s*:|город\s*:|\bжанры\s*:|в проект\b")
 # Нужна именно запись партии (одно из этих слов обязательно)
 TG_REC_RE = re.compile(r"запис|сессион|удал[её]нн|дистанц|онлайн|в трек|для трека|"
                        r"на трек|в песню|для песни|session|record|remote")
