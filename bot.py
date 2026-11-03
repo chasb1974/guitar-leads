@@ -62,7 +62,7 @@ MONEY_RE = re.compile(r"\$\s?\d|\d\s?\$|\bpaid\b|\bpay\b|\bpaying\b|\bbudget\b|\
                       r"\bücret|\bpagato\b|\bcompenso\b|"
                       r"报酬|有偿|付费|预算|费用|¥|\d元|보수|유료|예산|사례비|\d원|페이|報酬|有償|有料|予算|謝礼|\d円")
 # Мусор в ЗАГОЛОВКЕ: сами предлагают услуги, просят отзыв, показывают своё, реклама
-SKIP_TITLE = ["for hire", "[offer]", "feedback", "review", "rate my", "check out",
+SKIP_TITLE = ["for hire", "[offer]", "portfolio", "feedback", "review", "rate my", "check out",
               "my new song", "my new track", "tutorial", "how do i", "how to ",
               "plugin", "preset", "free download", "giveaway", "kontakt", "sale",
               "looking for gigs", "who needs a", "izotope", "de-noiser", "denoiser", "alternatives", "what amp", "pedal", " vs ", "tone"]
@@ -72,6 +72,9 @@ SKIP = ["available for", "my services", "i offer", "i'm offering", "i am offerin
         "[for hire]", "my name is", "i'm a producer", "i am a producer", "i'm an independent",
         "hmu if you need", "if you need a guitarist", "i'm a guitarist", "i am a guitarist",
         "years of experience", "my portfolio",
+        "i'm a professional", "i am a professional", "i specialize in", "i specialise in",
+        "my setup", "my gear", "my studio", "professional session", "pro session",
+        "session musician and producer", "my rates", "dm me for", "get in touch for",
         "unpaid", "no budget", "for exposure", "rev share", "revenue share",
         "teach the new", "teach him", "teach them", "replacing me", "replace me",
         "leaving a band", "leaving the band", "leaving my band", "joining a band", "my bandmates",
@@ -119,6 +122,8 @@ def why_not(title, body, link="", feed="subs", age=None):
     sub = sub_of(link)
     if sub in SKIP_SUBS:
         return "рубрика не про заказы: r/" + sub
+    if sub.startswith("u_"):
+        return "личная страница пользователя (реклама), r/" + sub
     if re.search(r"\bcollab|\bcolab|collaborat|\bcolabora", t) and not MONEY_RE.search(t):
         return "коллаборация без оплаты"
     search_feed = feed in ("search", "search2", "search3")
@@ -252,7 +257,10 @@ def tg_posts(ch):
     return out
 
 def clean(html):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
+    # Сначала убираем теги, потом раскрываем HTML-коды (&#39; &amp; и т.п.),
+    # иначе фразы-фильтры вроде "i'm a producer" не находятся в тексте.
+    txt = re.sub(r"<[^>]+>", " ", html or "")
+    return re.sub(r"\s+", " ", html_mod.unescape(txt)).strip()
 
 def ru(text):
     """Перевод на русский через бесплатный Google Translate; при сбое возвращает пусто."""
@@ -466,7 +474,7 @@ def main():
             pid = en.findtext(A + "id")
             if not pid:
                 continue
-            title = en.findtext(A + "title") or ""
+            title = html_mod.unescape(en.findtext(A + "title") or "")
             body = clean(en.findtext(A + "content"))
             link = en.find(A + "link").get("href")
             reason = why_not(title, body, link, key, entry_age_days(en))
