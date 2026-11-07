@@ -289,7 +289,8 @@ MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
               "supremetracks.com": "Supreme Tracks",
               "nashvilledemofactory@gmail.com": "Nashville Demo Factory",
               "selsyncsound.com": "Sel Sync Sound",
-              "onlinerecordingstudio.com": "Online Recording Studio"}
+              "onlinerecordingstudio.com": "Online Recording Studio",
+              "musicnotationhub.com": "Music Notation Hub (Канада)"}
 
 def hdr(v):
     try:
