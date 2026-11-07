@@ -284,7 +284,12 @@ def send(text):
 MAIL_USER = os.environ.get("GMAIL_USER", "")
 MAIL_PASS = os.environ.get("GMAIL_PASS", "").replace(" ", "")
 MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
-              "cafeohouse@gmail.com": "Cafe au Label (Токио)"}
+              "cafeohouse@gmail.com": "Cafe au Label (Токио)",
+              "dublinstudiohub.com": "Dublin Studio Hub",
+              "supremetracks.com": "Supreme Tracks",
+              "nashvilledemofactory@gmail.com": "Nashville Demo Factory",
+              "selsyncsound.com": "Sel Sync Sound",
+              "onlinerecordingstudio.com": "Online Recording Studio"}
 
 def hdr(v):
     try:
