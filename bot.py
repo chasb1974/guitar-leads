@@ -283,7 +283,8 @@ def send(text):
 # ---- ПОЧТА: письма от площадок ----
 MAIL_USER = os.environ.get("GMAIL_USER", "")
 MAIL_PASS = os.environ.get("GMAIL_PASS", "").replace(" ", "")
-MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr"}
+MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
+              "cafeohouse@gmail.com": "Cafe au Label (Токио)"}
 
 def hdr(v):
     try:
