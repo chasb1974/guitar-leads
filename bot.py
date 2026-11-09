@@ -298,7 +298,12 @@ MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
               "backwoodsrecordingstudio.com": "Backwoods Recording Studio (Нашвилл)",
               "gcmusic111@gmail.com": "GC Music (Нашвилл)",
               "therecordshop1@gmail.com": "The Record Shop (Нашвилл)",
-              "mky22mky22@gmail.com": "Yu Project (Япония)"}
+              "mky22mky22@gmail.com": "Yu Project (Япония)",
+              "kimcopelandproductions.com": "Kim Copeland Productions (Нашвилл)",
+              "josquindespres@cox.net": "Track Star Studios (Калифорния)",
+              "simonreidmusic.com": "Simon Reid Music (Нашвилл)",
+              "kiesemusic.de": "KieseMusic (Германия)",
+              "newettstudios.com": "Newett Music Studios (Филадельфия)"}
 
 def hdr(v):
     try:
