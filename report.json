@@ -1,5 +1,32 @@
 [
  {
+  "id": "t3_1xs18zn",
+  "src": "Reddit",
+  "title": "[Electronic] Dark Synth by Niko, my one try at techno, written between 2000 and 2003, arranged and produced with Suno",
+  "text": "A journey from the night streets into the Grid, and back to daylight. I have always been focused on heavy metal, but this was my first attempt at something in the area of techno and dance music. It was an experiment, purely for fun. I composed it somewhere between 2000 and 2003. Here it's paired with a cinematic edit of TRON: Legacy (2010). Disc battles, light cycles and the escape from the Grid b",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xs18zn/electronic_dark_synth_by_niko_my_one_try_at/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xrzx9q",
+  "src": "Reddit",
+  "title": "How do you get Suno to actually respect a breakdown section?",
+  "text": "I make a lot of dark rap / metal stuff and the part Suno ignores most for me is the breakdown. What's helped so far: - Putting [Breakdown – guitars only, no vocals] as its own tag on a separate line - Leaving one empty line after the tag instead of writing lyrics under it - Keeping the chorus before it short (4 lines max) It still works maybe 1 out of 3 times. Anyone found a more reliable way, or ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xrzx9q/how_do_you_get_suno_to_actually_respect_a/",
+  "ok": false,
+  "why": "вопрос / обсуждение"
+ },
+ {
+  "id": "t3_1xrxv9b",
+  "src": "Reddit",
+  "title": "[Symphonic / Cinematic Rock] Adventus by SlipshodDuke and Suno v5",
+  "text": "One of the tracks from Suno Cinematics. A concept album I am still finishing that utilized Suno v5 with my own works. This song is based off of “The Arrival.” https://youtu.be/5XH07WL9H_c?is=GWxFnkGB3wKkavyJ This is the first song that I’ve written in Latin that also rhymes. The lyrics and melody are human while the production is AI assisted. Hope you enjoy the battle: Suno (v5.0): In C minor. The",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xrxv9b/symphonic_cinematic_rock_adventus_by_slipshodduke/",
+  "ok": false,
+  "why": "мусор: lyrics:"
+ },
+ {
   "id": "t3_1xrkvtn",
   "src": "Reddit",
   "title": "pa systems for full band",
@@ -9,49 +36,13 @@
   "why": "никто не ищет"
  },
  {
-  "id": "t3_1xrfv95",
-  "src": "Reddit",
-  "title": "Guitars/Synths/Pads disappearing in Mono",
-  "text": "Hello everyone. I've been producing some tracks for quite awhile but I've had one recurring issue with my mixes. The issue is the disappearing of guitars/synths/pads when I listen to my tracks in mono speakers (smartphone speakers). This has been making me very frustrated these days. I spent a couple of hours making a track and mixing untill it sounds \"ok\" in stereo, but whenever I go listen to my",
-  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xrfv95/guitarssynthspads_disappearing_in_mono/",
+  "id": "t3_1xrq7u6",
+  "src": "Reddit 2",
+  "title": "lawnmower - let me know what you think, still not finished.",
+  "text": "I got this cool old casio midi guitar and wrote this song with it, what do u think? Lyrics: It's been 20 long years, simce you left me by the front door. You're still giving me that stare, like i'm not that kid who mowed your front lawn. You're keeping me awake, Wired up in my dreams today, honey. For thinking it's assault, A soft contempt, in your look. I don't know how to be afraid of you anymor",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xrq7u6/lawnmower_let_me_know_what_you_think_still_not/",
   "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xrd13d",
-  "src": "Reddit",
-  "title": "[Spanish Pop] Quédate un minuto más",
-  "text": "[Intro – Bright brass fanfare, piano riff, full band entrance] [Verse 1 – Male Lead] La plaza huele a lluvia y a azahar, las luces se reflejan en tu piel. Te he visto entre la gente al pasar, y el tiempo ha dado un salto atrás. [Verse 2 – Female Lead] Me preguntas cómo me ha tratado el amor, yo digo «bien» por no decir «fatal». Y entonces suena aquella melodía que prometimos recordar. [Pre-Chorus ",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xrd13d/spanish_pop_quédate_un_minuto_más/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xrbuyp",
-  "src": "Reddit",
-  "title": "[Orchestral] Chase the Dawn by Niko, the first song I ever finished, around 2000, arranged and produced with Suno",
-  "text": "This was the first song I ever fully composed, sometime around the year 2000. My university friend Alexey gave me the chord progression you can hear in this piece, and its original name, \"Rasstayala Noch\", meaning \"The Night Has Melted Away\". I put those chords into Guitar Pro, looped them over and over, and added melodies on top. What surprised me was how easily it all came together. Finding a fi",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xrbuyp/orchestral_chase_the_dawn_by_niko_the_first_song/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xr9g5e",
-  "src": "Reddit",
-  "title": "[Pop Rock] We're Not Done — and what I learned about not being a hard rock guy",
-  "text": "https://on.soundcloud.com/41Dr1TSU88LP72kvg1 This one started as a rock song and I had to walk it back. I wanted hardness and asked for it, and what I got was a screamed chorus and a raspy vocal that I couldn't listen to. Turns out my limit is pop rock: the hardness has to come from the guitars, not the voice. Fixed it with a Cover pass — same performance, new prompt, no shouting. The stadium-chan",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xr9g5e/pop_rock_were_not_done_and_what_i_learned_about/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xr8xmx",
-  "src": "Reddit",
-  "title": "When should you give up especially if it’s your only hobby",
-  "text": "Idk I’ve been considering quitting for awhile now, I love playing and jazz chords speak to my soul but nothing ever really worked out for me… I’ve been playing since I was a kid.. whether it was drums or my primary instrument guitar and learning theory and learning piano.. All people want to play is metal anymore. And I hate writing metal. I’ll listen to it but I don’t enjoy playing it. Emo has al",
-  "link": "https://www.reddit.com/r/musicians/comments/1xr8xmx/when_should_you_give_up_especially_if_its_your/",
-  "ok": false,
-  "why": "никто не ищет"
+  "why": "мусор: lyrics:"
  },
  {
   "id": "t3_1xrmgr4",
@@ -126,22 +117,22 @@
   "why": "вопрос / обсуждение"
  },
  {
-  "id": "t3_1xpvk0c",
-  "src": "Reddit 2",
-  "title": "Feedback on my song!",
-  "text": "So I wrote this song a few days ago, and just want some feedback. Advice, thoughts, ratings, anything is helpful, and nothing is too harsh :) haha tho my voice does sound bad here my throat is killing me, here it is tho (my voice may be kinda drowned out by my guitar lol) The lyrics are I never even loved him But he had sugar on his lips I couldn't help myself And it was nothing but a kiss And whe",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xpvk0c/feedback_on_my_song/",
+  "id": "t3_1xryvut",
+  "src": "поиск Reddit (языки)",
+  "title": "CDMX. Busco Guitarrista y baterista para formar banda de indie post punk. Yo con equipo para grabar",
+  "text": "Hola! Soy de Puebla y visito constantemente la Ciudad de México, tengo un proyecto en Spotify y quiero hacer un proyecto secundario para diversión. Yo toco guitarra y bajo pero en esto quiero tocar el Bajo.Hagamos canciones y grabemos un EP. Inspiración en Talking Heads, El Mato a un policia motorizado, the Virgins y Dillom submitted by /u/That_Syllabub8459 to r/FindABand [link] [comments]",
+  "link": "https://www.reddit.com/r/FindABand/comments/1xryvut/cdmx_busco_guitarrista_y_baterista_para_formar/",
   "ok": false,
-  "why": "заголовок: feedback"
+  "why": "рубрика не про заказы: r/findaband"
  },
  {
-  "id": "t3_1xpux1j",
-  "src": "Reddit 2",
-  "title": "Solo instrumentalists. When you're writing songs how do you structure your music?",
-  "text": "I'm a guitarist and I like to write my own, purely instrumental, music. I don't write to perform for anyone but I always try to imagine what a listener would think if they were to hear my songs. One thing that I'm always aware of is trying not to bore my imaginary audience with too much repetition. This could be within sections of my songs, or through repeating sections too many times. I tend to e",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xpux1j/solo_instrumentalists_when_youre_writing_songs/",
+  "id": "t3_1xrytbk",
+  "src": "поиск Reddit (языки)",
+  "title": "Busco guitarrista y baterista en CDMX para proyecto de indie/post punk, yo con equipo para grabar",
+  "text": "Hola! Soy de Puebla y visito constantemente la Ciudad de México, tengo un proyecto en Spotify y quiero hacer un proyecto secundario para diversión. Hagamos canciones y grabemos un EP. Inspiración en Talking Heads, El Mato a un policia motorizado, the Virgins y Dillom submitted by /u/That_Syllabub8459 to r/CDMX [link] [comments]",
+  "link": "https://www.reddit.com/r/CDMX/comments/1xrytbk/busco_guitarrista_y_baterista_en_cdmx_para/",
   "ok": false,
-  "why": "мусор: i'm a guitarist"
+  "why": "нет намёка на удалённую запись (скорее местная группа)"
  },
  {
   "id": "t3_1xcje6l",
@@ -150,7 +141,7 @@
   "text": "Oi pessoal. Estou neste momento à procura de guitarrista para um projeto (Árvore) para o qual tenho vindo a compor desde 2020. Tenho já muito material em formato de pre-produçao, com bastantes temas semi-terminados (falta voz) e o objetivo é escolher alguns temas e começar a gravar as versões finais. Eu sou baterista, de forma que tudo o que tenho vindo a compor é com recurso a midi (até guitarras",
   "link": "https://www.reddit.com/r/MetalPortugal/comments/1xcje6l/procuro_guitarrista_e_vocalista_symphonic/",
   "ok": false,
-  "why": "старый: 17 дн."
+  "why": "старый: 18 дн."
  },
  {
   "id": "t3_1x5wwos",
@@ -159,7 +150,7 @@
   "text": "Busco: Guitarrista Baterista Tecladista o interesado en sintetizadores Opcionalmente, vocalista Rango de edad: 15-25 años No es indispensable ser fan de Splatoon. La idea es preparar covers de las bandas ficticias de Splatoon, grabar videos y buscar oportunidades para tocar en eventos de videojuegos, anime y música en vivo en Querétaro, Qro. Si te interesa, mándame un mensaje o comenta. 😁 👉Acepto ",
   "link": "https://www.reddit.com/r/queretaro/comments/1x5wwos/busco_integrantes_para_formar_una_banda_de_covers/",
   "ok": false,
-  "why": "старый: 25 дн."
+  "why": "старый: 26 дн."
  },
  {
   "id": "t3_1x3fhnp",
@@ -168,7 +159,7 @@
   "text": "​ projeto no começo, ja tenho 4 demos no YouTube (gravadas no celular, som podre) Tô procurando guitarrista pra colab 100% ONLINE - a gente troca os arquivos sem precisar se encontrar. (dsbm e black metal) Se tu curte música pesada e sabe o básico me chama. submitted by /u/FaithEaterband to r/MetalBrasil [link] [comments]",
   "link": "https://www.reddit.com/r/MetalBrasil/comments/1x3fhnp/procuro_guitarrista/",
   "ok": false,
-  "why": "старый: 28 дн."
+  "why": "старый: 29 дн."
  },
  {
   "id": "t3_1x15a1c",
@@ -213,7 +204,7 @@
   "text": "cerco un chitarrista per una lineup di 3/4 persone rock/hard rock, psychedelic rock e classic rock tra i 14-18. scrivetemi direttamente in privato. submitted by /u/Baldingss to r/italymusica [link] [comments]",
   "link": "https://www.reddit.com/r/italymusica/comments/1wo7vqk/cerco_chitarrista_firenze/",
   "ok": false,
-  "why": "старый: 46 дн."
+  "why": "старый: 47 дн."
  },
  {
   "id": "t3_1wnbq39",
@@ -222,7 +213,7 @@
   "text": "Hola! Somos \"Roof\" una banda de post-punk revival en español y estamos buscando un guitarrista (lead) y un bajista. Nuestro primer single \"Verte Más\" ya está disponible en streaming y sacaremos más en un futuro. Ya tenemos todo un álbum grabado. Links: Spotify: https://open.spotify.com/track/5dTKFA5IjR3gZHFReB8dYV?si=UFryQQeNQQWoKEm1Iv-PdA&utm_source=copy-link Apple Music: https://music.apple.com/",
   "link": "https://www.reddit.com/r/queretaro/comments/1wnbq39/busco_guitarrista_y_bajista/",
   "ok": false,
-  "why": "старый: 47 дн."
+  "why": "старый: 48 дн."
  },
  {
   "id": "t3_1wg72sg",
@@ -231,7 +222,7 @@
   "text": "Hola, estoy buscando un guitarrista y un bajista para una banda de rock en español de canciones originales. Las mayores influencias de nuestra banda son: Interpol, Bloc Party, The Strokes, un poco de Deftones y otras bandas. Ya tenemos una rola en plataformas y todo un album grabado. submitted by /u/Roof_fm to r/queretaro [link] [comments]",
   "link": "https://www.reddit.com/r/queretaro/comments/1wg72sg/busco_guitarrista_y_bajista_para_banda_canciones/",
   "ok": false,
-  "why": "старый: 55 дн."
+  "why": "старый: 56 дн."
  },
  {
   "id": "t3_1wfm4u9",
@@ -249,7 +240,7 @@
   "text": "Buenos días tardes o noches, gran saludo. Estoy buscando gente para formar una banda de rock experimental/ post rock desde 0, busco guitarrista o bajista para formar el proyecto, puedo ser baterista y estoy con un chico a la guitarra, cualquier otro instrumento se agradece submitted by /u/Brayan_soacha to r/Bogota [link] [comments]",
   "link": "https://www.reddit.com/r/Bogota/comments/1w7ypfm/banda_de_rock_experimental/",
   "ok": false,
-  "why": "старый: 64 дн."
+  "why": "старый: 65 дн."
  },
  {
   "id": "t3_1w57v6a",
@@ -258,7 +249,7 @@
   "text": "🌴🎶 Looking for a guitarist/singer to busk in Alicante Hey! I’m a percussionist playing cajón, loops and electronic beats, and I’m looking for a guitarist/singer to do some street sessions around Alicante. I’ve been busking in Australia and Italy for years, and there’s nothing like seeing people stop in the street because the music connects with them. Good vibes, good music, some improvisation and ",
   "link": "https://www.reddit.com/r/Alicante/comments/1w57v6a/buskers_street_musician/",
   "ok": false,
-  "why": "старый: 67 дн."
+  "why": "старый: 68 дн."
  },
  {
   "id": "t3_1vzo6vg",
@@ -303,7 +294,7 @@
   "text": "Busco a un guitarrista o bajista para una banda. Ya somos un vocalista y un baterista. Acabamos de empezar y estamos esperando a que se nos una alguien que toque la guitarra o el bajo que esté empezando y no tenga mucha experiencia. Lo hacemos por hobbie y no buscamos dinero con esto (todavía). Queremos a alguien de unos 14-15 años y que viva en Madrid, España. Si alguien está interesado o tiene a",
   "link": "https://www.reddit.com/r/GuitarQuestions/comments/1vst1x0/busco_guitarrista_o_bajista/",
   "ok": false,
-  "why": "старый: 81 дн."
+  "why": "старый: 82 дн."
  },
  {
   "id": "t3_1vrshfx",
@@ -312,7 +303,7 @@
   "text": "Estoy buscando un guitarrista para una banda. Ya somos un vocalista y un baterista. Acabamos de empezar y estamos esperando a que se nos una u alguien que toque la guitarra a poder ser que esté empezando y no tenga mucha experiencia. Queremos a alguien de unos 14-15 años y que viva en Madrid. Si alguien está interesado o tiene alguna duda por favor llamad a este número: +34 685 58 45 92 Un saludo,",
   "link": "https://www.reddit.com/r/MusicaEnEspanol/comments/1vrshfx/busco_guitarrista/",
   "ok": false,
-  "why": "старый: 82 дн."
+  "why": "старый: 83 дн."
  },
  {
   "id": "t3_1vootvx",
@@ -330,7 +321,7 @@
   "text": "No es algo serio, por ahora me gustaría formar mi primer grupo y ver si hay química para otras cosas más adelante. Soy principiante, pero me gusta cantar y escucho bandas internacionales más que nada, tipo numetal, metalcore, heavy metal, power metal, midwest, math rock, post hardcore, pop punk, etc. Cosas medianamente \"pesadas\" y \"emo\" por lo general me copan. Tengo un registro medio-alto por eso",
   "link": "https://www.reddit.com/r/guitarrarg/comments/1vlpaf9/busco_guitarrista_para_formar_grupo_de_covers/",
   "ok": false,
-  "why": "старый: 89 дн."
+  "why": "старый: 90 дн."
  },
  {
   "id": "t3_1vh34et",
@@ -339,7 +330,7 @@
   "text": "Salut. on cherche un.e guitarist.e à Paris pour projet d-beat principalement, primitive punk, blackened punk, crust, sur ce spectre là.. ouvert à expérimenter, compos bienvenues!. On est une bassiste et un batteur, on a une salle pour répéter ! on travaille sur les rythmes. N'hésitez pas à nous dm! submitted by /u/malaclypselejeune to r/punkFR [link] [comments]",
   "link": "https://www.reddit.com/r/punkFR/comments/1vh34et/on_cherche_guitariste/",
   "ok": false,
-  "why": "старый: 94 дн."
+  "why": "старый: 95 дн."
  },
  {
   "id": "t3_1uw620z",
@@ -348,7 +339,7 @@
   "text": "Estoy buscando hacer versiones propias sobre ciertos clásicos del blues, pero más psicodélicos y pesados. Posteriormente grabarlos, somos baterista y bajista con experiencia en vivo y con recorrido dentro del género. Tenemos ambos 25 años. submitted by /u/SebaBlues to r/Cordoba [link] [comments]",
   "link": "https://www.reddit.com/r/Cordoba/comments/1uw620z/busco_guitarrista/",
   "ok": false,
-  "why": "старый: 117 дн."
+  "why": "старый: 118 дн."
  },
  {
   "id": "t3_1ulfmkb",
@@ -357,7 +348,7 @@
   "text": "Hola, soy de Alicante y busco gente joven(menores de 27 años) para tocar metal, rock alternativo, indie y estilos similares. Llevo aproximadamente un año tocando la guitarra y cantando, todo de forma autodidacta, así que cualquier principiante es bienvenido. La idea es aprender juntos, hacer covers y componer nuestras propias canciones. No me importa demasiado el instrumento: busco guitarristas, b",
   "link": "https://www.reddit.com/r/FindABand/comments/1ulfmkb/alicantespain_busco_miembros_poca_experiencia/",
   "ok": false,
-  "why": "старый: 129 дн."
+  "why": "старый: 130 дн."
  },
  {
   "id": "t3_1ufqrdu",
@@ -375,7 +366,7 @@
   "text": "Wir haben hier in Vorarlberg eine Grateful Dead Coverband ins Leben gerufen, sind zu viert, und suchen noch nach einem Rhythmus Gitarristen. ​ Idealerweise wäre er mit der Band vertraut. Wir suchen also nach dir Bob Weir ;) ​ Wie haben ein Proberaum und regelmäßige Proben submitted by /u/ogremania to r/Vorarlberg [link] [comments]",
   "link": "https://www.reddit.com/r/Vorarlberg/comments/1ubqnz5/gitarrist_gesucht/",
   "ok": false,
-  "why": "старый: 140 дн."
+  "why": "старый: 141 дн."
  },
  {
   "id": "t3_1u4ukr4",
@@ -384,7 +375,7 @@
   "text": "Bonjour, je cherche un guitariste ( guitare électrique) pour un groupe rock a 4 sur Dunkerque ==> intéressé ? envoyé un mail a clemdefranceyt@gmail.com submitted by /u/clemdefranceyt to r/musique [link] [comments]",
   "link": "https://www.reddit.com/r/musique/comments/1u4ukr4/cherche_guitariste_dunkerque/",
   "ok": false,
-  "why": "старый: 148 дн."
+  "why": "старый: 149 дн."
  },
  {
   "id": "t3_1tkr7et",
@@ -393,7 +384,7 @@
   "text": "Busco guitarrista, bajista y baterista para incorporarse como banda permanente. Tengo un proyecto musical (Nelia Ahuir) he publicado dos singles y estoy grabando un EP, he hecho múltiples bolos en los últimos cuatro años pero siempre con miembros rotativos. Busco miembros permanentes con quienes crear un vínculo y que tengan muchas ganas de salir al escenario. En cuanto a remuneración, no puedo of",
   "link": "https://www.reddit.com/r/valencia/comments/1tkr7et/busco_músicos_para_proyecto_musical/",
   "ok": false,
-  "why": "старый: 170 дн."
+  "why": "старый: 171 дн."
  },
  {
   "id": "t3_1tjt96u",
@@ -402,7 +393,7 @@
   "text": "Busco crear un grupo de música en Valencia o alrededores. El género por el que me muevo es el pop/ pop electrónico/ pop rock . Yo soy cantante y busco crear un proyecto nuevo para disfrutar de la música, aprender e ir creciendo. Escribidme por priv😬 submitted by /u/Ok-Manufacturer-1459 to u/Ok-Manufacturer-1459 [link] [comments]",
   "link": "https://www.reddit.com/r/u_Ok-Manufacturer-1459/comments/1tjt96u/busco_guitarrista_o_pianista_electrico_en_valencia/",
   "ok": false,
-  "why": "старый: 171 дн."
+  "why": "старый: 172 дн."
  },
  {
   "id": "t3_1t0erst",
@@ -447,7 +438,7 @@
   "text": "Somos uma banda autoral, temos um baixista (eu, 24M), baterista/compositor (27M) e vocalista/guitarrista base/compositor (39M), nossas influências são Nirvana, Guns, Ramones, ensaiamos todo final de semana, temos 7 músicas prontas e vamos lançar o nosso primeiro álbum até o final do ano. Nas músicas já criadas, vc tem liberdade pra criar os próprios solos, trabalhar a parte da segunda guitarra (ac",
   "link": "https://www.reddit.com/r/rockbrasil/comments/1sk8d6a/busco_guitarrista_solo_pra_banda_de_garagegrunge/",
   "ok": false,
-  "why": "старый: 209 дн."
+  "why": "старый: 210 дн."
  },
  {
   "id": "t3_1sftvxa",
@@ -456,7 +447,7 @@
   "text": "Vielleicht habe ich hier Glück - wir suchen einen Gitarristen für unsere Hochzeit. Mehr Infos oben im thread. 🥹 submitted by /u/Ann-Kathrinn to r/GitarreDE [link] [comments]",
   "link": "https://www.reddit.com/r/GitarreDE/comments/1sftvxa/gitarrist_gesucht_für_hochzeit/",
   "ok": false,
-  "why": "старый: 214 дн."
+  "why": "старый: 215 дн."
  },
  {
   "id": "t3_1s7n8ez",
@@ -465,7 +456,7 @@
   "text": "Buenass!! Estoy en una banda de Nu Metal en Cordoba Capital y estamos recién empezando, soy guitarrista y soy el que escribe las canciones (música y letra), somos bajo, batería, 2 voces (limpia y gutural) y yo en la guitarra. Nos vendría bien un guitarrista que pueda hacer leads, que entienda sobre composición y que preferentemente haya estado en una banda o sea avanzado en la guitarra. submitted ",
   "link": "https://www.reddit.com/r/Cordoba/comments/1s7n8ez/busco_guitarrista_para_banda_de_nu_metalgroove/",
   "ok": false,
-  "why": "старый: 223 дн."
+  "why": "старый: 224 дн."
  },
  {
   "id": "t3_1rx5zu7",
@@ -474,7 +465,7 @@
   "text": "Hallo zusammen 😊 wir sind aktuell auf der Suche nach musikalischer Begleitung für unsere Hochzeit auf Schloss Dyck am 17.07.2026. Für die Trauung (Einzug ein spezieller Musikwunsch) und den anschließenden Sektempfang wünschen wir uns jemanden, der Akustikgitarre spielt und für eine schöne, entspannte Atmosphäre sorgt. Ca. 1,5-2h gesamt. Leider haben wir bisher nur Absagen für das Datum bekommen. :",
   "link": "https://www.reddit.com/r/duesseldorf/comments/1rx5zu7/gitarrist_gesucht_für_hochzeit/",
   "ok": false,
-  "why": "старый: 235 дн."
+  "why": "старый: 236 дн."
  },
  {
   "id": "t3_1r6g3o1",
@@ -483,7 +474,7 @@
   "text": "submitted by /u/borgqueenx to r/wasletztepreis [link] [comments]",
   "link": "https://www.reddit.com/r/wasletztepreis/comments/1r6g3o1/was_letzte_gitarrist_abhollen/",
   "ok": false,
-  "why": "старый: 265 дн."
+  "why": "старый: 266 дн."
  },
  {
   "id": "t3_1r4ylok",
@@ -555,7 +546,7 @@
   "text": "Fala, galera! Vamos fazer zuada? Procuro guitarrista, baixista e baterista para formar uma banda de rock autoral em inglês, focada ali no comecinho do Grunge e na transição do Punk Rock pro Pós-Punk. Inspirada por bandas como Mudhoney, U-Men, Nirvana, Wire, Joy Division, Siouxsie & The Banshees, entre outras. Inicialmente só como diversão, mas com o objetivo de eventualmente fazer shows e tal. Não",
   "link": "https://www.reddit.com/r/Fortaleza/comments/1lrojzl/procuro_músicos_para_banda_de_rock_autoral/",
   "ok": false,
-  "why": "старый: 492 дн."
+  "why": "старый: 493 дн."
  },
  {
   "id": "t3_1loll9v",
@@ -582,7 +573,7 @@
   "text": "Hello la commu nantaise, Ça fait quelques semaines que je bosse sur une nouvelle compo chant/guitare et je cherche un/une deuxième guitariste (sèche/folk/electro acoustique) pour arranger mon morceau. Rien de très technique mais il faut être assez à l'aise pour jouer une guitare mélodique (simple et efficace, c'est pas du show off). Si en plus tu peux faire quelques cœurs à la voix, ça serait parf",
   "link": "https://www.reddit.com/r/Nantes/comments/1lgcjsj/cherche_guitariste_pour_accompagnement_sur/",
   "ok": false,
-  "why": "старый: 506 дн."
+  "why": "старый: 507 дн."
  },
  {
   "id": "t3_1ldn5nl",
@@ -591,7 +582,7 @@
   "text": "🎤 ¡Busco miembros para banda de Death Metal! 🎸🥁 Hola, soy un vocalista de 11 años de Galicia (España) y estoy buscando formar una banda de Death Metal con gente de entre 10 y 15 años de España o Latinoamérica. 🎶 Influencias: Death, Obituary, GoreChant (mi banda actual), con estilo old school y toques de metal clásico. 🧟‍♂️ Letras oscuras, riffs pesados y mucha actitud. 💀 Busco: Guitarrista Bajista",
   "link": "https://www.reddit.com/r/FindABand/comments/1ldn5nl/busco_banda_en_españa_o_latam_urgente/",
   "ok": false,
-  "why": "старый: 509 дн."
+  "why": "старый: 510 дн."
  },
  {
   "id": "t3_1l7yqm8",
@@ -600,7 +591,7 @@
   "text": "Hola! Soy cantante principiante y quiero formar banda indie para tocar en bares. Busco guitarrista y baterista comprometidos con ganas de aprender y poder crecer juntos. Con estilo tipo Koino Yokan, Estelares, etc. No es necesario tener experiencia, ¡la idea es que todos seamos principiantes para desarrollar habilidades y por sobre todo, divertirnos! submitted by /u/frankpto to r/Cordoba [link] [c",
   "link": "https://www.reddit.com/r/Cordoba/comments/1l7yqm8/formar_una_banda_indie_y_rock/",
   "ok": false,
-  "why": "старый: 516 дн."
+  "why": "старый: 517 дн."
  },
  {
   "id": "t3_1l7onox",
@@ -618,7 +609,7 @@
   "text": "Boas malta, Estou à procura de um guitarrista e de um baterista para integrar uma banda no Porto. Neste momento somos dois (baixista e saxofonista) e procuramos alguém que se identifique com a estética sonora desta playlist que criei com as referências para aquilo que procuramos. Anda muito à volta do post punk, new wave, dark wave, etc. https://open.spotify.com/playlist/685lWZfH1N9ombR55eGDO5?si=",
   "link": "https://www.reddit.com/r/musicos_portugal/comments/1kikbgf/procuro_guitarrista_e_baterista/",
   "ok": false,
-  "why": "старый: 548 дн."
+  "why": "старый: 549 дн."
  },
  {
   "id": "t3_1k8pqmp",
@@ -636,7 +627,7 @@
   "text": "Me chamo kopper, moro em Belém do Pará, e estou com um projeto de criar uma banda a mais de um ano, mas não conseguimos. Esse é um projeto de adolescentes com algum interesse em música. Não é nada rentável, é só uma banda de garagem praticamente. Se alguém estiver interessado, manifeste-se no privado submitted by /u/Kopperlarck to r/MusicosDoBrasil [link] [comments]",
   "link": "https://www.reddit.com/r/MusicosDoBrasil/comments/1iaej90/procuro_guitarrista_eou_tecladista_em_nível/",
   "ok": false,
-  "why": "старый: 651 дн."
+  "why": "старый: 652 дн."
  },
  {
   "id": "t3_1i66s2h",
@@ -654,7 +645,7 @@
   "text": "Salut :) je suis une chanteuse (la vingtaine) qui recherche un.e guitariste dans la même tranche d'âge. Le projet serait de faire des reprises et des compos (j'en ai déjà pas mal). L'idée après serait de jouer dans des lieux à Rouen, vraiment pour le fun. Mon univers musical est plutôt pop mais j'aime aussi beaucoup d'autres genres. N'hésitez pas à me contacter par DM pour plus d'infos si vous ête",
   "link": "https://www.reddit.com/r/rouen/comments/1hhsu7w/cherche_guitariste/",
   "ok": false,
-  "why": "старый: 689 дн."
+  "why": "старый: 690 дн."
  },
  {
   "id": "t3_1ftnq3q",
@@ -663,7 +654,7 @@
   "text": "Bueno, la cosa es que tengo una banda tributo a el Rock, Pop Punk, Post Grunge y Nu Metal de los 2000, básicamente exitos de: Yellowcard, Blink 182, Green Day, Three Days Grace, Deftones, Jimmy Eat World... Etc. Nuestro guitarrista rítmico tuvo que dejar la banda y necesitamos uno con urgencia, por un toque que se viene para diciembre y tenemos casi 25 canciones en el repertorio para distribuir. E",
   "link": "https://www.reddit.com/r/Bogota/comments/1ftnq3q/busco_guitarrista_rítmico_en_bogotá/",
   "ok": false,
-  "why": "старый: 768 дн."
+  "why": "старый: 769 дн."
  },
  {
   "id": "t3_1ftnhku",
@@ -672,7 +663,7 @@
   "text": "Bueno, la cosa es que tengo una banda tributo a el Rock, Pop Punk, Post Grunge y Nu Metal de los 2000, básicamente exitos de: Yellowcard, Blink 182, Green Day, Three Days Grace, Deftones, Jimmy Eat World... Etc. Nuestro guitarrista rítmico tuvo que dejar la banda y necesitamos uno con urgencia, por un toque que se viene para diciembre y tenemos casi 25 canciones en el repertorio para distribuir. E",
   "link": "https://www.reddit.com/r/u_Malifayz/comments/1ftnhku/busco_guitarrista_rítmico_en_bogotá/",
   "ok": false,
-  "why": "старый: 768 дн."
+  "why": "старый: 769 дн."
  },
  {
   "id": "t3_1ftnh3z",
@@ -681,7 +672,7 @@
   "text": "Bueno, la cosa es que tengo una banda tributo a el Rock, Pop Punk, Post Grunge y Nu Metal de los 2000, básicamente exitos de: Yellowcard, Blink 182, Green Day, Three Days Grace, Deftones, Jimmy Eat World... Etc. Nuestro guitarrista rítmico tuvo que dejar la banda y necesitamos uno con urgencia, por un toque que se viene para diciembre y tenemos casi 25 canciones en el repertorio para distribuir. E",
   "link": "https://www.reddit.com/r/Music/comments/1ftnh3z/busco_guitarrista_rítmico_en_bogotá/",
   "ok": false,
-  "why": "старый: 768 дн."
+  "why": "старый: 769 дн."
  },
  {
   "id": "t3_1ekocir",
@@ -690,7 +681,7 @@
   "text": "Hola soy Daniel toco guitarra bajo y produzco. Ahora toco bajo en una banda llamada pacto de negación. Estamos lanzando ep. También estoy armando otro proyecto tipo pop rock con una amiga vocalista. Estamos buscando guitarrista y baterista. paso enlace de una de las maquetas que estamos trabajando. Escucha Dancingod.mp3 de Danny Cyanure en #SoundCloud https://on.soundcloud.com/rbVFK Cuéntame si te",
   "link": "https://www.reddit.com/r/musicos_en_BAires/comments/1ekocir/busco_guitarrista_y_baterista_para_banda/",
   "ok": false,
-  "why": "старый: 825 дн."
+  "why": "старый: 826 дн."
  },
  {
   "id": "t3_1e7vo7u",
@@ -699,7 +690,7 @@
   "text": "Hola, busco guitarrista, bajista, baterista, tecladista tooodo. Yo podria cantar y tocar la otra guitarra, ya tengo pensado varias ideas, tengo composiciones, y me siento mas creativo que nunca. Busco hacer musica diferente, un post punk podria ser, sin ir a lo mas tipico como el rock and roll, grunge, pop y todo eso. Musica reflexiva, oscura, teatralidad, poesia, tragedias. Quien se cope meterse ",
   "link": "https://www.reddit.com/r/Cordoba/comments/1e7vo7u/busco_armar_una_banda_quien_se_copa/",
   "ok": false,
-  "why": "старый: 841 дн."
+  "why": "старый: 842 дн."
  },
  {
   "id": "t3_1cqfo11",
@@ -708,7 +699,7 @@
   "text": "https://ariancole.bandcamp.com/track/sin-cigarros Busco guitarrista/bajista y baterista para banda de folk metal carajo. Canto y hago que toco la guitarra, tengo 100 canciones y nunca tengo tiempo para salir ni tocarlas, menos tengo motivación al no tener músicos. Me gustaría alguien que ande bien para la guitarra que me de una mano para componer y que además sepa tocar bajo, cosa de cambiar roles",
   "link": "https://www.reddit.com/r/uruguay/comments/1cqfo11/dino_un_poroto/",
   "ok": false,
-  "why": "старый: 910 дн."
+  "why": "старый: 911 дн."
  },
  {
   "id": "t3_1ce108g",
@@ -726,7 +717,7 @@
   "text": "Ich (M24), Gitarrist mit Band Erfahrung suche schon lange nach einer Person die so wie ich sehr viel und gerne Gitarre spielt, um mit ihr eigene Lieder und/oder Arrangements zu kreieren :) Klassisch/Western/E-Gitarre ist alles möglich! Bin klassisch und mit der Western-Gitarre am versiertesten. Vor allem Fingerstyle ist mein Ding. Habe auch Erfahrung mit eigenen Songs mit ganz coolen Arrangements.",
   "link": "https://www.reddit.com/r/bielefeld/comments/17xmgm3/suche_gitarristen_für_duo/",
   "ok": false,
-  "why": "старый: 1087 дн."
+  "why": "старый: 1088 дн."
  },
  {
   "id": "t3_12mk95f",
@@ -744,7 +735,7 @@
   "text": "Servus Freunde, ich bin 22 und männlich und habe mir kürzlich meine erste E-Gitarre gekauft und möchte lernen diese zu spielen. Daher wollte ich fragen, ob es jemanden aus Mannheim und Umgebung gibt, der mir ein bisschen die basics beibringen und den Weg bereiten möchte! Ich bin derzeit Schüler und habe daher leider nicht die Geldmittel für professionellen Unterricht (welcher sehr kostspielig ist)",
   "link": "https://www.reddit.com/r/mannheim/comments/uqxy9g/suche_gitarristengitarrenlehrermusiker/",
   "ok": false,
-  "why": "старый: 1637 дн."
+  "why": "старый: 1638 дн."
  },
  {
   "id": "t3_uqj4ip",
@@ -771,7 +762,7 @@
   "text": "Hola! Espero poder obtener un poco de ayuda aquí o al menos ser guiado en la dirección correcta. Estoy tratando de encontrar a alguien que pueda cantar la canción Eso y Mas de Joss Favela. Creo que esta es una canción antigua, pero me encanta su interpretación. ¿Hay alguien aquí que pueda ayudarme y hacerme saber dónde puedo encontrar a alguien que cante esta canción para mi propuesta? Agradezco c",
   "link": "https://www.reddit.com/r/Madrid/comments/d1svb1/busco_guitarrista_y_cantante_para_propuesta_de/",
   "ok": false,
-  "why": "старый: 2617 дн."
+  "why": "старый: 2618 дн."
  },
  {
   "id": "t3_d1mpka",
@@ -789,7 +780,7 @@
   "text": "submitted by /u/CherryBlossomEnding to r/kpop [link] [comments]",
   "link": "https://www.reddit.com/r/kpop/comments/1ifzrn0/gift_ep2_band_gift_daydreamer_guitar_recording/",
   "ok": false,
-  "why": "старый: 644 дн."
+  "why": "старый: 645 дн."
  },
  {
   "id": "t3_1xr9q5s",
@@ -861,7 +852,7 @@
   "text": "Did not realize this dude was like that on guitar. Currently learning the Ride Like the Wind outro solo and my fingers are in immense pain. I would’ve assumed he had a session guitarist but that was all him. Very underrated guitarist. submitted by /u/ShreddyShredster to r/Guitar [link] [comments]",
   "link": "https://www.reddit.com/r/Guitar/comments/1xgotib/christopher_cross/",
   "ok": false,
-  "why": "старый: 12 дн."
+  "why": "старый: 13 дн."
  },
  {
   "id": "t3_1xgat10",
@@ -897,7 +888,7 @@
   "text": "submitted by /u/BirdBurnett to r/Music_Anniversary [link] [comments]",
   "link": "https://www.reddit.com/r/Music_Anniversary/comments/1xbniyu/on_october_21st_1941_session_guitarist_steve/",
   "ok": false,
-  "why": "старый: 18 дн."
+  "why": "старый: 19 дн."
  },
  {
   "id": "t3_1x9i41s",
@@ -924,7 +915,7 @@
   "text": "submitted by /u/BirdBurnett to r/Music_Anniversary [link] [comments]",
   "link": "https://www.reddit.com/r/Music_Anniversary/comments/1x7fyf0/on_october_16th_1919_country_singer_and/",
   "ok": false,
-  "why": "старый: 23 дн."
+  "why": "старый: 24 дн."
  },
  {
   "id": "t3_1x51398",
@@ -933,7 +924,7 @@
   "text": "Please reach out if you can play all the popular songs. submitted by /u/Relevant_Yak_5150 to r/jaipur [link] [comments]",
   "link": "https://www.reddit.com/r/jaipur/comments/1x51398/need_guitarist_for_performing_at_a_private_event/",
   "ok": false,
-  "why": "старый: 26 дн."
+  "why": "старый: 27 дн."
  },
  {
   "id": "t3_1x3of5t",
@@ -960,7 +951,7 @@
   "text": "Album: Bad News Joe was born in Chicago where he later played alongside Howlin' Wolf and other bluesmen. He visited the UK to record a solo album for EMI in 1973. He became a prolific and respected Session guitarist, having worked with Martha Velez, Jimmy Witherspoon and toured with Maggie Bell Real Name: Joseph Edward Wright II submitted by /u/Restart_Point to r/OldSchoolCoolMusic [link] [comment",
   "link": "https://www.reddit.com/r/OldSchoolCoolMusic/comments/1x3gvid/joe_jammer_rising_sun_1973_hendrix_robin_trower/",
   "ok": false,
-  "why": "старый: 28 дн."
+  "why": "старый: 29 дн."
  },
  {
   "id": "t3_1x3gt6s",
@@ -969,7 +960,7 @@
   "text": "Album: Bad News Joe was born in Chicago where he later played alongside Howlin' Wolf and other bluesmen. He visited the UK to record a solo album for EMI in 1973. He became a prolific and respected Session guitarist, having worked with Martha Velez, Jimmy Witherspoon and toured with Maggie Bell Real Name: Joseph Edward Wright II submitted by /u/Restart_Point to r/bluesrock [link] [comments]",
   "link": "https://www.reddit.com/r/bluesrock/comments/1x3gt6s/joe_jammer_rising_sun_1973_hendrix_trowerish/",
   "ok": false,
-  "why": "старый: 28 дн."
+  "why": "старый: 29 дн."
  },
  {
   "id": "t3_1x2gijf",
@@ -978,7 +969,7 @@
   "text": "Hi there! ..My name is Facundo and I'm a producer, session guitarist, and mixing and mastering engineer from Argentina with over 15 years of experience on projects around the world and different genres , if there's a song and you'd like to finish it, send me a DM. Budget-friendly!! Mix around $50 up to 20 tracks. Mix and Mastering $100 up to 20 tracks. Cheers! submitted by /u/Facu-Talavera- to r/F",
   "link": "https://www.reddit.com/r/ForHireFreelance/comments/1x2gijf/looking_for_mix_o_master/",
   "ok": false,
-  "why": "старый: 29 дн."
+  "why": "старый: 30 дн."
  },
  {
   "id": "t3_1x23r96",
@@ -1104,7 +1095,7 @@
   "text": "submitted by /u/BirdBurnett to r/normanok [link] [comments]",
   "link": "https://www.reddit.com/r/normanok/comments/1wmemfm/on_september_21st_1944_session_guitarist_jesse_ed/",
   "ok": false,
-  "why": "старый: 48 дн."
+  "why": "старый: 49 дн."
  },
  {
   "id": "t3_1wmdjru",
@@ -1113,7 +1104,7 @@
   "text": "submitted by /u/BirdBurnett to r/Music_Anniversary [link] [comments]",
   "link": "https://www.reddit.com/r/Music_Anniversary/comments/1wmdjru/on_september_21st_1944_session_guitarist_jesse_ed/",
   "ok": false,
-  "why": "старый: 48 дн."
+  "why": "старый: 49 дн."
  },
  {
   "id": "t3_1wll2p6",
@@ -1122,7 +1113,7 @@
   "text": "Mac McAnally is sort of an “artists’ artist,” and I haven’t really been able to find much in the way of tips or instruction on how to play similarly. I know he spent a large part of his career as a session guitarist. Obviously, country acoustic seems like a natural starting point, very restrained playing, with a strong focus on rhythm and on staying “out of the way,” while still demonstrating an i",
   "link": "https://www.reddit.com/r/LearnGuitar/comments/1wll2p6/suggestings_for_learning_to_play_similarly_to_mac/",
   "ok": false,
-  "why": "старый: 49 дн."
+  "why": "старый: 50 дн."
  },
  {
   "id": "t3_1wlh0qf",
@@ -1131,7 +1122,7 @@
   "text": "Hey, not your usual post on here. But I've ran into a problem and i'm looking for a guitarist. I like to create music but I don't play or own a guitar. So I just use guitar plugins in a daw but it doesn't really replicate that live sound. I'm kinda stuck moving forward with my music without someone to play. A lot of ppl get the bag and don't care about the result. I would love to connect with some",
   "link": "https://www.reddit.com/r/guitarlessons/comments/1wlh0qf/i_dont_play_guitar_but_i_need_guitarist/",
   "ok": false,
-  "why": "старый: 49 дн."
+  "why": "старый: 50 дн."
  },
  {
   "id": "t3_1wg2753",
@@ -1140,7 +1131,7 @@
   "text": "Hey all in Hyderabad, Im looking to form a rock/metal band in hyderabad, buildingbit from scratch, need guitarists, bassist, drummer & keyboardist. submitted by /u/Frosty-Lunch-1437 to r/FindABand [link] [comments]",
   "link": "https://www.reddit.com/r/FindABand/comments/1wg2753/looking_for_rock_metal_musicians/",
   "ok": false,
-  "why": "старый: 55 дн."
+  "why": "старый: 56 дн."
  },
  {
   "id": "t3_1wcrwsi",
@@ -1149,7 +1140,7 @@
   "text": "I'm having issues with the Electric Sunburst (Native Instruments) for Kontakt 8. I have a cracked version of Kontakt, and have downloaded and installed the Native Instruments - Session Guitarist - Electric Sunburst Deluxe v1. 1.0 ( KONTAKT) It loads in fine, but after about 5 minutes of use, the VST plugin stops working and a \"Please Activate\" message appears. Is anyone familiar with this problem ",
   "link": "https://www.reddit.com/r/InternetPiracy/comments/1wcrwsi/electric_sunburst_native_instruments_kontakt/",
   "ok": false,
-  "why": "старый: 59 дн."
+  "why": "старый: 60 дн."
  },
  {
   "id": "t3_1wcg3rx",
@@ -1158,7 +1149,7 @@
   "text": "18m targeted group range 17-20 Genre(pop, indie and maybe pop rock) For now the band I’m in the middle of making is completely online so you guys don’t have to worry about distance. I play the bass I’ve started maybe 2 months ago so I’m a beginner so if any of you are don’t stress it and if anyone does vocals on top of playing instruments that’s fine with me. If anyone’s interested feel free to re",
   "link": "https://www.reddit.com/r/FindABand/comments/1wcg3rx/need_guitaristvocalist_drummers_and_engineers/",
   "ok": false,
-  "why": "старый: 59 дн."
+  "why": "старый: 60 дн."
  },
  {
   "id": "t3_1wbva91",
@@ -1167,7 +1158,7 @@
   "text": "Hi ! I am a singer in pune and wants to do gigs in pune ( baner ,kp, kothrud, hinjewadi) If any guitarist is interested hit me a dm or if in any band there's a place for male vocalist let me know submitted by /u/MelodicKale9113 to u/MelodicKale9113 [link] [comments]",
   "link": "https://www.reddit.com/r/u_MelodicKale9113/comments/1wbva91/need_guitarist_or_any_band_whos_up_for_the_gigs/",
   "ok": false,
-  "why": "старый: 60 дн."
+  "why": "старый: 61 дн."
  },
  {
   "id": "t3_1wb30kd",
@@ -1212,7 +1203,7 @@
   "text": "Hey Gang - I currently have a JCM 2000 TSL 100 and I love it!!! However, I brought it in to get new tubes and it was diagnosed with the Bias Drift. Repairs for a new board and tubes cost more than the price of the amp :( With that said, I think I need to move on to a new amp. I really thought about doing the repairs but since it would be an after-market board, It seems more like a Frankenstein mod",
   "link": "https://www.reddit.com/r/MarshallAmps/comments/1w6emyf/new_amp_predicament/",
   "ok": false,
-  "why": "старый: 66 дн."
+  "why": "старый: 67 дн."
  },
  {
   "id": "t3_1w3ui3l",
@@ -1230,7 +1221,7 @@
   "text": "Guys urgently require a guitarist in sector 33 Chandigarh. For tonight. Somebody who can play family type songs , only few minutes maybe. Please help asap. Connect asap. submitted by /u/Master_Newt_8152 to r/Chandigarh [link] [comments]",
   "link": "https://www.reddit.com/r/Chandigarh/comments/1w3hsbr/need_guitarist_tonight_for_bday_of_my_sister/",
   "ok": false,
-  "why": "старый: 69 дн."
+  "why": "старый: 70 дн."
  },
  {
   "id": "t3_1w1ratj",
@@ -1239,7 +1230,7 @@
   "text": "I recently interviewed Academy Award-winning composer and arranger Joe Renzetti about the creative and professional journey behind his remarkable career. Joe began as a session guitarist before becoming an arranger, working on recordings including Barry Manilow’s “Mandy”. He later moved into film composition, winning the Academy Award for The Buddy Holly Story and scoring films including Child’s P",
   "link": "https://www.reddit.com/r/composer/comments/1w1ratj/what_happens_after_you_win_a_music_oscar_interview/",
   "ok": false,
-  "why": "старый: 71 дн."
+  "why": "старый: 72 дн."
  },
  {
   "id": "t3_1w0gnj5",
@@ -1257,7 +1248,7 @@
   "text": "Hi everyone, I'm a multi instrumentalist here and I'm looking to go into the world of becoming a session guitarist for different artists/bands. Do you guys know how or where I can start to get my name out there so I can get recognised by people. Guitar and Drums submitted by /u/Cerial_killer09 to r/SGmusic [link] [comments]",
   "link": "https://www.reddit.com/r/SGmusic/comments/1vywi24/looking_to_be_a_musician/",
   "ok": false,
-  "why": "старый: 74 дн."
+  "why": "старый: 75 дн."
  },
  {
   "id": "t3_1vywfmq",
@@ -1266,7 +1257,7 @@
   "text": "Hi everyone, I'm a multi instrumentalist here and I'm looking to go into the world of becoming a session guitarist for different artists/bands. Do you guys know how or where I can start to get my name out there so I can get recognised by people. Guitar and Drums submitted by /u/Cerial_killer09 to r/singaporemusicchat [link] [comments]",
   "link": "https://www.reddit.com/r/singaporemusicchat/comments/1vywfmq/looking_to_be_a_musician/",
   "ok": false,
-  "why": "старый: 74 дн."
+  "why": "старый: 75 дн."
  },
  {
   "id": "t3_1vvuy5c",
@@ -1293,7 +1284,7 @@
   "text": "so were forming a rock band around mumbai/navi mumbai for now we need guitarist bassist drummer keyboardist hmu on insta @vishuu.wav submitted by /u/Herox_YT to r/navimumbai [link] [comments]",
   "link": "https://www.reddit.com/r/navimumbai/comments/1vupvu1/forming_a_rock_band/",
   "ok": false,
-  "why": "старый: 79 дн."
+  "why": "старый: 80 дн."
  },
  {
   "id": "t3_1vtab4g",
@@ -1311,7 +1302,7 @@
   "text": "As I continue to ponder doing a Jeff-related podcast, I've been delving through the written works about him and wanted to clear up a bit of a boo-boo I noticed regarding Jeff and his audtioning for Mick Jagger (as I know quite a bit about the Stones as well). It's written in the Dream Brother biography and in Gary Lucas' book that Jeff auditioned to be in Mick's \"touring band\". That's actually not",
   "link": "https://www.reddit.com/r/JeffBuckley/comments/1vspe6u/jeff_mick_jagger/",
   "ok": false,
-  "why": "старый: 81 дн."
+  "why": "старый: 82 дн."
  },
  {
   "id": "t3_1vryskx",
@@ -1320,7 +1311,7 @@
   "text": "I decided to take all this seemingly useless music trivia swimming around in my head and try to convert it into a 2nd career. I am a lifelong musician and the ABB was among my earliest influences, so I thought they might be a good place to start. Comments are welcome. Here goes: Three Stories That Change the Way You Hear the Allman Brothers Band Released July 6, 1971, At Fillmore East established ",
   "link": "https://www.reddit.com/r/allmanbrothers/comments/1vryskx/trying_to_teach_myself_to_write_musicrelated/",
   "ok": false,
-  "why": "старый: 82 дн."
+  "why": "старый: 83 дн."
  },
  {
   "id": "t3_1vqiqy4",
@@ -1347,7 +1338,7 @@
   "text": "You don't need to be in Syria for it We need guitarist DJ or keyboard (optional) And maybe drummer submitted by /u/Dio6669666 to u/Dio6669666 [link] [comments]",
   "link": "https://www.reddit.com/r/u_Dio6669666/comments/1vnireq/edit_for_the_audition/",
   "ok": false,
-  "why": "старый: 87 дн."
+  "why": "старый: 88 дн."
  },
  {
   "id": "t3_1vmsjl3",
@@ -1419,7 +1410,7 @@
   "text": "I’m doing a mostly-online Deathcore project, but using preset guitars in FL sucks, I’m hoping to find someone to do some studio recordings! submitted by /u/Warm_Pause_6431 to r/FindABand [link] [comments]",
   "link": "https://www.reddit.com/r/FindABand/comments/1vbxb66/need_guitarist_for_deathcore_project/",
   "ok": false,
-  "why": "старый: 100 дн."
+  "why": "старый: 101 дн."
  },
  {
   "id": "t3_1vbfaaz",
@@ -1437,7 +1428,7 @@
   "text": "Bass part originally played by Charles Larkey. This might be the most involved bassline of Carole King’s catalogue. The album was the first of two that saw the addition of session guitarist legend David T. Walker and drummer Harvey Mason, who would go on to play with Herbie Hancock & The Headhunters, to her band. Find the complete song on YouTube . The sheet music is available through my website .",
   "link": "https://www.reddit.com/r/basstabs/comments/1vaxqpb/carole_king_bitter_with_the_sweet_full_version_on/",
   "ok": false,
-  "why": "старый: 101 дн."
+  "why": "старый: 102 дн."
  },
  {
   "id": "t3_1vaxqo7",
@@ -1446,7 +1437,7 @@
   "text": "Bass part originally played by Charles Larkey. This might be the most involved bassline of Carole King’s catalogue. The album was the first of two that saw the addition of session guitarist legend David T. Walker and drummer Harvey Mason, who would go on to play with Herbie Hancock & The Headhunters, to her band. Find the complete song on YouTube . The sheet music is available through my website .",
   "link": "https://www.reddit.com/r/basslessons/comments/1vaxqo7/carole_king_bitter_with_the_sweet_full_version_on/",
   "ok": false,
-  "why": "старый: 101 дн."
+  "why": "старый: 102 дн."
  },
  {
   "id": "t3_1van1j7",
@@ -1473,7 +1464,7 @@
   "text": "https://en.wikipedia.org/wiki/Buddy\\_Guy?wprov=sfti1#: “ George \" Buddy \" Guy (born July 30, 1936)[[1]](app://en.wikipedia.org/wiki/Buddy_Guy#cite_note-1)is an American [blues](app://en.wikipedia.org/wiki/Blues) guitarist and singer-songwriter. He is an exponent of [Chicago blues](app://en.wikipedia.org/wiki/Chicago_blues) who has influenced generations of guitarists including [Eric Clapton](app:/",
   "link": "https://www.reddit.com/r/60sMusic/comments/1v8vn4v/buddy_guy_stone_crazy_1961/",
   "ok": false,
-  "why": "старый: 103 дн."
+  "why": "старый: 104 дн."
  },
  {
   "id": "t3_1v2uvph",
@@ -1491,7 +1482,7 @@
   "text": "I am 33 years old, and i've been playing since I was 13. 20 years....and not 20 years of noodling...I've been in MANY different bands. Metal bands, rock bands, a fusion thing at one point.. gigged hard all through my late teens and early 20s, and currently work full time as an audio engineer/ session guitarist/ recording studio owner. I've owned more guitars than I can remember, bought and sold, p",
   "link": "https://www.reddit.com/r/Guitar/comments/1v2sr2q/guitarists_who_break_strings_all_the_timehow/",
   "ok": false,
-  "why": "старый: 110 дн."
+  "why": "старый: 111 дн."
  },
  {
   "id": "t3_1uw16kv",
@@ -1518,7 +1509,7 @@
   "text": "If you don't know what this genre is, imagine if Kurt Cobain was born in 2006 and was really shit at making music. Anyway I want to make some epunk music, not that i really like it nor do i engage in incel culture, i just suck so bad that I can only sound good in the most low effort genre ever. Anyways I need someone to do guitar for me, if you're down dm me either here or in discord: niceman83. s",
   "link": "https://www.reddit.com/r/FindABand/comments/1uvljcz/need_guitarist_for_epunkincelcoregen_z_grunge/",
   "ok": false,
-  "why": "старый: 118 дн."
+  "why": "старый: 119 дн."
  },
  {
   "id": "t3_1uqcfsb",
@@ -1536,7 +1527,7 @@
   "text": "I'm looking for independent artists, bands and singers with genuine interest in high-quality mix and master. With several years of experience as a session guitarist, producer and mixing and master engineer, I offer you my service of making your latest piece not only ready for the wide ranges, but giving it a polish that will make it shine through. Happy to answer to your enquiries directly per tal",
   "link": "https://www.reddit.com/r/ProducaoMusical/comments/1uoy2ff/professional_mixing_and_mastering_engineer/",
   "ok": false,
-  "why": "старый: 125 дн."
+  "why": "старый: 126 дн."
  },
  {
   "id": "t3_1unbflc",
@@ -1545,7 +1536,7 @@
   "text": "Hi there!..I work for independent artists, bands and singers with genuine interest in high-quality mix and master. I have more than 15 years of experience as a session guitarist, producer and mixing and master engineer, I offer you my service of making your latest piece not only ready for the wide ranges, but giving it a polish that will make it shine through. Happy to answer your inquiries submit",
   "link": "https://www.reddit.com/r/indiemusic/comments/1unbflc/for_hireare_you_looking_to_mix_and_master_your/",
   "ok": false,
-  "why": "старый: 127 дн."
+  "why": "старый: 128 дн."
  },
  {
   "id": "t3_1umki5m",
@@ -1554,7 +1545,7 @@
   "text": "submitted by /u/BirdBurnett to r/groovyhistory [link] [comments]",
   "link": "https://www.reddit.com/r/groovyhistory/comments/1umki5m/july_3rd_1930_tommy_tedesco_was_born_in_niagara/",
   "ok": false,
-  "why": "старый: 128 дн."
+  "why": "старый: 129 дн."
  },
  {
   "id": "t3_1umf2ui",
@@ -1563,7 +1554,7 @@
   "text": "submitted by /u/BirdBurnett to r/Music_Anniversary [link] [comments]",
   "link": "https://www.reddit.com/r/Music_Anniversary/comments/1umf2ui/on_july_3rd_1930_tommy_tedesco_was_born_in/",
   "ok": false,
-  "why": "старый: 128 дн."
+  "why": "старый: 129 дн."
  },
  {
   "id": "t3_1ukyt6r",
@@ -1581,7 +1572,7 @@
   "text": "I'm looking for independent artists, bands and singers with genuine interest in high-quality mix and master. With several years of experience as a session guitarist, producer and mixing and master engineer, I offer you my service of making your latest piece not only ready for the wide ranges, but giving it a polish that will make it shine through. Happy to answer to your enquiries directly per [ t",
   "link": "https://www.reddit.com/r/MusicCollabNetwork/comments/1uklx1y/professional_mixing_and_mastering_engineer/",
   "ok": false,
-  "why": "старый: 130 дн."
+  "why": "старый: 131 дн."
  },
  {
   "id": "t3_1ui0dh0",
@@ -1590,7 +1581,7 @@
   "text": "submitted by /u/yeenya10 to r/indonesiabebas [link] [comments]",
   "link": "https://www.reddit.com/r/indonesiabebas/comments/1ui0dh0/apakah_ada_orang_yg_minat_buat_bikin_band_bareng/",
   "ok": false,
-  "why": "старый: 133 дн."
+  "why": "старый: 134 дн."
  },
  {
   "id": "t3_1ui02o6",
@@ -1599,7 +1590,7 @@
   "text": "submitted by /u/yeenya10 to r/indonesian [link] [comments]",
   "link": "https://www.reddit.com/r/indonesian/comments/1ui02o6/apakah_ada_orang_yg_minat_buat_bikin_band_bareng/",
   "ok": false,
-  "why": "старый: 133 дн."
+  "why": "старый: 134 дн."
  },
  {
   "id": "t3_1ugq9dr",
@@ -1636,6 +1627,69 @@
   "link": "https://www.reddit.com/r/Guitar_Theory/comments/1ucz28f/berklee_alum_and_teacher_here_im_doing_a_free/",
   "ok": false,
   "why": "старый: 139 дн."
+ },
+ {
+  "id": "t3_1xrfv95",
+  "src": "Reddit",
+  "title": "Guitars/Synths/Pads disappearing in Mono",
+  "text": "Hello everyone. I've been producing some tracks for quite awhile but I've had one recurring issue with my mixes. The issue is the disappearing of guitars/synths/pads when I listen to my tracks in mono speakers (smartphone speakers). This has been making me very frustrated these days. I spent a couple of hours making a track and mixing untill it sounds \"ok\" in stereo, but whenever I go listen to my",
+  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xrfv95/guitarssynthspads_disappearing_in_mono/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xrd13d",
+  "src": "Reddit",
+  "title": "[Spanish Pop] Quédate un minuto más",
+  "text": "[Intro – Bright brass fanfare, piano riff, full band entrance] [Verse 1 – Male Lead] La plaza huele a lluvia y a azahar, las luces se reflejan en tu piel. Te he visto entre la gente al pasar, y el tiempo ha dado un salto atrás. [Verse 2 – Female Lead] Me preguntas cómo me ha tratado el amor, yo digo «bien» por no decir «fatal». Y entonces suena aquella melodía que prometimos recordar. [Pre-Chorus ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xrd13d/spanish_pop_quédate_un_minuto_más/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xrbuyp",
+  "src": "Reddit",
+  "title": "[Orchestral] Chase the Dawn by Niko, the first song I ever finished, around 2000, arranged and produced with Suno",
+  "text": "This was the first song I ever fully composed, sometime around the year 2000. My university friend Alexey gave me the chord progression you can hear in this piece, and its original name, \"Rasstayala Noch\", meaning \"The Night Has Melted Away\". I put those chords into Guitar Pro, looped them over and over, and added melodies on top. What surprised me was how easily it all came together. Finding a fi",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xrbuyp/orchestral_chase_the_dawn_by_niko_the_first_song/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xr9g5e",
+  "src": "Reddit",
+  "title": "[Pop Rock] We're Not Done — and what I learned about not being a hard rock guy",
+  "text": "https://on.soundcloud.com/41Dr1TSU88LP72kvg1 This one started as a rock song and I had to walk it back. I wanted hardness and asked for it, and what I got was a screamed chorus and a raspy vocal that I couldn't listen to. Turns out my limit is pop rock: the hardness has to come from the guitars, not the voice. Fixed it with a Cover pass — same performance, new prompt, no shouting. The stadium-chan",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xr9g5e/pop_rock_were_not_done_and_what_i_learned_about/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xr8xmx",
+  "src": "Reddit",
+  "title": "When should you give up especially if it’s your only hobby",
+  "text": "Idk I’ve been considering quitting for awhile now, I love playing and jazz chords speak to my soul but nothing ever really worked out for me… I’ve been playing since I was a kid.. whether it was drums or my primary instrument guitar and learning theory and learning piano.. All people want to play is metal anymore. And I hate writing metal. I’ll listen to it but I don’t enjoy playing it. Emo has al",
+  "link": "https://www.reddit.com/r/musicians/comments/1xr8xmx/when_should_you_give_up_especially_if_its_your/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xpvk0c",
+  "src": "Reddit 2",
+  "title": "Feedback on my song!",
+  "text": "So I wrote this song a few days ago, and just want some feedback. Advice, thoughts, ratings, anything is helpful, and nothing is too harsh :) haha tho my voice does sound bad here my throat is killing me, here it is tho (my voice may be kinda drowned out by my guitar lol) The lyrics are I never even loved him But he had sugar on his lips I couldn't help myself And it was nothing but a kiss And whe",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xpvk0c/feedback_on_my_song/",
+  "ok": false,
+  "why": "заголовок: feedback"
+ },
+ {
+  "id": "t3_1xpux1j",
+  "src": "Reddit 2",
+  "title": "Solo instrumentalists. When you're writing songs how do you structure your music?",
+  "text": "I'm a guitarist and I like to write my own, purely instrumental, music. I don't write to perform for anyone but I always try to imagine what a listener would think if they were to hear my songs. One thing that I'm always aware of is trying not to bore my imaginary audience with too much repetition. This could be within sections of my songs, or through repeating sections too many times. I tend to e",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xpux1j/solo_instrumentalists_when_youre_writing_songs/",
+  "ok": false,
+  "why": "мусор: i'm a guitarist"
  },
  {
   "id": "t3_1xr3f06",
@@ -2644,59 +2698,5 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xlmc54/orchestral_rock_ballad_someone_again_by_t4_sound/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xljy1x",
-  "src": "Reddit",
-  "title": "[Rap Metal] One of Those Days | Verse 2 & Bridge Teaser",
-  "text": "Sharing a section from an upcoming track called One of Those Days . It&#39;s about those days when every little thing seems to go wrong, and the frustration just keeps building. The verse captures the everyday annoyances, while the bridge pushes that feeling toward the breaking point. The track is Rap Metal at 105 BPM, built around heavy cello ostinatos, distorted punk-metal guitars, tense electro",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xljy1x/rap_metal_one_of_those_days_verse_2_bridge_teaser/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xlij0a",
-  "src": "Reddit",
-  "title": "[Southern Rock] When the Water Starts to Rise by SteveRedDot (lyric video)",
-  "text": "A dark, heavy Southern rock anthem blending acoustic blues and overdriven guitars, using rising floodwaters as a metaphor for catastrophe revealing people’s true character. &#32; submitted by &#32; /u/steveborg &#32; to &#32; r/SunoAI [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xlij0a/southern_rock_when_the_water_starts_to_rise_by/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xlg10t",
-  "src": "Reddit",
-  "title": "Any ideas what to do with website that used to help musicians get back their stolen instruments?",
-  "text": "Maybe some of you remember the Screaming Stone Stolen Music Instrument Recovery Project. I used to help musicians get back their stolen gear by publicizing instrument thefts on the website, Craigslist, and a bunch of music related sites. The website also had a searchable database that you could check before buying gear. It got a lot of attention back around 2004 - 2014, was in a bunch of guitar ma",
-  "link": "https://www.reddit.com/r/musicians/comments/1xlg10t/any_ideas_what_to_do_with_website_that_used_to/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xlf0ri",
-  "src": "Reddit",
-  "title": "[Alt-Metal] Made in My Image by Cyborgized",
-  "text": "[Intro: 4 bars, faint electrical feedback, barely audible reversed vocal texture, analog recording noise] [Heavy Instrumental Opening: 8 bars, crushing distorted guitar riff, grinding bass, heavy mechanical drums, aggressive full-band impact] [Verse 1: stripped-back guitars, dry mechanical drums, intimate low male voice] You drew a face into the wet clay You called me a flaw You built a gate where",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xlf0ri/altmetal_made_in_my_image_by_cyborgized/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xlbcuu",
-  "src": "Reddit",
-  "title": "Interested in learning Classic blues",
-  "text": "Good evening everyone. For some context, I am a 20 year old Hispanic male. I’ve always been interested in history and music since I can remember. My go-to instrument of choice has always been a guitar and I’ve came pretty far in my journey. I love all different kinds of sounds from multiple cultures and times. However the one that stuck the most with me the most has always been the Blue’s genre. M",
-  "link": "https://www.reddit.com/r/musicians/comments/1xlbcuu/interested_in_learning_classic_blues/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xlb1ey",
-  "src": "Reddit",
-  "title": "[AI-Generated] Female-Fronted Alt-Rock — Does This Shibuya Chorus Actually Stick?",
-  "text": "I&#39;ve been building a female-fronted alternative-rock project called BOOMSLANGXXX, inspired by anime visuals, Shibuya nightlife and catchy guitar-driven choruses. Our latest track is &quot;Neon Nights In Shibuya Heights.&quot; The idea: you miss the last train in Tokyo and end up having the best night of your life. I developed the song&#39;s concept, lyrics and creative direction, using Suno fo",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xlb1ey/aigenerated_femalefronted_altrock_does_this/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
  }
 ]
