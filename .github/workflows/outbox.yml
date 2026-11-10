@@ -2,7 +2,7 @@ name: outbox-to-telegram
 on:
   push:
     branches: [main]
-    paths: ["outbox/*.md"]
+    paths: ["outbox/**"]
 permissions:
   contents: read
 jobs:
@@ -17,5 +17,5 @@ jobs:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
         run: |
-          files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'outbox/*.md')
-          [ -n "$files" ] && python3 scripts/send_outbox.py $files || echo "нет новых файлов"
+          mapfile -d '' files < <(git -c core.quotepath=false diff -z --name-only --diff-filter=AM HEAD~1 HEAD -- 'outbox/*')
+          if [ "${#files[@]}" -gt 0 ]; then python3 scripts/send_outbox.py "${files[@]}"; else echo "нет новых файлов"; fi
