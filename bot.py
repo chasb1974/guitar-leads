@@ -311,7 +311,12 @@ MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
                    "todmoses@msn.com": "Boarding Gate Studio (США)",
                    "rockgardenstudio@gmail.com": "Rock Garden Studio (США)",
                    "burncounty.com": "Ty Weathers / Burn County (США)",
-                   "lukemunnsmusic.com": "Luke Munns Music (Австралия)"}
+                   "lukemunnsmusic.com": "Luke Munns Music (Австралия)",
+                   "ximountainstudios.at": "Xi Mountain Studios (Австрия)",
+                   "bandrecording.at": "Band Recording Wien (Австрия)",
+                   "billsathrum.com": "Bill Sathrum / High Edge (Австрия)",
+                   "musikandfilm.com": "Musik and Film Productions (Нашвилл)",
+                   "jamboxstudios@gmail.com": "JAMBOX Studios (Нью-Йорк)"}
 
 def hdr(v):
     try:
