@@ -1,12 +1,21 @@
 [
  {
-  "id": "t3_1xt7ck1",
+  "id": "t3_1xtgh18",
   "src": "Reddit",
-  "title": "Why do people do this? (Rant)",
-  "text": "Some background: I'm a self-taught rock guy in my late 20s. Been playing bass and guitar since I was a young teen and have a lot of experience playing in bands. I have a good ear and know the names of notes/chords, but don't read music or have a super comprehensive understanding of theory. Nonetheless, I feel I can hold my own. I play in many bands and enjoy taking on many different projects at on",
-  "link": "https://www.reddit.com/r/musicians/comments/1xt7ck1/why_do_people_do_this_rant/",
+  "title": "[J-Pop] Postcards from Tomorrow — a ballad about letters from the person you're about to become",
+  "text": "Every morning she finds a postcard in her mailbox, in her own handwriting, dated tomorrow. \"Take an umbrella.\" That afternoon, it rains. The last card arrives blank. How I made it: - Lyrics written first, ~70% Japanese / 30% English, with the English hook sung in the first seconds over a music box (cold open, no long intro) - Style: J-pop ballad, 112 BPM, solo female mezzo, sparse piano and bass, ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xtgh18/jpop_postcards_from_tomorrow_a_ballad_about/",
   "ok": false,
-  "why": "мусор: teach them"
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xtg4l0",
+  "src": "Reddit",
+  "title": "Quiero hacer música y no me animo",
+  "text": "Tengo 20 y bueno como leen en el título, quiero hacer mi música y siento que haría algo que suene bien, pero es como que nunca me pongo realmente a alcanzar esa meta, como si no fuera para mí, algo lejano. Tocó la guitarra, tengo varios bocetos de instrumental (solo guitarra) y alguna que otra letra, pero no termine ningúno, los tocó las 3 primeras veces y suena buenísimo, ya a la cuarta no entien",
+  "link": "https://www.reddit.com/r/musicians/comments/1xtg4l0/quiero_hacer_música_y_no_me_animo/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xt29ud",
@@ -36,22 +45,13 @@
   "why": "никто не ищет"
  },
  {
-  "id": "t3_1xswha0",
-  "src": "Reddit",
-  "title": "[Twee-Pop / Indie Pop] As Long As You Remember by Crystle",
-  "text": "🌸 As Long As You Remember What happens to someone who exists only in another person’s memories, when those memories begin to fade? I wanted to make something sweet and nostalgic, but with a slightly eerie feeling underneath. Bright twee-pop melodies, warm indie-pop guitars, gentle violin, and the sound of an old cassette slowly falling apart. It’s a love song about holding onto someone, even as th",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xswha0/tweepop_indie_pop_as_long_as_you_remember_by/",
+  "id": "t3_1xte0gx",
+  "src": "Reddit 2",
+  "title": "Short song on guitar, what do you think?",
+  "text": "The lyrics in case my voice is muddy Here’s a piece of advice For you all to take whenever you like I’m leaving it behind I’m alright with, the sun Going down, I think, that’s just what it does Around, around again She left home a day And a half ago, I feel that it’s drawn out Every hour since Many days are wasted Waiting for the tides to turn submitted by /u/FaceInCrowdd to r/Songwriting [link] [",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xte0gx/short_song_on_guitar_what_do_you_think/",
   "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xsov55",
-  "src": "Reddit",
-  "title": "Blue Little Girl - The Rainbow I Waited For Was Inside Me All Along - Contemporary Folk Song",
-  "text": "My song Blue Little Girl - This reflective ballad captures the essence of dreams, patience and the emotional journey from childhood to adulthood. Performed by Mary Kay Aufrance singing and playing accordion accompanied by Tom Aufrance playing guitar. This acoustic story follows a young girl waiting patiently for her rainbow, imagining a world where she can run wild and let her thoughts be free. As",
-  "link": "https://www.reddit.com/r/Songwriters/comments/1xsov55/blue_little_girl_the_rainbow_i_waited_for_was/",
-  "ok": false,
-  "why": "ищут не гитариста"
+  "why": "вопрос / обсуждение"
  },
  {
   "id": "t3_1xsyc23",
@@ -169,6 +169,33 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xr79ap/new_to_this_releasing_tips/",
   "ok": false,
   "why": "вопрос / обсуждение"
+ },
+ {
+  "id": "t3_1xt7ck1",
+  "src": "Reddit",
+  "title": "Why do people do this? (Rant)",
+  "text": "Some background: I'm a self-taught rock guy in my late 20s. Been playing bass and guitar since I was a young teen and have a lot of experience playing in bands. I have a good ear and know the names of notes/chords, but don't read music or have a super comprehensive understanding of theory. Nonetheless, I feel I can hold my own. I play in many bands and enjoy taking on many different projects at on",
+  "link": "https://www.reddit.com/r/musicians/comments/1xt7ck1/why_do_people_do_this_rant/",
+  "ok": false,
+  "why": "мусор: teach them"
+ },
+ {
+  "id": "t3_1xswha0",
+  "src": "Reddit",
+  "title": "[Twee-Pop / Indie Pop] As Long As You Remember by Crystle",
+  "text": "🌸 As Long As You Remember What happens to someone who exists only in another person’s memories, when those memories begin to fade? I wanted to make something sweet and nostalgic, but with a slightly eerie feeling underneath. Bright twee-pop melodies, warm indie-pop guitars, gentle violin, and the sound of an old cassette slowly falling apart. It’s a love song about holding onto someone, even as th",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xswha0/tweepop_indie_pop_as_long_as_you_remember_by/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xsov55",
+  "src": "Reddit",
+  "title": "Blue Little Girl - The Rainbow I Waited For Was Inside Me All Along - Contemporary Folk Song",
+  "text": "My song Blue Little Girl - This reflective ballad captures the essence of dreams, patience and the emotional journey from childhood to adulthood. Performed by Mary Kay Aufrance singing and playing accordion accompanied by Tom Aufrance playing guitar. This acoustic story follows a young girl waiting patiently for her rainbow, imagining a world where she can run wild and let her thoughts be free. As",
+  "link": "https://www.reddit.com/r/Songwriters/comments/1xsov55/blue_little_girl_the_rainbow_i_waited_for_was/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xt1c1w",
@@ -2671,32 +2698,5 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xmrikp/london_indie_alternative_band_looking_for_a/",
   "ok": false,
   "why": "группа / концерт"
- },
- {
-  "id": "t3_1xmr9yl",
-  "src": "Reddit",
-  "title": "i’m very conflicted and somewhat worried",
-  "text": "i make music using splice, pro tools, and fl studio with antares plug ins for eq, autotune, compression, reverb, and other things. i make rap with a lot of heavy guitar samples. i do my drum programming. i arrange the stems how i want and record my vocals(at2040 mic). i’ve spent tons of money(still budget friendly). i put hours in on my lyrics, developing cadences, and melody’s. i recently uploade",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xmr9yl/im_very_conflicted_and_somewhat_worried/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xko8q3",
-  "src": "Reddit 2",
-  "title": "Help: How do you write over beats?",
-  "text": "Now, I am not a total beginner at writing. I have written over beats before, and sometimes it comes more naturally depending on the sort of beat. However, I recently made a beat of my own. It is very base heavy, and sort of has a signature sound to it. It is a pretty hard electro-pop beat with some funk drums. It uses a minor scale. I have been trying to write over the chorus section and my lord I",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xko8q3/help_how_do_you_write_over_beats/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xmj1v2",
-  "src": "Reddit",
-  "title": "How do I go about finding some good chords for my tab on guitar?",
-  "text": "&#32; submitted by &#32; /u/lil_snook &#32; to &#32; r/musicians [link] &#32; [comments]",
-  "link": "https://www.reddit.com/r/musicians/comments/1xmj1v2/how_do_i_go_about_finding_some_good_chords_for_my/",
-  "ok": false,
-  "why": "заголовок: how do i"
  }
 ]
