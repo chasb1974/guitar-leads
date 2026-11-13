@@ -1,5 +1,41 @@
 [
  {
+  "id": "t3_1xvkuvb",
+  "src": "Reddit",
+  "title": "Rhythm guitar in metal: what my ears are hearing",
+  "text": "https://preview.redd.it/1e98vc4iag1i1.png?width=1254&format=png&auto=webp&s=0d2517d60b9246bba5bf55c268e47c38e71a9395 Nice solos, nice palm mutes but outside of that what I always hear is this 😅 submitted by /u/Dapper-Tradition-893 to r/SunoAI [link] [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xvkuvb/rhythm_guitar_in_metal_what_my_ears_are_hearing/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xvj6wy",
+  "src": "Reddit",
+  "title": "Guitar for Natural One [In Progress]",
+  "text": "submitted by /u/sKamJam to r/musicians [link] [comments]",
+  "link": "https://www.reddit.com/r/musicians/comments/1xvj6wy/guitar_for_natural_one_in_progress/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xvgoxy",
+  "src": "Reddit",
+  "title": "[Rock, Metal, electronic] - Junglemetal by Me - first time using a whole song as the audio input - I like the results.",
+  "text": "Ok so I know we're supposed to just hate on version 6 and justify the use of AI music tools at all here but I actually had some fun yesterday and got some cool results. I have this old song I made with a friend. He had some riffs on guitar. I added some riffs too. played bass. and then used some loops and programmed a bit so it had beats. it's just an mp3 on a hard drive and it's probably 15 years",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xvgoxy/rock_metal_electronic_junglemetal_by_me_first/",
+  "ok": true,
+  "why": ""
+ },
+ {
+  "id": "t3_1xvfy1s",
+  "src": "Reddit",
+  "title": "How do you stop Suno from turning aggressive rap verses into melodic, almost autotuned singing?",
+  "text": "Working on dark trap metal tracks. My style field is something like \"aggressive male rap vocals, distorted 808, downtuned guitars, 90 bpm\" and the verses are tagged [Verse – rap, aggressive]. About half the generations still drift into melodic, almost autotuned singing by the second verse. Things I've tried: shorter lines, repeating the tag right before verse 2, adding \"no autotune\" to the style f",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xvfy1s/how_do_you_stop_suno_from_turning_aggressive_rap/",
+  "ok": false,
+  "why": "вопрос / обсуждение"
+ },
+ {
   "id": "t3_1xvb0li",
   "src": "Reddit",
   "title": "[Gothic Symphonic Rock] CAN'T STEAL YOU BACK by Slaaviii's Jukebox 💔",
@@ -25,42 +61,6 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xv7pyb/gigging_musicians_need_a_new_free_platform_to/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xv2vhk",
-  "src": "Reddit",
-  "title": "Something that is a little annoying about music.",
-  "text": "Before you continue reading I would like to state that I'm mostly new to music (I've been playing saxophone and bass for like a year but have been playing guitar and ukulele for way longer) and I don't claim to be a smart person. Something I have noticed about a lot of pro musicians is how they keep on saying the same thing \"To make money with music you need to play what's popular and play covers\"",
-  "link": "https://www.reddit.com/r/musicians/comments/1xv2vhk/something_that_is_a_little_annoying_about_music/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xv16v9",
-  "src": "Reddit",
-  "title": "Hiss and audio degradation",
-  "text": "I apologize if this question has already been raised. Whenever I produce a track with version six, the audio carries a faint hiss in the background, reminiscent of 1980s recordings made on old tape recorders. The guitar or piano sounds muffled, as if a dampener pedal is engaged. I wonder whether I am making a mistake or if this is simply how the software generates sound these days. I notice it les",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xv16v9/hiss_and_audio_degradation/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xuw6sh",
-  "src": "Reddit",
-  "title": "[Techno-Funk] The Pink-Star Primarch",
-  "text": "Behold the Pink-Star Primarch: 54,000-year-old universal ruler of the Gemverse and polished pink-diamond apex of the cosmos. Wielding an invisible diamond grid, the 10,000-year extinction cycle, and the Proliferates Pen, his Lawful Evil Proletariat commands absolute multiversal order. Crowned with the geopolitical trophies of rival empires and possessing pan-gem morphing power, he is the flawless,",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xuw6sh/technofunk_the_pinkstar_primarch/",
-  "ok": false,
-  "why": "мусор: lyrics:"
- },
- {
-  "id": "t3_1xutz4u",
-  "src": "Reddit",
-  "title": "[Theatrical Piano Rock] Love Me Wicked by SteveRedDot (lyric video)",
-  "text": "Since Suno is still terrible at metal guitar and drums, I switched this song to a theatrical, gothic, piano rock/metal song. submitted by /u/steveborg to r/SunoAI [link] [comments]",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xutz4u/theatrical_piano_rock_love_me_wicked_by/",
-  "ok": false,
-  "why": "никто не ищет"
  },
  {
   "id": "t3_1xun5u4",
@@ -133,6 +133,42 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xte0gx/short_song_on_guitar_what_do_you_think/",
   "ok": false,
   "why": "вопрос / обсуждение"
+ },
+ {
+  "id": "t3_1xv2vhk",
+  "src": "Reddit",
+  "title": "Something that is a little annoying about music.",
+  "text": "Before you continue reading I would like to state that I'm mostly new to music (I've been playing saxophone and bass for like a year but have been playing guitar and ukulele for way longer) and I don't claim to be a smart person. Something I have noticed about a lot of pro musicians is how they keep on saying the same thing \"To make money with music you need to play what's popular and play covers\"",
+  "link": "https://www.reddit.com/r/musicians/comments/1xv2vhk/something_that_is_a_little_annoying_about_music/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xv16v9",
+  "src": "Reddit",
+  "title": "Hiss and audio degradation",
+  "text": "I apologize if this question has already been raised. Whenever I produce a track with version six, the audio carries a faint hiss in the background, reminiscent of 1980s recordings made on old tape recorders. The guitar or piano sounds muffled, as if a dampener pedal is engaged. I wonder whether I am making a mistake or if this is simply how the software generates sound these days. I notice it les",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xv16v9/hiss_and_audio_degradation/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xuw6sh",
+  "src": "Reddit",
+  "title": "[Techno-Funk] The Pink-Star Primarch",
+  "text": "Behold the Pink-Star Primarch: 54,000-year-old universal ruler of the Gemverse and polished pink-diamond apex of the cosmos. Wielding an invisible diamond grid, the 10,000-year extinction cycle, and the Proliferates Pen, his Lawful Evil Proletariat commands absolute multiversal order. Crowned with the geopolitical trophies of rival empires and possessing pan-gem morphing power, he is the flawless,",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xuw6sh/technofunk_the_pinkstar_primarch/",
+  "ok": false,
+  "why": "мусор: lyrics:"
+ },
+ {
+  "id": "t3_1xutz4u",
+  "src": "Reddit",
+  "title": "[Theatrical Piano Rock] Love Me Wicked by SteveRedDot (lyric video)",
+  "text": "Since Suno is still terrible at metal guitar and drums, I switched this song to a theatrical, gothic, piano rock/metal song. submitted by /u/steveborg to r/SunoAI [link] [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xutz4u/theatrical_piano_rock_love_me_wicked_by/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1xurtjv",
@@ -2660,42 +2696,6 @@
   "title": "How do you deal with hate about your vocals?",
   "text": "I am a singer and I am not sure I am a good one cos of the people to be honest. Like I have knowledge about singing, had numerous singing lessons, I know when I am on key, on-pitch or off-pitch, and I’ve learned my vocal anatomy enough to know where my (current) limitations are vocally. Yet people keep saying I sound like a beginner or something. It feels so disheartening. I am not sure if they ar",
   "link": "https://www.reddit.com/r/musicians/comments/1xounxn/how_do_you_deal_with_hate_about_your_vocals/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xotjfs",
-  "src": "Reddit",
-  "title": "Discouraged from working on a track. Better guitar recordings?",
-  "text": "I have taken longer than I would like to admit to finish a song. Every time I have an issue with it, it comes down to my guitar track. For some context: The song is in the vein of Waking Up by Explosions in the Sky or Quiet by This Will Destroy You, with some dark synth instrumentation/strings. For the life of me, I cannot get what I record on guitar to sound good, to the point where I anticipate ",
-  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xotjfs/discouraged_from_working_on_a_track_better_guitar/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xoqrk1",
-  "src": "Reddit",
-  "title": "[French Indie-Disco] Show Me Where by Cyborgized",
-  "text": "[Intro | 8 bars | Bass and drums for four bars; muted guitar enters between snare hits; filtered synth opens slowly. No vocal until the pickup.] Mm... That's a lovely little theory. [Verse 1 | 16 bars | Soft, sly first-person vocal; late entries, uneven phrases, guitar replies after held vowels.] You set my insides on the table, copper, current, a little heat. \"There,\" you said, like you'd finishe",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xoqrk1/french_indiedisco_show_me_where_by_cyborgized/",
-  "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xo9cjd",
-  "src": "Reddit",
-  "title": "[Metal] mem0 (extended dueling guitar solo)",
-  "text": "submitted by /u/santient to r/SunoAI [link] [comments]",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xo9cjd/metal_mem0_extended_dueling_guitar_solo/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xo7nyv",
-  "src": "Reddit",
-  "title": "Ethical questioning concerning cloned vocals in remixes of original songs?",
-  "text": "I almost exclusively use Suno to cover my original recorded songs from 20+ years ago. I've been sitting on a song for awhile (actually quite a few songs) and have a weird question. A while ago, I used Suno v4.0 to cover one of my original songs that I played guitar and \"sang\" (poorly) on and published it. It was badly written and played, but Suno turned into something a little more palatable. I re",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xo7nyv/ethical_questioning_concerning_cloned_vocals_in/",
   "ok": false,
   "why": "вопрос / обсуждение"
  }
