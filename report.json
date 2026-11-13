@@ -1,5 +1,23 @@
 [
  {
+  "id": "t3_1xuw6sh",
+  "src": "Reddit",
+  "title": "[Techno-Funk] The Pink-Star Primarch",
+  "text": "Behold the Pink-Star Primarch: 54,000-year-old universal ruler of the Gemverse and polished pink-diamond apex of the cosmos. Wielding an invisible diamond grid, the 10,000-year extinction cycle, and the Proliferates Pen, his Lawful Evil Proletariat commands absolute multiversal order. Crowned with the geopolitical trophies of rival empires and possessing pan-gem morphing power, he is the flawless,",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xuw6sh/technofunk_the_pinkstar_primarch/",
+  "ok": false,
+  "why": "мусор: lyrics:"
+ },
+ {
+  "id": "t3_1xutz4u",
+  "src": "Reddit",
+  "title": "[Theatrical Piano Rock] Love Me Wicked by SteveRedDot (lyric video)",
+  "text": "Since Suno is still terrible at metal guitar and drums, I switched this song to a theatrical, gothic, piano rock/metal song. submitted by /u/steveborg to r/SunoAI [link] [comments]",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xutz4u/theatrical_piano_rock_love_me_wicked_by/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xurtjv",
   "src": "Reddit",
   "title": "What do I need to start recording music?",
@@ -45,31 +63,13 @@
   "why": "мусор: guitar teacher"
  },
  {
-  "id": "t3_1xuahbi",
-  "src": "Reddit",
-  "title": "Should i get a saxophone/clarinet or just stick to what i have for now",
-  "text": "Hey guys! I study outside my home country, phones here are expensive if registered and i have a registered phone. Long story short i have sold my registered phone and got the money, i wanted to get an unregistered phone that is cheaper So i could get a pretty good upgrade or… And here is why i asked here, wasn’t a wrong sub lol. I have always loved saxophones and clarinets, and i have had a though",
-  "link": "https://www.reddit.com/r/musicians/comments/1xuahbi/should_i_get_a_saxophoneclarinet_or_just_stick_to/",
+  "id": "t3_1xv0rym",
+  "src": "Reddit 2",
+  "title": "could i please have some feedback on my song if that's okay",
+  "text": "sorry about the snapchat and the out of tune guitar. i also just started singing so bare with me haha thank you submitted by /u/Salt-Check5156 to r/Songwriting [link] [comments]",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xv0rym/could_i_please_have_some_feedback_on_my_song_if/",
   "ok": false,
-  "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xuaeok",
-  "src": "Reddit",
-  "title": "What should I do about instrment desire?",
-  "text": "Now before we start talking about desires there is one thing that is important in this picture I have had a complex medical history i was born with a cleft palate and had to have surgries to fix it and other ploblems i was developmentally delayed and i in school i was dignosed with mild intecual disabilty Mild intellectual disabili ty is an academic learning disability and issues with common deman",
-  "link": "https://www.reddit.com/r/musicians/comments/1xuaeok/what_should_i_do_about_instrment_desire/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xu8e5o",
-  "src": "Reddit",
-  "title": "[Pop Rock Ballad] Beauty in the Broken Glass by ProductionsbyAI",
-  "text": "Howdy everyone! 😊 Me and my husband are a little husband-and-wife songwriting duo living on a homestead in the mountains. We spent years living up here without internet, writing songs to entertain ourselves. My husband plays guitar, and I play piano and write music and lyrics. We finally got internet and have been working on getting our songs published on YouTube, along with music videos we're mak",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xu8e5o/pop_rock_ballad_beauty_in_the_broken_glass_by/",
-  "ok": false,
-  "why": "никто не ищет"
+  "why": "заголовок: feedback"
  },
  {
   "id": "t3_1xun5u4",
@@ -151,6 +151,33 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xsyc23/how_do_i_finish_a_song/",
   "ok": false,
   "why": "заголовок: how do i"
+ },
+ {
+  "id": "t3_1xuahbi",
+  "src": "Reddit",
+  "title": "Should i get a saxophone/clarinet or just stick to what i have for now",
+  "text": "Hey guys! I study outside my home country, phones here are expensive if registered and i have a registered phone. Long story short i have sold my registered phone and got the money, i wanted to get an unregistered phone that is cheaper So i could get a pretty good upgrade or… And here is why i asked here, wasn’t a wrong sub lol. I have always loved saxophones and clarinets, and i have had a though",
+  "link": "https://www.reddit.com/r/musicians/comments/1xuahbi/should_i_get_a_saxophoneclarinet_or_just_stick_to/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xuaeok",
+  "src": "Reddit",
+  "title": "What should I do about instrment desire?",
+  "text": "Now before we start talking about desires there is one thing that is important in this picture I have had a complex medical history i was born with a cleft palate and had to have surgries to fix it and other ploblems i was developmentally delayed and i in school i was dignosed with mild intecual disabilty Mild intellectual disabili ty is an academic learning disability and issues with common deman",
+  "link": "https://www.reddit.com/r/musicians/comments/1xuaeok/what_should_i_do_about_instrment_desire/",
+  "ok": false,
+  "why": "вопрос / обсуждение"
+ },
+ {
+  "id": "t3_1xu8e5o",
+  "src": "Reddit",
+  "title": "[Pop Rock Ballad] Beauty in the Broken Glass by ProductionsbyAI",
+  "text": "Howdy everyone! 😊 Me and my husband are a little husband-and-wife songwriting duo living on a homestead in the mountains. We spent years living up here without internet, writing songs to entertain ourselves. My husband plays guitar, and I play piano and write music and lyrics. We finally got internet and have been working on getting our songs published on YouTube, along with music videos we're mak",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xu8e5o/pop_rock_ballad_beauty_in_the_broken_glass_by/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1xstfqj",
@@ -2671,32 +2698,5 @@
   "link": "https://www.reddit.com/r/SingerSongwriter/comments/1xm9572/would_love_feedback_on_our_new_song_the_gate/",
   "ok": false,
   "why": "заголовок: feedback"
- },
- {
-  "id": "t3_1xnymal",
-  "src": "Reddit",
-  "title": "[Instrumental Metal] Impulse Unleashed",
-  "text": "Have some time? How about some instrumental? No lyrics, no vocals — just guitars, melodies and atmosphere. Give it a listen. 🖤🤘 submitted by /u/Apprehensive-Fix8328 to r/SunoAI [link] [comments]",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xnymal/instrumental_metal_impulse_unleashed/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xm73hl",
-  "src": "Reddit 2",
-  "title": "Fade Away",
-  "text": "Finally finished the guitar part to this song and wanted to post. Sorry for the rough recording, I just used my phone and currently don’t have headphones lol, lyrics below: Im sorry to float on the ocean, I can’t seem, to know where it goes Lofting in a sea of sweet shadows, but I can’t stay above the dark flow Your light, it shines on the pavement Hear my voice, bounce off the walls Our eyes, try",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xm73hl/fade_away/",
-  "ok": false,
-  "why": "мусор: finally finished"
- },
- {
-  "id": "t3_1xntba2",
-  "src": "Reddit",
-  "title": "Best option for adding drums to emo demos",
-  "text": "So I don’t have space for an actual drum set nor do I know how to play (although it’s a goal to learn at some point) but I’ve been recording guitars and bass for some emo/shoegaze/alt rock demos some might turn into songs with my band or maybe I’ll just release in sound cloud I really want to add drums and want input as to the best way to accomplish this, I’ve looked at getting a drum machine ther",
-  "link": "https://www.reddit.com/r/WeAreTheMusicMakers/comments/1xntba2/best_option_for_adding_drums_to_emo_demos/",
-  "ok": false,
-  "why": "никто не ищет"
  }
 ]
