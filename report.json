@@ -1,5 +1,23 @@
 [
  {
+  "id": "t3_1xwcg70",
+  "src": "Reddit",
+  "title": "Los Angeles Guitarist Seeking Like-Minded Noise Rock Musicians (Bass, Drums, Vocals)",
+  "text": "submitted by /u/adamLACA to r/musicians [link] [comments]",
+  "link": "https://www.reddit.com/r/musicians/comments/1xwcg70/los_angeles_guitarist_seeking_likeminded_noise/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xwbqp1",
+  "src": "Reddit",
+  "title": "[Melodic Metal] Weird Romance by Niko, a slow one I wrote in 2023, arranged and produced with Suno",
+  "text": "I came up with the main theme of Weird Romance very quickly, and I really liked it. It feels slightly dissonant, but it has something to it. Then I got stuck almost immediately: I couldn't go anywhere from that theme. So I started adding modulations, and I think they worked. After a few of them, a sharper contrasting theme came up in the middle, a bridge, and from there I finally managed to develo",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xwbqp1/melodic_metal_weird_romance_by_niko_a_slow_one_i/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xw4wdm",
   "src": "Reddit",
   "title": "[Conscious Hip-Hop / Neo-Soul] Awareness: a 6:23 song about consciousness, and what I learned when Suno ran out of lyrics",
@@ -41,15 +59,6 @@
   "title": "Suno volume creep and degradation",
   "text": "I hate to bring this up - but I cannot find any way to reliably contact Suno about the state of the changes to the model. The degradation I am seeing now is a trade for what was happening before. Not a single song beyond 2:30 and over 140 bpm is not affected by this: Volume creep and bass dominance - near the end of the song all mids are drowned out by overwhelming bass and low end - sub frequenci",
   "link": "https://www.reddit.com/r/SunoAI/comments/1xvzl2c/suno_volume_creep_and_degradation/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xvuhl8",
-  "src": "Reddit",
-  "title": "[Heavy Metal] Cool Girl by Niko, written in 2022 on guitar and in Guitar Pro, arranged and produced with Suno",
-  "text": "I composed Cool Girl in 2022. For this one I combined both ways I write, with the guitar in my hands and in Guitar Pro, and I consider it one of the best compositions I have. This version is a Suno cover of my original composition, made to bring its sound to production quality. The video follows the Bride through vulnerability, preparation, combat, survival, and her return to her daughter, using f",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xvuhl8/heavy_metal_cool_girl_by_niko_written_in_2022_on/",
   "ok": false,
   "why": "никто не ищет"
  },
@@ -106,6 +115,15 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xuh5k2/song_idea_still_needs_a_lot_of_work_i_feel_like/",
   "ok": false,
   "why": "не про запись"
+ },
+ {
+  "id": "t3_1xvuhl8",
+  "src": "Reddit",
+  "title": "[Heavy Metal] Cool Girl by Niko, written in 2022 on guitar and in Guitar Pro, arranged and produced with Suno",
+  "text": "I composed Cool Girl in 2022. For this one I combined both ways I write, with the guitar in my hands and in Guitar Pro, and I consider it one of the best compositions I have. This version is a Suno cover of my original composition, made to bring its sound to production quality. The video follows the Bride through vulnerability, preparation, combat, survival, and her return to her daughter, using f",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xvuhl8/heavy_metal_cool_girl_by_niko_written_in_2022_on/",
+  "ok": false,
+  "why": "никто не ищет"
  },
  {
   "id": "t3_1xtzhp3",
@@ -2680,23 +2698,5 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xp9jwo/1980s_ballad_holding_out_for_a_senior_by_tinybpm/",
   "ok": false,
   "why": "ищут не гитариста"
- },
- {
-  "id": "t3_1xnm9dh",
-  "src": "Reddit 2",
-  "title": "Looking production tips and advice on this one from more experienced ears than mine!",
-  "text": "All written and produced solo - really interested on any tips people have on the production of the guitars during the heavier mid section to see if I can make them clearer. Also interested to hear general thoughts and feedback on this as a song too! submitted by /u/Grizzlytash83 to r/Songwriting [link] [comments]",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xnm9dh/looking_production_tips_and_advice_on_this_one/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xngtbd",
-  "src": "Reddit 2",
-  "title": "I understand chord progressions and can play them in guitar and piano, however, I don't understand melody? Can you write a specific melody for a chord progression? How does melody work and do you thin",
-  "text": "Hey guys, I have experience playing bass, guitar and piano. I am at a point in those instruments where I can \"write\" chord progressions. For instance, in the key of C I could play C-F-G and use that as my progression. I also know that with bass I can play the major triad of C as single notes. For example, I could play C-E-G as the single notes. However, I don't understand what melody is and how it",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xngtbd/i_understand_chord_progressions_and_can_play_them/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
  }
 ]
