@@ -1,5 +1,14 @@
 [
  {
+  "id": "t3_1xvm5x4",
+  "src": "Reddit",
+  "title": "[Rock Opera] ACT I — The Apex of the Fall",
+  "text": "Hi everyone. On December 11, 2026, RouteNote will release my album. I’m very excited and would like to share a bit of my work with you. The album contains 10 tracks in total, but to follow the forum’s rules, I will post only the first one and provide a link to my YouTube playlist. I would appreciate any constructive criticism to help me improve. I’ve played piano and guitar, and written poems, lyr",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xvm5x4/rock_opera_act_i_the_apex_of_the_fall/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
   "id": "t3_1xvkuvb",
   "src": "Reddit",
   "title": "Rhythm guitar in metal: what my ears are hearing",
@@ -39,7 +48,7 @@
   "id": "t3_1xvb0li",
   "src": "Reddit",
   "title": "[Gothic Symphonic Rock] CAN'T STEAL YOU BACK by Slaaviii's Jukebox 💔",
-  "text": "Can Suno create a song that genuinely breaks your heart? 💔 This is \"CAN'T STEAL YOU BACK\", a Gothic Symphonic Rock ballad I created using Suno, inspired by one of the saddest stories in Apex Legends. It's about Loba, a little girl who watched her parents get murdered and grew up becoming a thief capable of stealing almost anything... except the people she loved most. I wrote the lyrics myself and ",
+  "text": "I focused on creating a beautiful, memorable chorus rather than just making the song sound powerful. 🎧 https://www.youtube.com/watch?v=SsKcEAsIqG0 Human-written lyrics, Suno music, 104 BPM, female mezzo-soprano vocals and a melodic guitar solo. What would you improve in this generation? submitted by /u/Slaaviii_21 to r/SunoAI [link] [comments]",
   "link": "https://www.reddit.com/r/SunoAI/comments/1xvb0li/gothic_symphonic_rock_cant_steal_you_back_by/",
   "ok": false,
   "why": "никто не ищет"
@@ -52,15 +61,6 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xv9hyv/rock_the_circle_of_confusion_by_the_silent_static/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xv7pyb",
-  "src": "Reddit",
-  "title": "GIGGING MUSICIANS - need a new free platform to list gigs (link to from my website)",
-  "text": "I use GoogleSites for my website which doesn't have a nice way to list all my gigs (that I can find) I use Bandsintown & Songkick for bigger, original music gigs. I currently use MusicGlue to list everything - pub covers, originals, etc all in one place and am able to use my branded colours and link to all my music and socials BUT they are changing their platform and it's no longer free. Any sugge",
-  "link": "https://www.reddit.com/r/musicians/comments/1xv7pyb/gigging_musicians_need_a_new_free_platform_to/",
-  "ok": false,
-  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xun5u4",
@@ -124,6 +124,15 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xtj8u1/tipssuggestionsideas_for_writing_inspiration/",
   "ok": false,
   "why": "никто не ищет (слово «ищу» только в тексте песни)"
+ },
+ {
+  "id": "t3_1xv7pyb",
+  "src": "Reddit",
+  "title": "GIGGING MUSICIANS - need a new free platform to list gigs (link to from my website)",
+  "text": "I use GoogleSites for my website which doesn't have a nice way to list all my gigs (that I can find) I use Bandsintown & Songkick for bigger, original music gigs. I currently use MusicGlue to list everything - pub covers, originals, etc all in one place and am able to use my branded colours and link to all my music and socials BUT they are changing their platform and it's no longer free. Any sugge",
+  "link": "https://www.reddit.com/r/musicians/comments/1xv7pyb/gigging_musicians_need_a_new_free_platform_to/",
+  "ok": false,
+  "why": "ищут не гитариста"
  },
  {
   "id": "t3_1xte0gx",
@@ -2689,14 +2698,5 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xoyfa5/christian_grunge_at_the_bottom_of_silence_by/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xounxn",
-  "src": "Reddit",
-  "title": "How do you deal with hate about your vocals?",
-  "text": "I am a singer and I am not sure I am a good one cos of the people to be honest. Like I have knowledge about singing, had numerous singing lessons, I know when I am on key, on-pitch or off-pitch, and I’ve learned my vocal anatomy enough to know where my (current) limitations are vocally. Yet people keep saying I sound like a beginner or something. It feels so disheartening. I am not sure if they ar",
-  "link": "https://www.reddit.com/r/musicians/comments/1xounxn/how_do_you_deal_with_hate_about_your_vocals/",
-  "ok": false,
-  "why": "вопрос / обсуждение"
  }
 ]
