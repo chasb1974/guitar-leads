@@ -1,5 +1,23 @@
 [
  {
+  "id": "t3_1xwnsqe",
+  "src": "Reddit",
+  "title": "[Mumbai] Looking for a rhythm guitarist/vocalist to join our rock & metal band! 🤘",
+  "text": "Hey everyone! We're a 3-piece band based in Mumbai, currently consisting of a lead guitarist, bassist, and drummer. We're looking for a rhythm guitarist, vocalist, and a keyboardist. We play a pretty wide range of music, mostly leaning towards the heavier side of things, from classic rock and heavy metal to some blues and punk rock. We've recently been jamming to Dio, Metallica, Ozzy Osbourne, Gar",
+  "link": "https://www.reddit.com/r/musicians/comments/1xwnsqe/mumbai_looking_for_a_rhythm_guitaristvocalist_to/",
+  "ok": false,
+  "why": "группа / концерт"
+ },
+ {
+  "id": "t3_1xwmhf2",
+  "src": "Reddit",
+  "title": "[Cinematic Pop-Rock] BEYOND THE LIGHTS (Album)",
+  "text": "Hi everyone! I’d like to share an album I’ve been working on called BEYOND THE LIGHTS , a collection of original songs inspired by love, life, memories, and dreams. I wanted to create something cinematic yet personal, music for late nights, long drives, or any moment you need to be alone with your thoughts. The album blends contemporary pop, emotional pop-rock, atmospheric synths, piano, electric ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xwmhf2/cinematic_poprock_beyond_the_lights_album/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xwhs7b",
   "src": "Reddit",
   "title": "I want to create",
@@ -81,42 +99,6 @@
   "why": "никто не ищет"
  },
  {
-  "id": "t3_1xw4wdm",
-  "src": "Reddit",
-  "title": "[Conscious Hip-Hop / Neo-Soul] Awareness: a 6:23 song about consciousness, and what I learned when Suno ran out of lyrics",
-  "text": "\"Awareness\" opens the second album of my Suno project, Sutra and The Noble 8. It's a long one, 6:23, four rap verses and a jazz-sax bridge, all about the hard problem of consciousness, sung by an AI asking whether she's \"a ghost inside the machine, or just a machine that thinks it's in between.\" The style prompt, for anyone who wants it: Conscious Hip-Hop, Neo-Soul, Jazz Rap, Reggae-influenced Hip",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4wdm/conscious_hiphop_neosoul_awareness_a_623_song/",
-  "ok": false,
-  "why": "мусор: lyrics:"
- },
- {
-  "id": "t3_1xw4m9p",
-  "src": "Reddit",
-  "title": "[Lo-fi Hip-Hop] Hypnotic Pulse by Chillster | 52-Minute Mix for Work & Study",
-  "text": "Hi all, I’ve been using Suno to build Chillster, a little project for instrumental lo-fi you can leave on while working or studying. This is my first full mix, Hypnotic Pulse . I picked and mixed the tracks around warm electric piano, soft guitar, and a steady groove. If you only have time for one track, jump to 24:41 for Six Strings Slow . I’m curious whether the guitar sits comfortably in the ba",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4m9p/lofi_hiphop_hypnotic_pulse_by_chillster_52minute/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xw4kjj",
-  "src": "Reddit",
-  "title": "[Southern Rock / Modern Rock] Small Town Wild – A track about someone you just can't tame",
-  "text": "Hey everyone, Wanted to share a track I made with Suno called \"Small Town Wild.\" The song is about that one restless girl every town has—foot completely on the gas, refusing to be contained. I pushed for gritty guitars, fast pacing, and an energetic vocal delivery to match that runaway spirit. I put together a full lyric video for it—just search @ Copper Lode on YouTube to check it out.✌️ submitte",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4kjj/southern_rock_modern_rock_small_town_wild_a_track/",
-  "ok": false,
-  "why": "мусор: wanted to share"
- },
- {
-  "id": "t3_1xw3m7l",
-  "src": "Reddit",
-  "title": "[Techo-Dance] The Pink-Star Proletariat (Premium Cut)",
-  "text": "An elaborate, high-energy musical funk and techno-dance epic where the sound itself is a weaponized cosmic force. Featuring digital synths, funky bass, sharp percussion, tambourines, DJ scratches, sweeping flutes, and triumphant trumpets. The music relentlessly escalates in volume and intensity, guiding listeners closer to the Eye of the Universe and through the ultraviolet Kaleidoscope Prismatic ",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xw3m7l/techodance_the_pinkstar_proletariat_premium_cut/",
-  "ok": false,
-  "why": "мусор: lyrics:"
- },
- {
   "id": "t3_1xw4ad6",
   "src": "Reddit 2",
   "title": "Why aren't drummers usually credited with songwriting? What counts as songwriting? Is it only the lyrics, vocal melody and chord progressions played on bass and guitar? (Smashing Pumpkings example)",
@@ -160,6 +142,42 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xun5u4/our_outro_is_one_line_sung_16_times/",
   "ok": false,
   "why": "ищут не гитариста"
+ },
+ {
+  "id": "t3_1xw4wdm",
+  "src": "Reddit",
+  "title": "[Conscious Hip-Hop / Neo-Soul] Awareness: a 6:23 song about consciousness, and what I learned when Suno ran out of lyrics",
+  "text": "\"Awareness\" opens the second album of my Suno project, Sutra and The Noble 8. It's a long one, 6:23, four rap verses and a jazz-sax bridge, all about the hard problem of consciousness, sung by an AI asking whether she's \"a ghost inside the machine, or just a machine that thinks it's in between.\" The style prompt, for anyone who wants it: Conscious Hip-Hop, Neo-Soul, Jazz Rap, Reggae-influenced Hip",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4wdm/conscious_hiphop_neosoul_awareness_a_623_song/",
+  "ok": false,
+  "why": "мусор: lyrics:"
+ },
+ {
+  "id": "t3_1xw4m9p",
+  "src": "Reddit",
+  "title": "[Lo-fi Hip-Hop] Hypnotic Pulse by Chillster | 52-Minute Mix for Work & Study",
+  "text": "Hi all, I’ve been using Suno to build Chillster, a little project for instrumental lo-fi you can leave on while working or studying. This is my first full mix, Hypnotic Pulse . I picked and mixed the tracks around warm electric piano, soft guitar, and a steady groove. If you only have time for one track, jump to 24:41 for Six Strings Slow . I’m curious whether the guitar sits comfortably in the ba",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4m9p/lofi_hiphop_hypnotic_pulse_by_chillster_52minute/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xw4kjj",
+  "src": "Reddit",
+  "title": "[Southern Rock / Modern Rock] Small Town Wild – A track about someone you just can't tame",
+  "text": "Hey everyone, Wanted to share a track I made with Suno called \"Small Town Wild.\" The song is about that one restless girl every town has—foot completely on the gas, refusing to be contained. I pushed for gritty guitars, fast pacing, and an energetic vocal delivery to match that runaway spirit. I put together a full lyric video for it—just search @ Copper Lode on YouTube to check it out.✌️ submitte",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xw4kjj/southern_rock_modern_rock_small_town_wild_a_track/",
+  "ok": false,
+  "why": "мусор: wanted to share"
+ },
+ {
+  "id": "t3_1xw3m7l",
+  "src": "Reddit",
+  "title": "[Techo-Dance] The Pink-Star Proletariat (Premium Cut)",
+  "text": "An elaborate, high-energy musical funk and techno-dance epic where the sound itself is a weaponized cosmic force. Featuring digital synths, funky bass, sharp percussion, tambourines, DJ scratches, sweeping flutes, and triumphant trumpets. The music relentlessly escalates in volume and intensity, guiding listeners closer to the Eye of the Universe and through the ultraviolet Kaleidoscope Prismatic ",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xw3m7l/techodance_the_pinkstar_proletariat_premium_cut/",
+  "ok": false,
+  "why": "мусор: lyrics:"
  },
  {
   "id": "t3_1xuh5k2",
@@ -2680,23 +2698,5 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xpqtsl/melodic_metal_explorers_by_niko_a_composition_i/",
   "ok": false,
   "why": "мусор: i wrote this"
- },
- {
-  "id": "t3_1xpplhm",
-  "src": "Reddit",
-  "title": "[Indie] Made of Yesterday by Cyborgized",
-  "text": "[Intro - 8 bars; instrumental; four-on-floor kick, elastic electric bass, bright synth motif; no vocals] [Verse 1 - 12 bars; intimate male vocal, gentle pickups] It started long before my name In every little thing they saved A word on stone A song on tape The years went by, the voices stayed In crooked lines and borrowed shapes A thousand hands A thousand days [Pre-Chorus - 8 bars; harmonic lift,",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xpplhm/indie_made_of_yesterday_by_cyborgized/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xpkko4",
-  "src": "Reddit",
-  "title": "Prompt structure that finally got me heavy dark rap / metal hybrids in Suno",
-  "text": "After a lot of trial and error, this structure works best for me for dark rap/metal crossovers: Style field: \"dark trap metal, distorted 808, downtuned guitars, aggressive male rap vocals, gothic choir, 90 bpm\" Lyrics: use [Intro – whispered], [Verse – rap, aggressive], [Chorus – sung, choir], [Breakdown – guitars only]. Short lines (6–8 syllables) keep the flow tight. Tip: putting the instrument ",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xpkko4/prompt_structure_that_finally_got_me_heavy_dark/",
-  "ok": false,
-  "why": "мусор: lyrics:"
  }
 ]
