@@ -328,7 +328,14 @@ MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
                    "ArturMkrtchyan01@gmail.com": "Allgorhythm Records (Ереван)",
                    "vahagnstepanyan.com": "Vahagn Stepanyan Studios (Армения)",
                    "bahcekat.com": "Bahçekat Müzik (Стамбул)",
-                   "imakemusic.co": "imakemusic, Tomasz Kruszewski (Варшава)"}
+                   "imakemusic.co": "imakemusic, Tomasz Kruszewski (Варшава)",
+                   "songproduzent.de": "Songproduzent.de",
+                   "tonhoehle@web.de": "Tonhöhle (Heiko Mürkens)",
+                   "tonquelle-selters.de": "Tonquelle Selters",
+                   "offbeat-studio.at": "OffBeat Tonstudio (Австрия)",
+                   "studio5b.fr": "Studio 5B (Тулуза)",
+                   "studiocompresso.com": "Studiocompresso (Рим)",
+                   "21vstudio.com": "21vStudio (Тур)"}
 
 def hdr(v):
     try:
