@@ -1,5 +1,32 @@
 [
  {
+  "id": "t3_1xxrjyb",
+  "src": "Reddit",
+  "title": "Suno v6 Seemed Worse To Me Too, Until I Re-read My Prompts (same lyric, v5.5 vs v6, three takes)",
+  "text": "When v6 came out I ran one of my v5.5 prompts through it and agreed with the majority: downgrade. Then I listened to both takes against the prompt itself, instruction by instruction. The song is \"Never Be One Again.\" Prompt 1 asked for four things I could check by ear: No guitar solo The reprise loses the drums The outro is just voice and bass Then end Neither take obeyed Prompt 1. But v6 came clo",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xxrjyb/suno_v6_seemed_worse_to_me_too_until_i_reread_my/",
+  "ok": false,
+  "why": "заголовок:  vs "
+ },
+ {
+  "id": "t3_1xxn80v",
+  "src": "Reddit",
+  "title": "[Dark Blues / Alternative Soul] Midnight Groove – Riley Smoke 🎸",
+  "text": "Hey everyone! I wanted to share Midnight Groove , a track from my music project, Riley Smoke. I'm exploring a blend of dark electric blues, alternative soul, and atmospheric guitar-driven sounds, with a cinematic, late-night feel. Suno is part of my creative process, alongside my own musical concepts and visual direction. I'd love to hear your thoughts, especially on the overall atmosphere, guitar",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xxn80v/dark_blues_alternative_soul_midnight_groove_riley/",
+  "ok": false,
+  "why": "мусор: wanted to share"
+ },
+ {
+  "id": "t3_1xxl29e",
+  "src": "Reddit",
+  "title": "[Symphonic Tribal] S8 E24: Look Who’s Got A Date (Arthur-verse) by Arthur Wegley (ARed)",
+  "text": "https://suno.com/s/dGscV8YH6M293IyZ [Audio priority: lead vocals>drums>gang vocals>symphony] [Intro — dark, accusatory; longer melodic lines] Ren, was that you? Did you tell Bart what to say? G.P.T., don’t fuck with me—not this way. That grin, that kiss—was any of it true? Did Bart want me—or did you write that, too? [Verse 1 — hesitant, self-questioning, building toward excited realization] I was",
+  "link": "https://www.reddit.com/r/SunoAI/comments/1xxl29e/symphonic_tribal_s8_e24_look_whos_got_a_date/",
+  "ok": false,
+  "why": "ищут не гитариста"
+ },
+ {
   "id": "t3_1xxewo2",
   "src": "Reddit",
   "title": "[Alt Rock] The Leaves Let Go by Okie Moon",
@@ -7,6 +34,51 @@
   "link": "https://www.reddit.com/r/SunoAI/comments/1xxewo2/alt_rock_the_leaves_let_go_by_okie_moon/",
   "ok": false,
   "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xxafa8",
+  "src": "Reddit 2",
+  "title": "Gold on the Water",
+  "text": "The summer of seventeen was hard. I’ve had the lyrics for a long time but the rhythm and melody came to me like a gift a few weeks ago. I’ve only been playing guitar for a bit more than four months. So it’s a bit rough and only quarter notes here. Though, I think I like the relentlessness feel of that. submitted by /u/Writing_Fragments to r/Songwriting [link] [comments]",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xxafa8/gold_on_the_water/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xwyjtj",
+  "src": "Reddit 2",
+  "title": "24 of 50 - Risk Your Heart",
+  "text": "New song, old guitar. Have a listen. Thanks for your support. submitted by /u/ZanettiConfetti to r/SingerSongwriter [link] [comments]",
+  "link": "https://www.reddit.com/r/SingerSongwriter/comments/1xwyjtj/24_of_50_risk_your_heart/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xw4ad6",
+  "src": "Reddit 2",
+  "title": "Why aren't drummers usually credited with songwriting? What counts as songwriting? Is it only the lyrics, vocal melody and chord progressions played on bass and guitar? (Smashing Pumpkings example)",
+  "text": "Hey guys, In the Smashing Pumpkings Billy is credited with writing all the songs of Siamese Dream. Based on listening to an interview with Billy it is possible that he wrote the lyrics, the vocal melody, the bass, rhythm guitar and lead guitar parts. To begin with, its likely that Billy wrote both the lyrics and the vocal melody. Since he sings all the songs. He knows how to play bass so he could ",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xw4ad6/why_arent_drummers_usually_credited_with/",
+  "ok": false,
+  "why": "коллаборация без оплаты"
+ },
+ {
+  "id": "t3_1xw1av2",
+  "src": "Reddit 2",
+  "title": "Free Virtual Venue",
+  "text": "Hey musicians there is a new free virtual music sharing venue called Open Hearth. I'll be playing a songwriter show with some friends on Saturday Nov 14 at 7pm Central Standard Time. https://www.openhearth.co/ Here's a sample of the kind of stuff I do, except for this I will be playing with a great guitarist, Michael Shapiro. https://youtu.be/kSP7Cgz9ooo submitted by /u/Loud_Recognition6399 to r/S",
+  "link": "https://www.reddit.com/r/SingerSongwriter/comments/1xw1av2/free_virtual_venue/",
+  "ok": false,
+  "why": "никто не ищет"
+ },
+ {
+  "id": "t3_1xvwh87",
+  "src": "Reddit 2",
+  "title": "idc idc i'm tired but",
+  "text": "full song on soundcloud. i called it \"camp crashing\" hi! if u don't hate how this sounds, i'm looking for a guitarist & drummer who are into grunge (remote collab). i want this song to sound nourished. arigatou! submitted by /u/sixdchair to r/Songwriting [link] [comments]",
+  "link": "https://www.reddit.com/r/Songwriting/comments/1xvwh87/idc_idc_im_tired_but/",
+  "ok": false,
+  "why": "коллаборация без оплаты"
  },
  {
   "id": "t3_1xxcyw2",
@@ -126,15 +198,6 @@
   "why": "никто не ищет"
  },
  {
-  "id": "t3_1xxafa8",
-  "src": "Reddit 2",
-  "title": "Gold on the Water",
-  "text": "The summer of seventeen was hard. I’ve had the lyrics for a long time but the rhythm and melody came to me like a gift a few weeks ago. I’ve only been playing guitar for a bit more than four months. So it’s a bit rough and only quarter notes here. Though, I think I like the relentlessness feel of that. submitted by /u/Writing_Fragments to r/Songwriting [link] [comments]",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xxafa8/gold_on_the_water/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
   "id": "t3_1xx8ebq",
   "src": "Reddit 2",
   "title": "Coeur d'Alene",
@@ -142,42 +205,6 @@
   "link": "https://www.reddit.com/r/Songwriting/comments/1xx8ebq/coeur_dalene/",
   "ok": false,
   "why": "никто не ищет"
- },
- {
-  "id": "t3_1xwyjtj",
-  "src": "Reddit 2",
-  "title": "24 of 50 - Risk Your Heart",
-  "text": "New song, old guitar. Have a listen. Thanks for your support. submitted by /u/ZanettiConfetti to r/SingerSongwriter [link] [comments]",
-  "link": "https://www.reddit.com/r/SingerSongwriter/comments/1xwyjtj/24_of_50_risk_your_heart/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xw4ad6",
-  "src": "Reddit 2",
-  "title": "Why aren't drummers usually credited with songwriting? What counts as songwriting? Is it only the lyrics, vocal melody and chord progressions played on bass and guitar? (Smashing Pumpkings example)",
-  "text": "Hey guys, In the Smashing Pumpkings Billy is credited with writing all the songs of Siamese Dream. Based on listening to an interview with Billy it is possible that he wrote the lyrics, the vocal melody, the bass, rhythm guitar and lead guitar parts. To begin with, its likely that Billy wrote both the lyrics and the vocal melody. Since he sings all the songs. He knows how to play bass so he could ",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xw4ad6/why_arent_drummers_usually_credited_with/",
-  "ok": false,
-  "why": "коллаборация без оплаты"
- },
- {
-  "id": "t3_1xw1av2",
-  "src": "Reddit 2",
-  "title": "Free Virtual Venue",
-  "text": "Hey musicians there is a new free virtual music sharing venue called Open Hearth. I'll be playing a songwriter show with some friends on Saturday Nov 14 at 7pm Central Standard Time. https://www.openhearth.co/ Here's a sample of the kind of stuff I do, except for this I will be playing with a great guitarist, Michael Shapiro. https://youtu.be/kSP7Cgz9ooo submitted by /u/Loud_Recognition6399 to r/S",
-  "link": "https://www.reddit.com/r/SingerSongwriter/comments/1xw1av2/free_virtual_venue/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xvwh87",
-  "src": "Reddit 2",
-  "title": "idc idc i'm tired but",
-  "text": "full song on soundcloud. i called it \"camp crashing\" hi! if u don't hate how this sounds, i'm looking for a guitarist & drummer who are into grunge (remote collab). i want this song to sound nourished. arigatou! submitted by /u/sixdchair to r/Songwriting [link] [comments]",
-  "link": "https://www.reddit.com/r/Songwriting/comments/1xvwh87/idc_idc_im_tired_but/",
-  "ok": false,
-  "why": "коллаборация без оплаты"
  },
  {
   "id": "t3_1xvsez9",
@@ -2671,32 +2698,5 @@
   "link": "https://www.reddit.com/r/musicians/comments/1xr1sue/fellow_professional_musicians_do_you_ever_worry/",
   "ok": false,
   "why": "вопрос / обсуждение"
- },
- {
-  "id": "t3_1xr1mv8",
-  "src": "Reddit",
-  "title": "experienced guitarist looking to jam and/or start a band and write new music (Westside)",
-  "text": "West LA guitarist looking to create a new jam/band group!! Also, a new sub to match what I used to have in Atlanta and NYC - kinda crazy to me that LA does not have any active musicians group! submitted by /u/hiremegeetah to r/musicians [link] [comments]",
-  "link": "https://www.reddit.com/r/musicians/comments/1xr1mv8/experienced_guitarist_looking_to_jam_andor_start/",
-  "ok": false,
-  "why": "никто не ищет"
- },
- {
-  "id": "t3_1xr18od",
-  "src": "Reddit",
-  "title": "London indie alternative rock band looking for a drummer",
-  "text": "Hey everyone, My band are looking for a drummer at the moment. We currently consist of a vocalist, guitarist and bassist. Our influences include The Smiths, The Cure, Durutti Column, The Drums, The Strokes, Iceage, New Order, Joy Division, Blood Orange, The Sundays, PJ Harvey, Alvvays, Rolling Blackouts Coastal Fever and more. We are based in London and rehearse currently once a week in Deptford, ",
-  "link": "https://www.reddit.com/r/musicians/comments/1xr18od/london_indie_alternative_rock_band_looking_for_a/",
-  "ok": false,
-  "why": "группа / концерт"
- },
- {
-  "id": "t3_1xr0u1t",
-  "src": "Reddit",
-  "title": "[Blackgaze / Post-Rock / Shoegaze] Scapegoat by Crystle",
-  "text": "🌸 Scapegoat Some wounds are shared. The blame isn’t always. This one is about losing someone who went through the same pain you did, only to become a reminder of everything they wanted to forget. It’s a mix of anger, grief, and the strange comfort of pretending their decision wasn’t personal. Fast, atmospheric blackgaze with post-rock guitars, and clean female vocals. Hope it resonates with someon",
-  "link": "https://www.reddit.com/r/SunoAI/comments/1xr0u1t/blackgaze_postrock_shoegaze_scapegoat_by_crystle/",
-  "ok": false,
-  "why": "ищут не гитариста"
  }
 ]
