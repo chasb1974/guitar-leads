@@ -337,7 +337,8 @@ MAIL_SITES = {"airgigs.com": "AirGigs", "fiverr.com": "Fiverr",
                    "studiocompresso.com": "Studiocompresso (Рим)",
                    "21vstudio.com": "21vStudio (Тур)",
                    "waveroot.com": "Waveroot (Ливан)", "peter@thefarm-music.com": "The Farm Music (Дания)", "dearworldstudio.nl": "Dearworld (НЛ)", "aladidstudios.com": "Aladid (Испания)", "hellsoundrecords.com": "Hell Sound (Колумбия)", "mteestudios.com": "Mtee Studios", "audiolineastudio@gmail.com": "Audio Linea", "contact.studiovova@gmail.com": "Studio Vova",
-                   "mattgreger-studio.de": "Matt Greger (DE)", "musikdesign.at": "musikdesign (Вена)", "hayknavasardyan@mail.ru": "H&A Records (Армения)", "staticstudio.com": "Static Studios (Амман)"}
+                   "mattgreger-studio.de": "Matt Greger (DE)", "musikdesign.at": "musikdesign (Вена)", "hayknavasardyan@mail.ru": "H&A Records (Армения)", "staticstudio.com": "Static Studios (Амман)",
+                   "hirtemusic.com": "Hirte Music", "pianologstudio.com": "Pianolog (Корея)", "xl-studio.fr": "XL Studio (Франция)", "aprodagence@gmail.com": "A-Prod (Франция)", "shamanstudio.com": "Shaman Studio (Бордо)"}
 
 def hdr(v):
     try:
