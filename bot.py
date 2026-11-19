@@ -188,13 +188,22 @@ def feeds():
     yield "search", "поиск Reddit", ("https://www.reddit.com/search.rss?sort=new&limit=100&q="
                                      + urllib.parse.quote(q))
 
+REDDIT_BLOCKED = False   # Reddit отдаёт 403/404/429 серверам GitHub: после первой такой ошибки в этом запуске к нему больше не ходим
+
 def get(url):
+    global REDDIT_BLOCKED
+    is_reddit = "reddit.com" in url
+    if is_reddit and REDDIT_BLOCKED:
+        raise RuntimeError("Reddit пропущен (блокировка)")
     for attempt in range(3):
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=30) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
+            if is_reddit and e.code in (403, 404, 429):
+                REDDIT_BLOCKED = True
+                raise
             if e.code != 429 or attempt == 2:
                 raise
             time.sleep(30)
@@ -615,9 +624,8 @@ def main():
 
     save_leads(leads)
     today = time.strftime("%Y-%m-%d")
-    if ok == 0 and st.get("err_day") != today:
-        send("⚠️ Reddit не отвечает боту (возможна блокировка). Напиши Claude.")
-        st["err_day"] = today
+    if ok == 0:
+        print("Reddit не отвечает боту (блокировка серверов GitHub); предупреждение в Telegram отключено по просьбе Сергея")
 
     # Отчёт для Claude: все посты про гитару из последних лент и решение бота
     try:
